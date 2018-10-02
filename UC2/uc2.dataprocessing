@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataprocessing:DataSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:data="http://www.palladiosimulator.org/pcm/dataprocessing/data/0.1/" xmlns:dataprocessing="http://www.palladiosimulator.org/pcm/dataprocessing/0.1/" xmlns:processing="http://www.palladiosimulator.org/pcm/dataprocessing/processing/0.1/" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <dataProcessingContainers id="_Xah3AMYTEeiz2vvpaUChIA" entityName="Create Error Report">
+    <operations xsi:type="processing:CreateDataOperation" id="_bNADEMYTEeiz2vvpaUChIA" entityName="Create Error Report">
+      <resultingData xsi:type="data:OriginalData" id="_fXdRUMYTEeiz2vvpaUChIA" entityName="Error Report">
+        <originalType xsi:type="repository:CompositeDataType" href="uc2Repository.repository#_wGu40MVUEeiR2rBVsJCuAw"/>
+      </resultingData>
+    </operations>
+  </dataProcessingContainers>
+  <dataProcessingContainers id="_caspcMYMEeiz2vvpaUChIA" entityName="rateQuality">
+    <operations xsi:type="processing:StoreDataOperation" id="_9-yR5MYREeiz2vvpaUChIA" entityName="storeBadquality" consumedData="_v2LjAcYSEeiz2vvpaUChIA" store="_qKK_QMYOEeiz2vvpaUChIA"/>
+  </dataProcessingContainers>
+  <dataProcessingContainers id="_v77X8MYNEeiz2vvpaUChIA" entityName="send2QA">
+    <operations xsi:type="processing:PerformDataTransmissionOperation" id="_ynPHo8YNEeiz2vvpaUChIA" entityName="send2QA">
+      <inputMappings id="_KchIcMYTEeiz2vvpaUChIA" from="_X0KmYMYQEeiz2vvpaUChIA"/>
+    </operations>
+  </dataProcessingContainers>
+  <storeContainers id="_LOqJUsYOEeiz2vvpaUChIA" entityName="QA-Rating">
+    <stores id="_qKK_QMYOEeiz2vvpaUChIA" entityName="Errorhandling">
+      <dataType xsi:type="repository:CollectionDataType" href="uc2Repository.repository#_0s3sjMYPEeiz2vvpaUChIA"/>
+    </stores>
+  </storeContainers>
+  <operationSignatureDataRefinement id="_XZBihcYQEeiz2vvpaUChIA" entityName="ForemanDataRefinement">
+    <parameterRefinements id="_X0KmYMYQEeiz2vvpaUChIA" entityName="ReportedProduct">
+      <parameter href="uc2Repository.repository#/0/@interfaces__Repository.2/@signatures__OperationInterface.0/@parameters__OperationSignature.0"/>
+    </parameterRefinements>
+  </operationSignatureDataRefinement>
+  <operationSignatureDataRefinement id="_pwTJ5cYSEeiz2vvpaUChIA" entityName="QADataRefinement">
+    <parameterRefinements xsi:type="data:RefinedParameterBasedData" id="_v2LjAcYSEeiz2vvpaUChIA" entityName="addProductsToList">
+      <parameter href="uc2Repository.repository#/0/@interfaces__Repository.0/@signatures__OperationInterface.0/@parameters__OperationSignature.0"/>
+      <refiningDataType xsi:type="repository:CollectionDataType" href="uc2Repository.repository#_0s3sjMYPEeiz2vvpaUChIA"/>
+    </parameterRefinements>
+  </operationSignatureDataRefinement>
+</dataprocessing:DataSpecification>

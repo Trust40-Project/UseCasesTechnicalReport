@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:subsystem="http://palladiosimulator.org/PalladioComponentModel/SubSystem/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_SbgDMMVNEeiR2rBVsJCuAw" entityName="Trust System">
+  <assemblyContexts__ComposedStructure id="_yRf5gMVPEeiR2rBVsJCuAw" entityName="Assembly_CompanyA">
+    <encapsulatedComponent__AssemblyContext xsi:type="subsystem:SubSystem" href="uc2Repository.repository#_Cxl5oMVOEeiR2rBVsJCuAw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_zqj-MMVPEeiR2rBVsJCuAw" entityName="Assembly_CompanyB">
+    <encapsulatedComponent__AssemblyContext xsi:type="subsystem:SubSystem" href="uc2Repository.repository#_XZGTsMVPEeiR2rBVsJCuAw"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_FKq-8MVQEeiR2rBVsJCuAw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_yRf5gMVPEeiR2rBVsJCuAw" providingAssemblyContext_AssemblyConnector="_zqj-MMVPEeiR2rBVsJCuAw">
+    <providedRole_AssemblyConnector href="uc2Repository.repository#_o1NlQMVPEeiR2rBVsJCuAw"/>
+    <requiredRole_AssemblyConnector href="uc2Repository.repository#_AegKwMVQEeiR2rBVsJCuAw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_t3rAQMVUEeiR2rBVsJCuAw" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_p-pgQMVUEeiR2rBVsJCuAw" assemblyContext_ProvidedDelegationConnector="_yRf5gMVPEeiR2rBVsJCuAw">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc2Repository.repository#_gCwbsMVQEeiR2rBVsJCuAw"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_p-pgQMVUEeiR2rBVsJCuAw" entityName="OperationProvidedRole1">
+    <providedInterface__OperationProvidedRole href="uc2Repository.repository#_69Yd0MVKEeiR2rBVsJCuAw"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

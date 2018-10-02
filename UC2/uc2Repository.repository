@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:subsystem="http://palladiosimulator.org/PalladioComponentModel/SubSystem/5.2">
+  <repository:Repository id="_mblNsMVKEeiR2rBVsJCuAw" entityName="New Repository">
+    <components__Repository xsi:type="repository:BasicComponent" id="_pWqewMVKEeiR2rBVsJCuAw" entityName="QA-ServiceComponent">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_moqVgMVMEeiR2rBVsJCuAw" entityName="QA-ServiceComponent.QA-Services.OperationProvidedRole1" providedInterface__OperationProvidedRole="_qomnwMVKEeiR2rBVsJCuAw"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_moq8kMVMEeiR2rBVsJCuAw" describedService__SEFF="_rr8UEMVKEeiR2rBVsJCuAw">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_moq8kcVMEeiR2rBVsJCuAw" successor_AbstractAction="_yF6-wMYXEeiwJfooOgNe7g"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_moq8ksVMEeiR2rBVsJCuAw" predecessor_AbstractAction="_yF6-wMYXEeiwJfooOgNe7g"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_yF6-wMYXEeiwJfooOgNe7g" entityName="InternalAction1" predecessor_AbstractAction="_moq8kcVMEeiR2rBVsJCuAw" successor_AbstractAction="_moq8ksVMEeiR2rBVsJCuAw"/>
+      </serviceEffectSpecifications__BasicComponent>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_vWe9AMYXEeiwJfooOgNe7g" describedService__SEFF="_V4z-4MYOEeiz2vvpaUChIA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_v4gsAMYXEeiwJfooOgNe7g" successor_AbstractAction="_1_3EwMYXEeiwJfooOgNe7g"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_v4gsAcYXEeiwJfooOgNe7g" predecessor_AbstractAction="_1_3EwMYXEeiwJfooOgNe7g"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_1_3EwMYXEeiwJfooOgNe7g" entityName="InternalAction1" predecessor_AbstractAction="_v4gsAMYXEeiwJfooOgNe7g" successor_AbstractAction="_v4gsAcYXEeiwJfooOgNe7g"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_SWjjsMVLEeiR2rBVsJCuAw" entityName="ProductionLineSystem">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_zjBIkMVLEeiR2rBVsJCuAw" entityName="ProductionLineSystem.ProductionLineQA.OperationProvidedRole1" providedInterface__OperationProvidedRole="_69Yd0MVKEeiR2rBVsJCuAw"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_zjV4sMVLEeiR2rBVsJCuAw" describedService__SEFF="_IqsiYMVLEeiR2rBVsJCuAw">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_zjXG0MVLEeiR2rBVsJCuAw" successor_AbstractAction="_zjXG0cVLEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_zjXG0cVLEeiR2rBVsJCuAw" predecessor_AbstractAction="_zjXG0MVLEeiR2rBVsJCuAw"/>
+      </serviceEffectSpecifications__BasicComponent>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_zlWq4MVLEeiR2rBVsJCuAw" describedService__SEFF="_NoiVYMVLEeiR2rBVsJCuAw">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_zlXR8MVLEeiR2rBVsJCuAw" successor_AbstractAction="_SLN8sMYXEeiwJfooOgNe7g"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_zlXR8cVLEeiR2rBVsJCuAw" predecessor_AbstractAction="_SLN8sMYXEeiwJfooOgNe7g"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_SLN8sMYXEeiwJfooOgNe7g" entityName="InternalAction1" predecessor_AbstractAction="_zlXR8MVLEeiR2rBVsJCuAw" successor_AbstractAction="_zlXR8cVLEeiR2rBVsJCuAw"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_b_AEoMVLEeiR2rBVsJCuAw" entityName="ForemanSystem">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yNF90MVTEeiR2rBVsJCuAw" entityName="ForemanSystem.ForemanQA.OperationProvidedRole1" providedInterface__OperationProvidedRole="_lY-yIMVTEeiR2rBVsJCuAw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_sjkqMMVLEeiR2rBVsJCuAw" entityName="ForemanSystem.ProductionLineQA.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_69Yd0MVKEeiR2rBVsJCuAw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_VAx_MMVUEeiR2rBVsJCuAw" entityName="ForemanSystem.ExchangeData.OperationRequiredRole2" requiredInterface__OperationRequiredRole="_7AHW0MVMEeiR2rBVsJCuAw"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_yNke8MVTEeiR2rBVsJCuAw" describedService__SEFF="_sgLeUMVTEeiR2rBVsJCuAw">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_yNke8cVTEeiR2rBVsJCuAw" successor_AbstractAction="_kKsrAMVcEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_yNke8sVTEeiR2rBVsJCuAw" predecessor_AbstractAction="_qpTGIMVcEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_kKsrAMVcEeiR2rBVsJCuAw" entityName="ExternalCallAction1" predecessor_AbstractAction="_yNke8cVTEeiR2rBVsJCuAw" successor_AbstractAction="_38EjwMVcEeiR2rBVsJCuAw" calledService_ExternalService="_NoiVYMVLEeiR2rBVsJCuAw" role_ExternalService="_sjkqMMVLEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_qpTGIMVcEeiR2rBVsJCuAw" entityName="ExternalCallAction2" predecessor_AbstractAction="_38EjwMVcEeiR2rBVsJCuAw" successor_AbstractAction="_yNke8sVTEeiR2rBVsJCuAw" calledService_ExternalService="__wumIMVMEeiR2rBVsJCuAw" role_ExternalService="_VAx_MMVUEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_38EjwMVcEeiR2rBVsJCuAw" entityName="InternalAction1" predecessor_AbstractAction="_kKsrAMVcEeiR2rBVsJCuAw" successor_AbstractAction="_qpTGIMVcEeiR2rBVsJCuAw"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_Tr04EMVMEeiR2rBVsJCuAw" entityName="ExchangeModule">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_DUp_4MVNEeiR2rBVsJCuAw" entityName="ExchangeModule.ExchangeData.OperationProvidedRole1" providedInterface__OperationProvidedRole="_7AHW0MVMEeiR2rBVsJCuAw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_oRJWQMVMEeiR2rBVsJCuAw" entityName="ExchangeModule.QA-Services.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_qomnwMVKEeiR2rBVsJCuAw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_zWUPsMVTEeiR2rBVsJCuAw" entityName="ExchangeModule.ForemanQA.OperationRequiredRole2" requiredInterface__OperationRequiredRole="_lY-yIMVTEeiR2rBVsJCuAw"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_DU4pYMVNEeiR2rBVsJCuAw" describedService__SEFF="__wumIMVMEeiR2rBVsJCuAw">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_DU4pYcVNEeiR2rBVsJCuAw" successor_AbstractAction="_c941EMYXEeiwJfooOgNe7g"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_DU4pYsVNEeiR2rBVsJCuAw" predecessor_AbstractAction="_fDP_EMYXEeiwJfooOgNe7g"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_c941EMYXEeiwJfooOgNe7g" entityName="ExternalCallAction1" predecessor_AbstractAction="_DU4pYcVNEeiR2rBVsJCuAw" successor_AbstractAction="_i63w4MYXEeiwJfooOgNe7g" calledService_ExternalService="_V4z-4MYOEeiz2vvpaUChIA" role_ExternalService="_oRJWQMVMEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_fDP_EMYXEeiwJfooOgNe7g" entityName="ExternalCallAction2" predecessor_AbstractAction="_i63w4MYXEeiwJfooOgNe7g" successor_AbstractAction="_DU4pYsVNEeiR2rBVsJCuAw" calledService_ExternalService="_rr8UEMVKEeiR2rBVsJCuAw" role_ExternalService="_oRJWQMVMEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:BranchAction" id="_i63w4MYXEeiwJfooOgNe7g" entityName="BranchAction1" predecessor_AbstractAction="_c941EMYXEeiwJfooOgNe7g" successor_AbstractAction="_fDP_EMYXEeiwJfooOgNe7g"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="subsystem:SubSystem" id="_Cxl5oMVOEeiR2rBVsJCuAw" entityName="CompanyA">
+      <assemblyContexts__ComposedStructure id="_4ym2EMVPEeiR2rBVsJCuAw" entityName="Assembly_QA-ServiceComponent" encapsulatedComponent__AssemblyContext="_pWqewMVKEeiR2rBVsJCuAw"/>
+      <assemblyContexts__ComposedStructure id="_6hMe0MVPEeiR2rBVsJCuAw" entityName="Assembly_ProductionLineSystem" encapsulatedComponent__AssemblyContext="_SWjjsMVLEeiR2rBVsJCuAw"/>
+      <assemblyContexts__ComposedStructure id="_8nHpgMVPEeiR2rBVsJCuAw" entityName="Assembly_ForemanSystem" encapsulatedComponent__AssemblyContext="_b_AEoMVLEeiR2rBVsJCuAw"/>
+      <assemblyContexts__ComposedStructure id="_9hDiMMVPEeiR2rBVsJCuAw" entityName="Assembly_ExchangeModule" encapsulatedComponent__AssemblyContext="_Tr04EMVMEeiR2rBVsJCuAw"/>
+      <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_DEri0MVQEeiR2rBVsJCuAw" entityName="newRequiredDelegationConnector" innerRequiredRole_RequiredDelegationConnector="_oRJWQMVMEeiR2rBVsJCuAw" outerRequiredRole_RequiredDelegationConnector="_AegKwMVQEeiR2rBVsJCuAw" assemblyContext_RequiredDelegationConnector="_9hDiMMVPEeiR2rBVsJCuAw"/>
+      <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_jUM-UMVQEeiR2rBVsJCuAw" entityName="newProvidedDelegationConnector" innerProvidedRole_ProvidedDelegationConnector="_zjBIkMVLEeiR2rBVsJCuAw" outerProvidedRole_ProvidedDelegationConnector="_gCwbsMVQEeiR2rBVsJCuAw" assemblyContext_ProvidedDelegationConnector="_6hMe0MVPEeiR2rBVsJCuAw"/>
+      <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_lm_gUMVQEeiR2rBVsJCuAw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_8nHpgMVPEeiR2rBVsJCuAw" providingAssemblyContext_AssemblyConnector="_6hMe0MVPEeiR2rBVsJCuAw" providedRole_AssemblyConnector="_zjBIkMVLEeiR2rBVsJCuAw" requiredRole_AssemblyConnector="_sjkqMMVLEeiR2rBVsJCuAw"/>
+      <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_Dujw0MVREeiR2rBVsJCuAw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_9hDiMMVPEeiR2rBVsJCuAw" providingAssemblyContext_AssemblyConnector="_4ym2EMVPEeiR2rBVsJCuAw" providedRole_AssemblyConnector="_moqVgMVMEeiR2rBVsJCuAw" requiredRole_AssemblyConnector="_oRJWQMVMEeiR2rBVsJCuAw"/>
+      <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_dIefEMVUEeiR2rBVsJCuAw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_8nHpgMVPEeiR2rBVsJCuAw" providingAssemblyContext_AssemblyConnector="_9hDiMMVPEeiR2rBVsJCuAw" providedRole_AssemblyConnector="_DUp_4MVNEeiR2rBVsJCuAw" requiredRole_AssemblyConnector="_VAx_MMVUEeiR2rBVsJCuAw"/>
+      <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_OPHeIMVUEeiR2rBVsJCuAw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_9hDiMMVPEeiR2rBVsJCuAw" providingAssemblyContext_AssemblyConnector="_8nHpgMVPEeiR2rBVsJCuAw" providedRole_AssemblyConnector="_yNF90MVTEeiR2rBVsJCuAw" requiredRole_AssemblyConnector="_zWUPsMVTEeiR2rBVsJCuAw"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gCwbsMVQEeiR2rBVsJCuAw" entityName="CompanyA.ProductionLineQA.OperationProvidedRole1" providedInterface__OperationProvidedRole="_69Yd0MVKEeiR2rBVsJCuAw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_AegKwMVQEeiR2rBVsJCuAw" entityName="CompanyA.QA-Services.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_qomnwMVKEeiR2rBVsJCuAw"/>
+    </components__Repository>
+    <components__Repository xsi:type="subsystem:SubSystem" id="_XZGTsMVPEeiR2rBVsJCuAw" entityName="CompanyB">
+      <assemblyContexts__ComposedStructure id="_ghPj8MVPEeiR2rBVsJCuAw" entityName="Assembly_QA-ServiceComponent" encapsulatedComponent__AssemblyContext="_pWqewMVKEeiR2rBVsJCuAw"/>
+      <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_snTW0MVPEeiR2rBVsJCuAw" entityName="newProvidedDelegationConnector" innerProvidedRole_ProvidedDelegationConnector="_moqVgMVMEeiR2rBVsJCuAw" outerProvidedRole_ProvidedDelegationConnector="_o1NlQMVPEeiR2rBVsJCuAw" assemblyContext_ProvidedDelegationConnector="_ghPj8MVPEeiR2rBVsJCuAw"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_o1NlQMVPEeiR2rBVsJCuAw" entityName="CompanyB.QA-Services.OperationProvidedRole1" providedInterface__OperationProvidedRole="_qomnwMVKEeiR2rBVsJCuAw"/>
+    </components__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_qomnwMVKEeiR2rBVsJCuAw" entityName="QA-Services">
+      <signatures__OperationInterface id="_rr8UEMVKEeiR2rBVsJCuAw" entityName="rateQuality">
+        <parameters__OperationSignature dataType__Parameter="_uQDRwMVZEeiR2rBVsJCuAw" parameterName="defectProduct"/>
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_V4z-4MYOEeiz2vvpaUChIA" entityName="avgRating">
+        <parameters__OperationSignature dataType__Parameter="_wGu40MVUEeiR2rBVsJCuAw" parameterName="productGrp"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_69Yd0MVKEeiR2rBVsJCuAw" entityName="ProductionLineQA">
+      <signatures__OperationInterface id="_IqsiYMVLEeiR2rBVsJCuAw" entityName="reportProblem" returnType__OperationSignature="_uQDRwMVZEeiR2rBVsJCuAw">
+        <parameters__OperationSignature dataType__Parameter="_wGu40MVUEeiR2rBVsJCuAw" parameterName="productError"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_NoiVYMVLEeiR2rBVsJCuAw" entityName="getProblem" returnType__OperationSignature="_wGu40MVUEeiR2rBVsJCuAw"/>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_7AHW0MVMEeiR2rBVsJCuAw" entityName="ExchangeData">
+      <signatures__OperationInterface id="__wumIMVMEeiR2rBVsJCuAw" entityName="send2QA">
+        <parameters__OperationSignature dataType__Parameter="_uQDRwMVZEeiR2rBVsJCuAw" parameterName="reportedProduct"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_lY-yIMVTEeiR2rBVsJCuAw" entityName="ForemanQA">
+      <signatures__OperationInterface id="_sgLeUMVTEeiR2rBVsJCuAw" entityName="verify"/>
+    </interfaces__Repository>
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_wGu40MVUEeiR2rBVsJCuAw" entityName="Product">
+      <innerDeclaration_CompositeDataType entityName="productID">
+        <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </innerDeclaration_CompositeDataType>
+      <innerDeclaration_CompositeDataType entityName="ProcutName">
+        <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </innerDeclaration_CompositeDataType>
+    </dataTypes__Repository>
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_uQDRwMVZEeiR2rBVsJCuAw" entityName="DefectReport">
+      <innerDeclaration_CompositeDataType entityName="FailureID">
+        <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </innerDeclaration_CompositeDataType>
+      <innerDeclaration_CompositeDataType entityName="InnerDeclaration2" datatype_InnerDeclaration="_wGu40MVUEeiR2rBVsJCuAw"/>
+      <innerDeclaration_CompositeDataType entityName="rating">
+        <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </innerDeclaration_CompositeDataType>
+    </dataTypes__Repository>
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_OSmBMMVaEeiR2rBVsJCuAw" entityName="QualityRating">
+      <innerDeclaration_CompositeDataType entityName="quality">
+        <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </innerDeclaration_CompositeDataType>
+    </dataTypes__Repository>
+    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_0s3sjMYPEeiz2vvpaUChIA" entityName="ListProducts" innerType_CollectionDataType="_uQDRwMVZEeiR2rBVsJCuAw"/>
+  </repository:Repository>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="dataProcessingProfile:StoreHaving" appliedTo="_pWqewMVKEeiR2rBVsJCuAw">
+      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_pFHmQFqjEeiW1d-qz7Oqsw"/>
+      <storeContainer href="uc2.dataprocessing#_LOqJUsYOEeiz2vvpaUChIA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:OperationSignatureDataRefinement" appliedTo="__wumIMVMEeiR2rBVsJCuAw">
+      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_u8vnsLydEeiT-9xxrec-9Q"/>
+      <operationSignatureDataRefinement href="uc2.dataprocessing#_XZBihcYQEeiz2vvpaUChIA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:OperationSignatureDataRefinement" appliedTo="_rr8UEMVKEeiR2rBVsJCuAw">
+      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_u8vnsLydEeiT-9xxrec-9Q"/>
+      <operationSignatureDataRefinement href="uc2.dataprocessing#_pwTJ5cYSEeiz2vvpaUChIA"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" location="platform:/plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

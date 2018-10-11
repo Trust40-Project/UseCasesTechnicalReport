@@ -22,8 +22,9 @@
       </serviceEffectSpecifications__BasicComponent>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_zlWq4MVLEeiR2rBVsJCuAw" describedService__SEFF="_NoiVYMVLEeiR2rBVsJCuAw">
         <steps_Behaviour xsi:type="seff:StartAction" id="_zlXR8MVLEeiR2rBVsJCuAw" successor_AbstractAction="_SLN8sMYXEeiwJfooOgNe7g"/>
-        <steps_Behaviour xsi:type="seff:StopAction" id="_zlXR8cVLEeiR2rBVsJCuAw" predecessor_AbstractAction="_SLN8sMYXEeiwJfooOgNe7g"/>
-        <steps_Behaviour xsi:type="seff:InternalAction" id="_SLN8sMYXEeiwJfooOgNe7g" entityName="InternalAction1" predecessor_AbstractAction="_zlXR8MVLEeiR2rBVsJCuAw" successor_AbstractAction="_zlXR8cVLEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_zlXR8cVLEeiR2rBVsJCuAw" predecessor_AbstractAction="_MLmfEM0nEeisTqbPtEoafA"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_SLN8sMYXEeiwJfooOgNe7g" entityName="InternalAction1" predecessor_AbstractAction="_zlXR8MVLEeiR2rBVsJCuAw" successor_AbstractAction="_MLmfEM0nEeisTqbPtEoafA"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_MLmfEM0nEeisTqbPtEoafA" entityName="ExternalCallAction1" predecessor_AbstractAction="_SLN8sMYXEeiwJfooOgNe7g" successor_AbstractAction="_zlXR8cVLEeiR2rBVsJCuAw" calledService_ExternalService="_sgLeUMVTEeiR2rBVsJCuAw"/>
       </serviceEffectSpecifications__BasicComponent>
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="_b_AEoMVLEeiR2rBVsJCuAw" entityName="ForemanSystem">

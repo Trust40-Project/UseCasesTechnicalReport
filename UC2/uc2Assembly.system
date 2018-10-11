@@ -7,7 +7,6 @@
     <encapsulatedComponent__AssemblyContext xsi:type="subsystem:SubSystem" href="uc2Repository.repository#_XZGTsMVPEeiR2rBVsJCuAw"/>
   </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_FKq-8MVQEeiR2rBVsJCuAw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_yRf5gMVPEeiR2rBVsJCuAw" providingAssemblyContext_AssemblyConnector="_zqj-MMVPEeiR2rBVsJCuAw">
-    <providedRole_AssemblyConnector href="uc2Repository.repository#_o1NlQMVPEeiR2rBVsJCuAw"/>
     <requiredRole_AssemblyConnector href="uc2Repository.repository#_AegKwMVQEeiR2rBVsJCuAw"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_t3rAQMVUEeiR2rBVsJCuAw" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_p-pgQMVUEeiR2rBVsJCuAw" assemblyContext_ProvidedDelegationConnector="_yRf5gMVPEeiR2rBVsJCuAw">

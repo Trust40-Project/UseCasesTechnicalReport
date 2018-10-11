@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//allocation http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//resourceenvironment" xmi:id="_e9QSUM1KEei168HjxNHqjg" type="allocation" name="uc2.allocation_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_mDfVMM1KEei168HjxNHqjg" type="2003" fontName="Sans Serif">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mDfVMs1KEei168HjxNHqjg" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mDfVM81KEei168HjxNHqjg" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_Qfum4M1MEei168HjxNHqjg" type="3002" fontName="Sans Serif">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Qfum4s1MEei168HjxNHqjg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_QfvN8M1MEei168HjxNHqjg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="uc2.allocation#_QGoKYM1MEei168HjxNHqjg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qfum4c1MEei168HjxNHqjg" x="33" y="6"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="uc2.resourceenvironment#_juvEUM1KEei168HjxNHqjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mDfVMc1KEei168HjxNHqjg" x="285" y="150"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_K56N4M1MEei168HjxNHqjg" type="2003" fontName="Sans Serif">
+    <children xmi:type="notation:DecorationNode" xmi:id="_K56N4s1MEei168HjxNHqjg" type="5008"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_K56N481MEei168HjxNHqjg" type="7003">
+      <children xmi:type="notation:Shape" xmi:id="_RkiS0M1MEei168HjxNHqjg" type="3002" fontName="Sans Serif">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Rki54M1MEei168HjxNHqjg" type="5006"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Rki54c1MEei168HjxNHqjg" type="5007"/>
+        <element xmi:type="allocation:AllocationContext" href="uc2.allocation#_RQmqMM1MEei168HjxNHqjg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RkiS0c1MEei168HjxNHqjg" x="44" y="7"/>
+      </children>
+    </children>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="uc2.resourceenvironment#_04oIAM1LEei168HjxNHqjg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K56N4c1MEei168HjxNHqjg" x="805" y="100"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_e9QSUc1KEei168HjxNHqjg"/>
+  <element xmi:type="allocation:Allocation" href="uc2.allocation#_e9LZ0M1KEei168HjxNHqjg"/>
+</notation:Diagram>

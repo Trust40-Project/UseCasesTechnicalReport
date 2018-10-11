@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:subsystem="http://palladiosimulator.org/PalladioComponentModel/SubSystem/5.2">
   <repository:Repository id="_mblNsMVKEeiR2rBVsJCuAw" entityName="New Repository">
-    <components__Repository xsi:type="repository:BasicComponent" id="_pWqewMVKEeiR2rBVsJCuAw" entityName="QA-ServiceComponent">
+    <components__Repository xsi:type="repository:BasicComponent" id="_pWqewMVKEeiR2rBVsJCuAw" entityName="QA-ServiceComponent-A">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_moqVgMVMEeiR2rBVsJCuAw" entityName="QA-ServiceComponent.QA-Services.OperationProvidedRole1" providedInterface__OperationProvidedRole="_qomnwMVKEeiR2rBVsJCuAw"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_RdLN8M1JEeisTqbPtEoafA" entityName="QA-ServiceComponent-A.QAAnalytics.OperationProvidedRole2" providedInterface__OperationProvidedRole="_y-L3kM0qEeisTqbPtEoafA"/>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_moq8kMVMEeiR2rBVsJCuAw" describedService__SEFF="_rr8UEMVKEeiR2rBVsJCuAw">
         <steps_Behaviour xsi:type="seff:StartAction" id="_moq8kcVMEeiR2rBVsJCuAw" successor_AbstractAction="_yF6-wMYXEeiwJfooOgNe7g"/>
         <steps_Behaviour xsi:type="seff:StopAction" id="_moq8ksVMEeiR2rBVsJCuAw" predecessor_AbstractAction="_yF6-wMYXEeiwJfooOgNe7g"/>
@@ -32,23 +33,22 @@
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_sjkqMMVLEeiR2rBVsJCuAw" entityName="ForemanSystem.ProductionLineQA.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_69Yd0MVKEeiR2rBVsJCuAw"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_VAx_MMVUEeiR2rBVsJCuAw" entityName="ForemanSystem.ExchangeData.OperationRequiredRole2" requiredInterface__OperationRequiredRole="_7AHW0MVMEeiR2rBVsJCuAw"/>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_yNke8MVTEeiR2rBVsJCuAw" describedService__SEFF="_sgLeUMVTEeiR2rBVsJCuAw">
-        <steps_Behaviour xsi:type="seff:StartAction" id="_yNke8cVTEeiR2rBVsJCuAw" successor_AbstractAction="_kKsrAMVcEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:StartAction" id="_yNke8cVTEeiR2rBVsJCuAw" successor_AbstractAction="_38EjwMVcEeiR2rBVsJCuAw"/>
         <steps_Behaviour xsi:type="seff:StopAction" id="_yNke8sVTEeiR2rBVsJCuAw" predecessor_AbstractAction="_qpTGIMVcEeiR2rBVsJCuAw"/>
-        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_kKsrAMVcEeiR2rBVsJCuAw" entityName="ExternalCallAction1" predecessor_AbstractAction="_yNke8cVTEeiR2rBVsJCuAw" successor_AbstractAction="_38EjwMVcEeiR2rBVsJCuAw" calledService_ExternalService="_NoiVYMVLEeiR2rBVsJCuAw" role_ExternalService="_sjkqMMVLEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_38EjwMVcEeiR2rBVsJCuAw" entityName="InternalAction1" predecessor_AbstractAction="_yNke8cVTEeiR2rBVsJCuAw" successor_AbstractAction="_qpTGIMVcEeiR2rBVsJCuAw"/>
         <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_qpTGIMVcEeiR2rBVsJCuAw" entityName="ExternalCallAction2" predecessor_AbstractAction="_38EjwMVcEeiR2rBVsJCuAw" successor_AbstractAction="_yNke8sVTEeiR2rBVsJCuAw" calledService_ExternalService="__wumIMVMEeiR2rBVsJCuAw" role_ExternalService="_VAx_MMVUEeiR2rBVsJCuAw"/>
-        <steps_Behaviour xsi:type="seff:InternalAction" id="_38EjwMVcEeiR2rBVsJCuAw" entityName="InternalAction1" predecessor_AbstractAction="_kKsrAMVcEeiR2rBVsJCuAw" successor_AbstractAction="_qpTGIMVcEeiR2rBVsJCuAw"/>
       </serviceEffectSpecifications__BasicComponent>
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="_Tr04EMVMEeiR2rBVsJCuAw" entityName="ExchangeModule">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_DUp_4MVNEeiR2rBVsJCuAw" entityName="ExchangeModule.ExchangeData.OperationProvidedRole1" providedInterface__OperationProvidedRole="_7AHW0MVMEeiR2rBVsJCuAw"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_oRJWQMVMEeiR2rBVsJCuAw" entityName="ExchangeModule.QA-Services.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_qomnwMVKEeiR2rBVsJCuAw"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_zWUPsMVTEeiR2rBVsJCuAw" entityName="ExchangeModule.ForemanQA.OperationRequiredRole2" requiredInterface__OperationRequiredRole="_lY-yIMVTEeiR2rBVsJCuAw"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_UqamAM1JEeisTqbPtEoafA" entityName="ExchangeModule.QAAnalytics.OperationRequiredRole3" requiredInterface__OperationRequiredRole="_y-L3kM0qEeisTqbPtEoafA"/>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_DU4pYMVNEeiR2rBVsJCuAw" describedService__SEFF="__wumIMVMEeiR2rBVsJCuAw">
         <steps_Behaviour xsi:type="seff:StartAction" id="_DU4pYcVNEeiR2rBVsJCuAw" successor_AbstractAction="_c941EMYXEeiwJfooOgNe7g"/>
         <steps_Behaviour xsi:type="seff:StopAction" id="_DU4pYsVNEeiR2rBVsJCuAw" predecessor_AbstractAction="_fDP_EMYXEeiwJfooOgNe7g"/>
-        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_c941EMYXEeiwJfooOgNe7g" entityName="ExternalCallAction1" predecessor_AbstractAction="_DU4pYcVNEeiR2rBVsJCuAw" successor_AbstractAction="_i63w4MYXEeiwJfooOgNe7g" calledService_ExternalService="_V4z-4MYOEeiz2vvpaUChIA" role_ExternalService="_oRJWQMVMEeiR2rBVsJCuAw"/>
-        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_fDP_EMYXEeiwJfooOgNe7g" entityName="ExternalCallAction2" predecessor_AbstractAction="_i63w4MYXEeiwJfooOgNe7g" successor_AbstractAction="_DU4pYsVNEeiR2rBVsJCuAw" calledService_ExternalService="_rr8UEMVKEeiR2rBVsJCuAw" role_ExternalService="_oRJWQMVMEeiR2rBVsJCuAw"/>
-        <steps_Behaviour xsi:type="seff:BranchAction" id="_i63w4MYXEeiwJfooOgNe7g" entityName="BranchAction1" predecessor_AbstractAction="_c941EMYXEeiwJfooOgNe7g" successor_AbstractAction="_fDP_EMYXEeiwJfooOgNe7g"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_c941EMYXEeiwJfooOgNe7g" entityName="ExternalCallAction1" predecessor_AbstractAction="_DU4pYcVNEeiR2rBVsJCuAw" successor_AbstractAction="_fDP_EMYXEeiwJfooOgNe7g" calledService_ExternalService="_V4z-4MYOEeiz2vvpaUChIA" role_ExternalService="_oRJWQMVMEeiR2rBVsJCuAw"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_fDP_EMYXEeiwJfooOgNe7g" entityName="ExternalCallAction2" predecessor_AbstractAction="_c941EMYXEeiwJfooOgNe7g" successor_AbstractAction="_DU4pYsVNEeiR2rBVsJCuAw" calledService_ExternalService="_rr8UEMVKEeiR2rBVsJCuAw" role_ExternalService="_oRJWQMVMEeiR2rBVsJCuAw"/>
       </serviceEffectSpecifications__BasicComponent>
     </components__Repository>
     <components__Repository xsi:type="subsystem:SubSystem" id="_Cxl5oMVOEeiR2rBVsJCuAw" entityName="CompanyA">
@@ -67,16 +67,19 @@
     </components__Repository>
     <components__Repository xsi:type="subsystem:SubSystem" id="_XZGTsMVPEeiR2rBVsJCuAw" entityName="CompanyB">
       <assemblyContexts__ComposedStructure id="_ghPj8MVPEeiR2rBVsJCuAw" entityName="Assembly_QA-ServiceComponent" encapsulatedComponent__AssemblyContext="_pWqewMVKEeiR2rBVsJCuAw"/>
-      <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_snTW0MVPEeiR2rBVsJCuAw" entityName="newProvidedDelegationConnector" innerProvidedRole_ProvidedDelegationConnector="_moqVgMVMEeiR2rBVsJCuAw" outerProvidedRole_ProvidedDelegationConnector="_o1NlQMVPEeiR2rBVsJCuAw" assemblyContext_ProvidedDelegationConnector="_ghPj8MVPEeiR2rBVsJCuAw"/>
-      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_o1NlQMVPEeiR2rBVsJCuAw" entityName="CompanyB.QA-Services.OperationProvidedRole1" providedInterface__OperationProvidedRole="_qomnwMVKEeiR2rBVsJCuAw"/>
+      <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_snTW0MVPEeiR2rBVsJCuAw" entityName="newProvidedDelegationConnector" innerProvidedRole_ProvidedDelegationConnector="_moqVgMVMEeiR2rBVsJCuAw" assemblyContext_ProvidedDelegationConnector="_ghPj8MVPEeiR2rBVsJCuAw"/>
     </components__Repository>
-    <interfaces__Repository xsi:type="repository:OperationInterface" id="_qomnwMVKEeiR2rBVsJCuAw" entityName="QA-Services">
+    <components__Repository xsi:type="repository:BasicComponent" id="_rG3WAM0qEeisTqbPtEoafA" entityName="QA-ServiceComponent-B">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YIFmwM1JEeisTqbPtEoafA" entityName="QA-ServiceComponent-B.QAAnalytics.OperationProvidedRole1" providedInterface__OperationProvidedRole="_y-L3kM0qEeisTqbPtEoafA"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YIHb8M1JEeisTqbPtEoafA" describedService__SEFF="_V4z-4MYOEeiz2vvpaUChIA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_YIHb8c1JEeisTqbPtEoafA" successor_AbstractAction="_YIIDAM1JEeisTqbPtEoafA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_YIIDAM1JEeisTqbPtEoafA" predecessor_AbstractAction="_YIHb8c1JEeisTqbPtEoafA"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_qomnwMVKEeiR2rBVsJCuAw" entityName="QARating">
       <signatures__OperationInterface id="_rr8UEMVKEeiR2rBVsJCuAw" entityName="rateQuality">
         <parameters__OperationSignature dataType__Parameter="_uQDRwMVZEeiR2rBVsJCuAw" parameterName="defectProduct"/>
         <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
-      </signatures__OperationInterface>
-      <signatures__OperationInterface id="_V4z-4MYOEeiz2vvpaUChIA" entityName="avgRating">
-        <parameters__OperationSignature dataType__Parameter="_wGu40MVUEeiR2rBVsJCuAw" parameterName="productGrp"/>
       </signatures__OperationInterface>
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_69Yd0MVKEeiR2rBVsJCuAw" entityName="ProductionLineQA">
@@ -92,6 +95,11 @@
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_lY-yIMVTEeiR2rBVsJCuAw" entityName="ForemanQA">
       <signatures__OperationInterface id="_sgLeUMVTEeiR2rBVsJCuAw" entityName="verify"/>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_y-L3kM0qEeisTqbPtEoafA" entityName="QAAnalytics">
+      <signatures__OperationInterface id="_V4z-4MYOEeiz2vvpaUChIA" entityName="avgRating">
+        <parameters__OperationSignature dataType__Parameter="_wGu40MVUEeiR2rBVsJCuAw" parameterName="productGrp"/>
+      </signatures__OperationInterface>
     </interfaces__Repository>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_wGu40MVUEeiR2rBVsJCuAw" entityName="Product">
       <innerDeclaration_CompositeDataType entityName="productID">

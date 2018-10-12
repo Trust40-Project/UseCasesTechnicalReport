@@ -6,12 +6,15 @@
   <assemblyContexts__ComposedStructure id="_zqj-MMVPEeiR2rBVsJCuAw" entityName="Assembly_CompanyB">
     <encapsulatedComponent__AssemblyContext xsi:type="subsystem:SubSystem" href="uc2Repository.repository#_XZGTsMVPEeiR2rBVsJCuAw"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_FKq-8MVQEeiR2rBVsJCuAw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_yRf5gMVPEeiR2rBVsJCuAw" providingAssemblyContext_AssemblyConnector="_zqj-MMVPEeiR2rBVsJCuAw">
-    <requiredRole_AssemblyConnector href="uc2Repository.repository#_AegKwMVQEeiR2rBVsJCuAw"/>
-  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_FKq-8MVQEeiR2rBVsJCuAw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_yRf5gMVPEeiR2rBVsJCuAw" providingAssemblyContext_AssemblyConnector="_zqj-MMVPEeiR2rBVsJCuAw"/>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_t3rAQMVUEeiR2rBVsJCuAw" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_p-pgQMVUEeiR2rBVsJCuAw" assemblyContext_ProvidedDelegationConnector="_yRf5gMVPEeiR2rBVsJCuAw">
     <innerProvidedRole_ProvidedDelegationConnector href="uc2Repository.repository#_gCwbsMVQEeiR2rBVsJCuAw"/>
   </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_maR_IM37EeiBbcXKG7KJGA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_yRf5gMVPEeiR2rBVsJCuAw" providingAssemblyContext_AssemblyConnector="_zqj-MMVPEeiR2rBVsJCuAw">
+    <providedRole_AssemblyConnector href="uc2Repository.repository#_Jx87gM31EeiBbcXKG7KJGA"/>
+    <requiredRole_AssemblyConnector href="uc2Repository.repository#_c0WD0M30EeiBbcXKG7KJGA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sCIYcM37EeiBbcXKG7KJGA" entityName="newProvidedDelegationConnector" assemblyContext_ProvidedDelegationConnector="_yRf5gMVPEeiR2rBVsJCuAw"/>
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_p-pgQMVUEeiR2rBVsJCuAw" entityName="OperationProvidedRole1">
     <providedInterface__OperationProvidedRole href="uc2Repository.repository#_69Yd0MVKEeiR2rBVsJCuAw"/>
   </providedRoles_InterfaceProvidingEntity>

@@ -25,13 +25,12 @@
             <element xmi:type="usagemodel:EntryLevelSystemCall" href="uc2.usagemodel#_bYizcMYNEeiz2vvpaUChIA"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cnujYcYNEeiz2vvpaUChIA" x="275" y="25"/>
           </children>
-          <children xmi:type="notation:Shape" xmi:id="_jLekQMYNEeiz2vvpaUChIA" type="3003" fontName="Sans Serif">
+          <children xmi:type="notation:Shape" xmi:id="_jLekQMYNEeiz2vvpaUChIA" type="3003" element="_iRtqsMYNEeiz2vvpaUChIA" fontName="Sans Serif">
             <children xmi:type="notation:DecorationNode" xmi:id="_jLekQsYNEeiz2vvpaUChIA" type="5004"/>
             <children xmi:type="notation:DecorationNode" xmi:id="_jLfLUMYNEeiz2vvpaUChIA" type="7002">
               <styles xmi:type="notation:SortingStyle" xmi:id="_jLfLUcYNEeiz2vvpaUChIA"/>
               <styles xmi:type="notation:FilteringStyle" xmi:id="_jLfLUsYNEeiz2vvpaUChIA"/>
             </children>
-            <element xmi:type="usagemodel:EntryLevelSystemCall" href="uc2.usagemodel#_iRtqsMYNEeiz2vvpaUChIA"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jLekQcYNEeiz2vvpaUChIA" x="220" y="220"/>
           </children>
         </children>

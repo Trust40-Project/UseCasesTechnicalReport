@@ -3,12 +3,12 @@
   <usageScenario_UsageModel id="_017HoMVbEeiR2rBVsJCuAw" entityName="defaultUsageScenario">
     <scenarioBehaviour_UsageScenario id="_01880MVbEeiR2rBVsJCuAw" entityName="defaultUsageScenarioBehaviour">
       <actions_ScenarioBehaviour xsi:type="usagemodel:Start" id="_01-yAMVbEeiR2rBVsJCuAw" successor="_bYizcMYNEeiz2vvpaUChIA"/>
-      <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_01_ZEMVbEeiR2rBVsJCuAw" predecessor="_iRtqsMYNEeiz2vvpaUChIA"/>
-      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_bYizcMYNEeiz2vvpaUChIA" successor="_iRtqsMYNEeiz2vvpaUChIA" predecessor="_01-yAMVbEeiR2rBVsJCuAw">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:Stop" id="_01_ZEMVbEeiR2rBVsJCuAw" predecessor="_Hay9QM39EeiBbcXKG7KJGA"/>
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_bYizcMYNEeiz2vvpaUChIA" successor="_Hay9QM39EeiBbcXKG7KJGA" predecessor="_01-yAMVbEeiR2rBVsJCuAw">
         <providedRole_EntryLevelSystemCall href="uc2Assembly.system#_p-pgQMVUEeiR2rBVsJCuAw"/>
         <operationSignature__EntryLevelSystemCall href="uc2Repository.repository#_IqsiYMVLEeiR2rBVsJCuAw"/>
       </actions_ScenarioBehaviour>
-      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_iRtqsMYNEeiz2vvpaUChIA" successor="_01_ZEMVbEeiR2rBVsJCuAw" predecessor="_bYizcMYNEeiz2vvpaUChIA">
+      <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_Hay9QM39EeiBbcXKG7KJGA" entityName="EntryLevelSystemCall2" successor="_01_ZEMVbEeiR2rBVsJCuAw" predecessor="_bYizcMYNEeiz2vvpaUChIA">
         <providedRole_EntryLevelSystemCall href="uc2Assembly.system#_p-pgQMVUEeiR2rBVsJCuAw"/>
         <operationSignature__EntryLevelSystemCall href="uc2Repository.repository#_NoiVYMVLEeiR2rBVsJCuAw"/>
       </actions_ScenarioBehaviour>

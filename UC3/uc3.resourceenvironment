@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="New ResourceEnvironment">
+  <linkingResources__ResourceEnvironment id="_nkAv0NFHEeiQjaFO9jgXoA" entityName="Internet" connectedResourceContainers_LinkingResource="_j3FLENFHEeiQjaFO9jgXoA _cigKMNFHEeiQjaFO9jgXoA _b20I4NFHEeiQjaFO9jgXoA _cxm9MNFHEeiQjaFO9jgXoA">
+    <communicationLinkResourceSpecifications_LinkingResource id="_nkBW4NFHEeiQjaFO9jgXoA">
+      <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+      <latency_CommunicationLinkResourceSpecification specification="1"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1"/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_b20I4NFHEeiQjaFO9jgXoA" entityName="CompanyA"/>
+  <resourceContainer_ResourceEnvironment id="_cigKMNFHEeiQjaFO9jgXoA" entityName="CompanyB"/>
+  <resourceContainer_ResourceEnvironment id="_cxm9MNFHEeiQjaFO9jgXoA" entityName="BoardSystem"/>
+  <resourceContainer_ResourceEnvironment id="_j3FLENFHEeiQjaFO9jgXoA" entityName="CompanyC"/>
+</resourceenvironment:ResourceEnvironment>

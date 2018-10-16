@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_Trcp8NFHEeiQjaFO9jgXoA" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="uc3.resourceenvironment#/"/>
+  <system_Allocation href="uc3.system#_E2t5ENFBEeiQjaFO9jgXoA"/>
+  <allocationContexts_Allocation id="_4MzHANFHEeiQjaFO9jgXoA" entityName="Allocation_CompanyC">
+    <resourceContainer_AllocationContext href="uc3.resourceenvironment#_j3FLENFHEeiQjaFO9jgXoA"/>
+    <assemblyContext_AllocationContext href="uc3.system#_c_eBwNFBEeiQjaFO9jgXoA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_5Z9dsNFHEeiQjaFO9jgXoA" entityName="Allocation_Assembly_BoardSystem">
+    <resourceContainer_AllocationContext href="uc3.resourceenvironment#_cxm9MNFHEeiQjaFO9jgXoA"/>
+    <assemblyContext_AllocationContext href="uc3.system#_ZjfqINFBEeiQjaFO9jgXoA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_88nFENFHEeiQjaFO9jgXoA" entityName="Allocation_CompanyB">
+    <resourceContainer_AllocationContext href="uc3.resourceenvironment#_cigKMNFHEeiQjaFO9jgXoA"/>
+    <assemblyContext_AllocationContext href="uc3.system#_bJD5wNFBEeiQjaFO9jgXoA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_-S3tYNFHEeiQjaFO9jgXoA" entityName="Allocation_CompanyA">
+    <resourceContainer_AllocationContext href="uc3.resourceenvironment#_b20I4NFHEeiQjaFO9jgXoA"/>
+    <assemblyContext_AllocationContext href="uc3.system#_L_BYgNFBEeiQjaFO9jgXoA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_AvHGUNFIEeiQjaFO9jgXoA" entityName="Allocation_Assembly_Trust4.0Component">
+    <resourceContainer_AllocationContext href="uc3.resourceenvironment#_cxm9MNFHEeiQjaFO9jgXoA"/>
+    <assemblyContext_AllocationContext href="uc3.system#_Ho-ogNFFEeiQjaFO9jgXoA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_BR97wNFIEeiQjaFO9jgXoA" entityName="Allocation_Assembly_AnalystSystem">
+    <resourceContainer_AllocationContext href="uc3.resourceenvironment#_cxm9MNFHEeiQjaFO9jgXoA"/>
+    <assemblyContext_AllocationContext href="uc3.system#_ILHCANFBEeiQjaFO9jgXoA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

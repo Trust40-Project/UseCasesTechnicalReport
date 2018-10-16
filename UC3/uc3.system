@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_E2t5ENFBEeiQjaFO9jgXoA" entityName="New System">
+  <assemblyContexts__ComposedStructure id="_ILHCANFBEeiQjaFO9jgXoA" entityName="Assembly_AnalystSystem">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="uc3.repository#_Q-oKQNE6EeiQjaFO9jgXoA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_L_BYgNFBEeiQjaFO9jgXoA" entityName="CompanyA">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="uc3.repository#_CqYeANE5EeiQjaFO9jgXoA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_ZjfqINFBEeiQjaFO9jgXoA" entityName="Assembly_BoardSystem">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="uc3.repository#_RPhF8NE6EeiQjaFO9jgXoA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_bJD5wNFBEeiQjaFO9jgXoA" entityName="CompanyB">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="uc3.repository#_CqYeANE5EeiQjaFO9jgXoA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_c_eBwNFBEeiQjaFO9jgXoA" entityName="CompanyC">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="uc3.repository#_CqYeANE5EeiQjaFO9jgXoA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_Ho-ogNFFEeiQjaFO9jgXoA" entityName="Assembly_Trust4.0Component">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="uc3.repository#_XpdgANE5EeiQjaFO9jgXoA"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YoVpcNFBEeiQjaFO9jgXoA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_W25hANFBEeiQjaFO9jgXoA" assemblyContext_ProvidedDelegationConnector="_L_BYgNFBEeiQjaFO9jgXoA">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_FDz-ENE6EeiQjaFO9jgXoA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_upkE8NFBEeiQjaFO9jgXoA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_qfBXINFBEeiQjaFO9jgXoA" assemblyContext_ProvidedDelegationConnector="_bJD5wNFBEeiQjaFO9jgXoA">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_FDz-ENE6EeiQjaFO9jgXoA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_vK86wNFBEeiQjaFO9jgXoA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_s2GjQNFBEeiQjaFO9jgXoA" assemblyContext_ProvidedDelegationConnector="_c_eBwNFBEeiQjaFO9jgXoA">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_FDz-ENE6EeiQjaFO9jgXoA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__9YOwNFEEeiQjaFO9jgXoA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_5PurANFEEeiQjaFO9jgXoA" assemblyContext_ProvidedDelegationConnector="_ZjfqINFBEeiQjaFO9jgXoA">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_vcCgMNFAEeiQjaFO9jgXoA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_P6RwUNFFEeiQjaFO9jgXoA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_ZjfqINFBEeiQjaFO9jgXoA" providingAssemblyContext_AssemblyConnector="_Ho-ogNFFEeiQjaFO9jgXoA">
+    <providedRole_AssemblyConnector href="uc3.repository#_o2-0kNE8EeiQjaFO9jgXoA"/>
+    <requiredRole_AssemblyConnector href="uc3.repository#_q4ffsNFEEeiQjaFO9jgXoA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_kOmlINFFEeiQjaFO9jgXoA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_gBWhkNFFEeiQjaFO9jgXoA" assemblyContext_ProvidedDelegationConnector="_ILHCANFBEeiQjaFO9jgXoA">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_W8-wUNFAEeiQjaFO9jgXoA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_lqGSwNFFEeiQjaFO9jgXoA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_ILHCANFBEeiQjaFO9jgXoA" providingAssemblyContext_AssemblyConnector="_Ho-ogNFFEeiQjaFO9jgXoA">
+    <providedRole_AssemblyConnector href="uc3.repository#_jlKVoNE8EeiQjaFO9jgXoA"/>
+    <requiredRole_AssemblyConnector href="uc3.repository#_e6q8cNE8EeiQjaFO9jgXoA"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_W25hANFBEeiQjaFO9jgXoA" entityName="sendDataA">
+    <providedInterface__OperationProvidedRole href="uc3.repository#_vz110NE4EeiQjaFO9jgXoA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qfBXINFBEeiQjaFO9jgXoA" entityName="sendDataB">
+    <providedInterface__OperationProvidedRole href="uc3.repository#_vz110NE4EeiQjaFO9jgXoA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_s2GjQNFBEeiQjaFO9jgXoA" entityName="sendDataC">
+    <providedInterface__OperationProvidedRole href="uc3.repository#_vz110NE4EeiQjaFO9jgXoA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_5PurANFEEeiQjaFO9jgXoA" entityName="bordCheck">
+    <providedInterface__OperationProvidedRole href="uc3.repository#_EFdC8NE7EeiQjaFO9jgXoA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gBWhkNFFEeiQjaFO9jgXoA" entityName="analystStart">
+    <providedInterface__OperationProvidedRole href="uc3.repository#_P6l6YNE6EeiQjaFO9jgXoA"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

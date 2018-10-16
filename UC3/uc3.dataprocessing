@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataprocessing:DataSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:data="http://www.palladiosimulator.org/pcm/dataprocessing/data/0.1/" xmlns:dataprocessing="http://www.palladiosimulator.org/pcm/dataprocessing/0.1/" xmlns:processing="http://www.palladiosimulator.org/pcm/dataprocessing/processing/0.1/" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+  <dataProcessingContainers id="_Emz7MNFJEeiQjaFO9jgXoA" entityName="Companies">
+    <operations xsi:type="processing:CreateDataOperation" id="_OV9hENFJEeiQjaFO9jgXoA" entityName="creatingYield">
+      <resultingData xsi:type="data:ParameterBasedData" id="_ikA5UdFKEeiQjaFO9jgXoA">
+        <parameter href="uc3.repository#/0/@interfaces__Repository.0/@signatures__OperationInterface.0/@parameters__OperationSignature.0"/>
+      </resultingData>
+    </operations>
+    <operations xsi:type="processing:StoreDataOperation" id="_kAujZNFUEeiQjaFO9jgXoA" consumedData="_ikA5UdFKEeiQjaFO9jgXoA" store="_RTx8ENFUEeiQjaFO9jgXoA"/>
+  </dataProcessingContainers>
+  <dataProcessingContainers id="_tzOYMNFUEeiQjaFO9jgXoA" entityName="Board: analyzeYield"/>
+  <dataProcessingContainers id="_8JJU4NFUEeiQjaFO9jgXoA" entityName="Trust4.0: calculateYield">
+    <operations xsi:type="processing:LoadAllDataOperation" id="_YzW2ktFVEeiQjaFO9jgXoA" entityName="Test" store="_RTx8ENFUEeiQjaFO9jgXoA"/>
+  </dataProcessingContainers>
+  <storeContainers id="_ohSa8dFIEeiQjaFO9jgXoA" entityName="TrustContainer">
+    <stores id="_RTx8ENFUEeiQjaFO9jgXoA" entityName="StorageYield">
+      <dataType xsi:type="repository:CollectionDataType" href="uc3.repository#_UpfAgNE8EeiQjaFO9jgXoA"/>
+    </stores>
+  </storeContainers>
+</dataprocessing:DataSpecification>

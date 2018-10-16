@@ -1,83 +1,102 @@
 <?xml version="1.0" encoding="ASCII"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_phDpINE4EeiQjaFO9jgXoA" entityName="New Repository">
-  <components__Repository xsi:type="repository:BasicComponent" id="_CqYeANE5EeiQjaFO9jgXoA" entityName="Company">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_FDz-ENE6EeiQjaFO9jgXoA" entityName="Company.Production.Provider" providedInterface__OperationProvidedRole="_vz110NE4EeiQjaFO9jgXoA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_FECnkNE6EeiQjaFO9jgXoA" describedService__SEFF="_oD_YwNE5EeiQjaFO9jgXoA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_FECnkdE6EeiQjaFO9jgXoA" successor_AbstractAction="_7Qev4NFGEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_FECnktE6EeiQjaFO9jgXoA" predecessor_AbstractAction="_7Qev4NFGEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_7Qev4NFGEeiQjaFO9jgXoA" entityName="sendingData" predecessor_AbstractAction="_FECnkdE6EeiQjaFO9jgXoA" successor_AbstractAction="_FECnktE6EeiQjaFO9jgXoA"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_XpdgANE5EeiQjaFO9jgXoA" entityName="Trust4.0Component">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_jlKVoNE8EeiQjaFO9jgXoA" entityName="Trust4.0Component.ExchangeRawData.Provided" providedInterface__OperationProvidedRole="_Knwc4NE8EeiQjaFO9jgXoA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_o2-0kNE8EeiQjaFO9jgXoA" entityName="Trust4.0Component.ExchangeYield.Provided" providedInterface__OperationProvidedRole="_GKIiYNE5EeiQjaFO9jgXoA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_jlaNQNE8EeiQjaFO9jgXoA" describedService__SEFF="_Q6XqcNE8EeiQjaFO9jgXoA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_jlaNQdE8EeiQjaFO9jgXoA" successor_AbstractAction="_zcxjANFGEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_jla0UNE8EeiQjaFO9jgXoA" predecessor_AbstractAction="_zcxjANFGEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_zcxjANFGEeiQjaFO9jgXoA" entityName="loadRawData" predecessor_AbstractAction="_jlaNQdE8EeiQjaFO9jgXoA" successor_AbstractAction="_jla0UNE8EeiQjaFO9jgXoA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_o2_boNE8EeiQjaFO9jgXoA" describedService__SEFF="_M5iZoNE5EeiQjaFO9jgXoA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_o2_bodE8EeiQjaFO9jgXoA" successor_AbstractAction="_o3ACsNE8EeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_o3ACsNE8EeiQjaFO9jgXoA" predecessor_AbstractAction="_o2_bodE8EeiQjaFO9jgXoA"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_Q-oKQNE6EeiQjaFO9jgXoA" entityName="AnalystSystem">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_W8-wUNFAEeiQjaFO9jgXoA" entityName="AnalystSystem.Analyst.Provided" providedInterface__OperationProvidedRole="_P6l6YNE6EeiQjaFO9jgXoA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_e6q8cNE8EeiQjaFO9jgXoA" entityName="AnalystSystem.ExchangeRawData.getYieldDataRequired" requiredInterface__OperationRequiredRole="_Knwc4NE8EeiQjaFO9jgXoA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_W8_XYNFAEeiQjaFO9jgXoA" describedService__SEFF="_0At0ANE6EeiQjaFO9jgXoA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_W8_XYdFAEeiQjaFO9jgXoA" successor_AbstractAction="_2wTYANFAEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_W8_XYtFAEeiQjaFO9jgXoA" predecessor_AbstractAction="_4HxhQNFAEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_2wTYANFAEeiQjaFO9jgXoA" entityName="ExternalCallAction1" predecessor_AbstractAction="_W8_XYdFAEeiQjaFO9jgXoA" successor_AbstractAction="_4HxhQNFAEeiQjaFO9jgXoA" calledService_ExternalService="_Q6XqcNE8EeiQjaFO9jgXoA" role_ExternalService="_e6q8cNE8EeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_4HxhQNFAEeiQjaFO9jgXoA" entityName="calculateLowestYield" predecessor_AbstractAction="_2wTYANFAEeiQjaFO9jgXoA" successor_AbstractAction="_W8_XYtFAEeiQjaFO9jgXoA"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_RPhF8NE6EeiQjaFO9jgXoA" entityName="BoardSystem">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vcCgMNFAEeiQjaFO9jgXoA" entityName="BoardSystem.Board.Provided" providedInterface__OperationProvidedRole="_EFdC8NE7EeiQjaFO9jgXoA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_q4ffsNFEEeiQjaFO9jgXoA" entityName="BoardSystem.ExchangeYield.getYield" requiredInterface__OperationRequiredRole="_GKIiYNE5EeiQjaFO9jgXoA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_vcDHQNFAEeiQjaFO9jgXoA" describedService__SEFF="_k4zK8NFAEeiQjaFO9jgXoA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_vcDHQdFAEeiQjaFO9jgXoA" successor_AbstractAction="_t1rpkNFEEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_vcDHQtFAEeiQjaFO9jgXoA" predecessor_AbstractAction="_vZHyQNFEEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_t1rpkNFEEeiQjaFO9jgXoA" entityName="ExternalCallAction1" predecessor_AbstractAction="_vcDHQdFAEeiQjaFO9jgXoA" successor_AbstractAction="_vZHyQNFEEeiQjaFO9jgXoA" calledService_ExternalService="_M5iZoNE5EeiQjaFO9jgXoA" role_ExternalService="_q4ffsNFEEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_vZHyQNFEEeiQjaFO9jgXoA" entityName="decisionMaking" predecessor_AbstractAction="_t1rpkNFEEeiQjaFO9jgXoA" successor_AbstractAction="_vcDHQtFAEeiQjaFO9jgXoA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_kodaINFGEeiQjaFO9jgXoA" describedService__SEFF="_CD-EoNFBEeiQjaFO9jgXoA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_lih1sNFGEeiQjaFO9jgXoA" successor_AbstractAction="_nbFSwNFGEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lih1sdFGEeiQjaFO9jgXoA" predecessor_AbstractAction="_nbFSwNFGEeiQjaFO9jgXoA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_nbFSwNFGEeiQjaFO9jgXoA" entityName="sendToUnderperformer" predecessor_AbstractAction="_lih1sNFGEeiQjaFO9jgXoA" successor_AbstractAction="_lih1sdFGEeiQjaFO9jgXoA"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_vz110NE4EeiQjaFO9jgXoA" entityName="Production">
-    <signatures__OperationInterface id="_oD_YwNE5EeiQjaFO9jgXoA" entityName="sendYieldData"/>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_GKIiYNE5EeiQjaFO9jgXoA" entityName="ExchangeYield">
-    <signatures__OperationInterface id="_M5iZoNE5EeiQjaFO9jgXoA" entityName="calculateYield">
-      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_P6l6YNE6EeiQjaFO9jgXoA" entityName="Analyst">
-    <signatures__OperationInterface id="_0At0ANE6EeiQjaFO9jgXoA" entityName="findCompanies" returnType__OperationSignature="_iH-ekNE_EeiQjaFO9jgXoA"/>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_EFdC8NE7EeiQjaFO9jgXoA" entityName="Board">
-    <signatures__OperationInterface id="_k4zK8NFAEeiQjaFO9jgXoA" entityName="analyzeYield">
-      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_CD-EoNFBEeiQjaFO9jgXoA" entityName="informCompanies">
-      <parameters__OperationSignature dataType__Parameter="_iH-ekNE_EeiQjaFO9jgXoA" parameterName="underPerformer"/>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Knwc4NE8EeiQjaFO9jgXoA" entityName="ExchangeRawData">
-    <signatures__OperationInterface id="_Q6XqcNE8EeiQjaFO9jgXoA" entityName="getYieldData" returnType__OperationSignature="_UpfAgNE8EeiQjaFO9jgXoA"/>
-  </interfaces__Repository>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_qzmZoNE5EeiQjaFO9jgXoA" entityName="YieldData">
-    <innerDeclaration_CompositeDataType entityName="countTotalProducts">
-      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-    </innerDeclaration_CompositeDataType>
-    <innerDeclaration_CompositeDataType entityName="countBrockenProducts">
-      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-    </innerDeclaration_CompositeDataType>
-  </dataTypes__Repository>
-  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_UpfAgNE8EeiQjaFO9jgXoA" entityName="ListYieldData" innerType_CollectionDataType="_qzmZoNE5EeiQjaFO9jgXoA"/>
-  <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_iH-ekNE_EeiQjaFO9jgXoA" entityName="Underperformer">
-    <innerType_CollectionDataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-  </dataTypes__Repository>
-</repository:Repository>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2">
+  <repository:Repository id="_phDpINE4EeiQjaFO9jgXoA" entityName="New Repository">
+    <components__Repository xsi:type="repository:BasicComponent" id="_CqYeANE5EeiQjaFO9jgXoA" entityName="Company">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_FDz-ENE6EeiQjaFO9jgXoA" entityName="Company.Production.Provider" providedInterface__OperationProvidedRole="_vz110NE4EeiQjaFO9jgXoA"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_FECnkNE6EeiQjaFO9jgXoA" describedService__SEFF="_oD_YwNE5EeiQjaFO9jgXoA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_FECnkdE6EeiQjaFO9jgXoA" successor_AbstractAction="_7Qev4NFGEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_FECnktE6EeiQjaFO9jgXoA" predecessor_AbstractAction="_7Qev4NFGEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7Qev4NFGEeiQjaFO9jgXoA" entityName="sendingData" predecessor_AbstractAction="_FECnkdE6EeiQjaFO9jgXoA" successor_AbstractAction="_FECnktE6EeiQjaFO9jgXoA"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_XpdgANE5EeiQjaFO9jgXoA" entityName="Trust4.0Component">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_jlKVoNE8EeiQjaFO9jgXoA" entityName="Trust4.0Component.ExchangeRawData.Provided" providedInterface__OperationProvidedRole="_Knwc4NE8EeiQjaFO9jgXoA"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_o2-0kNE8EeiQjaFO9jgXoA" entityName="Trust4.0Component.ExchangeYield.Provided" providedInterface__OperationProvidedRole="_GKIiYNE5EeiQjaFO9jgXoA"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_jlaNQNE8EeiQjaFO9jgXoA" describedService__SEFF="_Q6XqcNE8EeiQjaFO9jgXoA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_jlaNQdE8EeiQjaFO9jgXoA" successor_AbstractAction="_zcxjANFGEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_jla0UNE8EeiQjaFO9jgXoA" predecessor_AbstractAction="_zcxjANFGEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_zcxjANFGEeiQjaFO9jgXoA" entityName="loadRawData" predecessor_AbstractAction="_jlaNQdE8EeiQjaFO9jgXoA" successor_AbstractAction="_jla0UNE8EeiQjaFO9jgXoA"/>
+      </serviceEffectSpecifications__BasicComponent>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_o2_boNE8EeiQjaFO9jgXoA" describedService__SEFF="_M5iZoNE5EeiQjaFO9jgXoA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_o2_bodE8EeiQjaFO9jgXoA" successor_AbstractAction="_o3ACsNE8EeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_o3ACsNE8EeiQjaFO9jgXoA" predecessor_AbstractAction="_o2_bodE8EeiQjaFO9jgXoA"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_Q-oKQNE6EeiQjaFO9jgXoA" entityName="AnalystSystem">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_W8-wUNFAEeiQjaFO9jgXoA" entityName="AnalystSystem.Analyst.Provided" providedInterface__OperationProvidedRole="_P6l6YNE6EeiQjaFO9jgXoA"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_e6q8cNE8EeiQjaFO9jgXoA" entityName="AnalystSystem.ExchangeRawData.getYieldDataRequired" requiredInterface__OperationRequiredRole="_Knwc4NE8EeiQjaFO9jgXoA"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_W8_XYNFAEeiQjaFO9jgXoA" describedService__SEFF="_0At0ANE6EeiQjaFO9jgXoA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_W8_XYdFAEeiQjaFO9jgXoA" successor_AbstractAction="_2wTYANFAEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_W8_XYtFAEeiQjaFO9jgXoA" predecessor_AbstractAction="_4HxhQNFAEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_2wTYANFAEeiQjaFO9jgXoA" entityName="ExternalCallAction1" predecessor_AbstractAction="_W8_XYdFAEeiQjaFO9jgXoA" successor_AbstractAction="_4HxhQNFAEeiQjaFO9jgXoA" calledService_ExternalService="_Q6XqcNE8EeiQjaFO9jgXoA" role_ExternalService="_e6q8cNE8EeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_4HxhQNFAEeiQjaFO9jgXoA" entityName="calculateLowestYield" predecessor_AbstractAction="_2wTYANFAEeiQjaFO9jgXoA" successor_AbstractAction="_W8_XYtFAEeiQjaFO9jgXoA"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_RPhF8NE6EeiQjaFO9jgXoA" entityName="BoardSystem">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vcCgMNFAEeiQjaFO9jgXoA" entityName="BoardSystem.Board.Provided" providedInterface__OperationProvidedRole="_EFdC8NE7EeiQjaFO9jgXoA"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_q4ffsNFEEeiQjaFO9jgXoA" entityName="BoardSystem.ExchangeYield.getYield" requiredInterface__OperationRequiredRole="_GKIiYNE5EeiQjaFO9jgXoA"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_vcDHQNFAEeiQjaFO9jgXoA" describedService__SEFF="_k4zK8NFAEeiQjaFO9jgXoA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_vcDHQdFAEeiQjaFO9jgXoA" successor_AbstractAction="_t1rpkNFEEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_vcDHQtFAEeiQjaFO9jgXoA" predecessor_AbstractAction="_vZHyQNFEEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_t1rpkNFEEeiQjaFO9jgXoA" entityName="ExternalCallAction1" predecessor_AbstractAction="_vcDHQdFAEeiQjaFO9jgXoA" successor_AbstractAction="_vZHyQNFEEeiQjaFO9jgXoA" calledService_ExternalService="_M5iZoNE5EeiQjaFO9jgXoA" role_ExternalService="_q4ffsNFEEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_vZHyQNFEEeiQjaFO9jgXoA" entityName="decisionMaking" predecessor_AbstractAction="_t1rpkNFEEeiQjaFO9jgXoA" successor_AbstractAction="_vcDHQtFAEeiQjaFO9jgXoA"/>
+      </serviceEffectSpecifications__BasicComponent>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_kodaINFGEeiQjaFO9jgXoA" describedService__SEFF="_CD-EoNFBEeiQjaFO9jgXoA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_lih1sNFGEeiQjaFO9jgXoA" successor_AbstractAction="_nbFSwNFGEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_lih1sdFGEeiQjaFO9jgXoA" predecessor_AbstractAction="_nbFSwNFGEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_nbFSwNFGEeiQjaFO9jgXoA" entityName="sendToUnderperformer" predecessor_AbstractAction="_lih1sNFGEeiQjaFO9jgXoA" successor_AbstractAction="_lih1sdFGEeiQjaFO9jgXoA"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_vz110NE4EeiQjaFO9jgXoA" entityName="Production">
+      <signatures__OperationInterface id="_oD_YwNE5EeiQjaFO9jgXoA" entityName="sendYieldData">
+        <parameters__OperationSignature dataType__Parameter="_qzmZoNE5EeiQjaFO9jgXoA" parameterName="yieldRawData"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_GKIiYNE5EeiQjaFO9jgXoA" entityName="ExchangeYield">
+      <signatures__OperationInterface id="_M5iZoNE5EeiQjaFO9jgXoA" entityName="calculateYield">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.3"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_P6l6YNE6EeiQjaFO9jgXoA" entityName="Analyst">
+      <signatures__OperationInterface id="_0At0ANE6EeiQjaFO9jgXoA" entityName="findCompanies" returnType__OperationSignature="_iH-ekNE_EeiQjaFO9jgXoA"/>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_EFdC8NE7EeiQjaFO9jgXoA" entityName="Board">
+      <signatures__OperationInterface id="_k4zK8NFAEeiQjaFO9jgXoA" entityName="analyzeYield">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </signatures__OperationInterface>
+      <signatures__OperationInterface id="_CD-EoNFBEeiQjaFO9jgXoA" entityName="informCompanies">
+        <parameters__OperationSignature dataType__Parameter="_iH-ekNE_EeiQjaFO9jgXoA" parameterName="underPerformer"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_Knwc4NE8EeiQjaFO9jgXoA" entityName="ExchangeRawData">
+      <signatures__OperationInterface id="_Q6XqcNE8EeiQjaFO9jgXoA" entityName="getYieldData" returnType__OperationSignature="_UpfAgNE8EeiQjaFO9jgXoA"/>
+    </interfaces__Repository>
+    <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_qzmZoNE5EeiQjaFO9jgXoA" entityName="YieldData">
+      <innerDeclaration_CompositeDataType entityName="countTotalProducts">
+        <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </innerDeclaration_CompositeDataType>
+      <innerDeclaration_CompositeDataType entityName="countBrockenProducts">
+        <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+      </innerDeclaration_CompositeDataType>
+    </dataTypes__Repository>
+    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_UpfAgNE8EeiQjaFO9jgXoA" entityName="ListYieldData" innerType_CollectionDataType="_qzmZoNE5EeiQjaFO9jgXoA"/>
+    <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_iH-ekNE_EeiQjaFO9jgXoA" entityName="Underperformer">
+      <innerType_CollectionDataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </dataTypes__Repository>
+  </repository:Repository>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="dataProcessingProfile:StoreHaving" appliedTo="_XpdgANE5EeiQjaFO9jgXoA">
+      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_pFHmQFqjEeiW1d-qz7Oqsw"/>
+      <storeContainer href="uc3.dataprocessing#_ohSa8dFIEeiQjaFO9jgXoA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_7Qev4NFGEeiQjaFO9jgXoA">
+      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_YGiQIFqhEeiGTpqaWj7bwA"/>
+      <dataProcessingContainer href="uc3.dataprocessing#_Emz7MNFJEeiQjaFO9jgXoA"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_zcxjANFGEeiQjaFO9jgXoA">
+      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_YGiQIFqhEeiGTpqaWj7bwA"/>
+      <dataProcessingContainer href="uc3.dataprocessing#_8JJU4NFUEeiQjaFO9jgXoA"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" location="platform:/resource/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

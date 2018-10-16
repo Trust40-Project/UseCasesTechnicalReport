@@ -9,6 +9,11 @@
     <semanticResources>uc3.usagemodel</semanticResources>
     <semanticResources>uc3.resourceenvironment</semanticResources>
     <semanticResources>uc3.allocation</semanticResources>
+    <semanticResources>uc3.dataprocessing</semanticResources>
+    <semanticResources>platform:/resource/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram</semanticResources>
+    <semanticResources>http://www.modelversioning.org/emfprofile/application/1.1</semanticResources>
+    <semanticResources>http://www.palladiosimulator.org/pcm/dataprocessing/0.1/</semanticResources>
+    <semanticResources>http://palladiosimulator.org/PalladioComponentModel/5.2</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_qegI0NE4EeiQjaFO9jgXoA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_qfEJgNE4EeiQjaFO9jgXoA" name="new Repository Diagram" repPath="#_qerH8NE4EeiQjaFO9jgXoA">
@@ -535,7 +540,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='Interface']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@defaultLayer/@containerMappings[name='Interface']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_oEH7oNE5EeiQjaFO9jgXoA" name="void sendYieldData()">
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_oEH7oNE5EeiQjaFO9jgXoA" name="void sendYieldData(YieldData yieldRawData)">
         <target xmi:type="repository:OperationSignature" href="uc3.repository#_oD_YwNE5EeiQjaFO9jgXoA"/>
         <semanticElements xmi:type="repository:OperationSignature" href="uc3.repository#_oD_YwNE5EeiQjaFO9jgXoA"/>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_oELmANE5EeiQjaFO9jgXoA" showIcon="false" labelPosition="node">
@@ -684,16 +689,16 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@additionalLayers[name='DataTypes']/@containerMappings[name='CompositeDataType']"/>
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_ub9ncNE5EeiQjaFO9jgXoA" name="countTotalProducts : INT">
-        <target xmi:type="repository:InnerDeclaration" href="uc3.repository#//@dataTypes__Repository.0/@innerDeclaration_CompositeDataType.0"/>
-        <semanticElements xmi:type="repository:InnerDeclaration" href="uc3.repository#//@dataTypes__Repository.0/@innerDeclaration_CompositeDataType.0"/>
+        <target xmi:type="repository:InnerDeclaration" href="uc3.repository#/0/@dataTypes__Repository.0/@innerDeclaration_CompositeDataType.0"/>
+        <semanticElements xmi:type="repository:InnerDeclaration" href="uc3.repository#/0/@dataTypes__Repository.0/@innerDeclaration_CompositeDataType.0"/>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_ucM4ANE5EeiQjaFO9jgXoA" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@additionalLayers[name='DataTypes']/@containerMappings[name='CompositeDataType']/@subNodeMappings[name='InnerDeclaration']/@conditionnalStyles.0/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@additionalLayers[name='DataTypes']/@containerMappings[name='CompositeDataType']/@subNodeMappings[name='InnerDeclaration']"/>
       </ownedElements>
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_0YIq8NE5EeiQjaFO9jgXoA" name="countBrockenProducts : INT">
-        <target xmi:type="repository:InnerDeclaration" href="uc3.repository#//@dataTypes__Repository.0/@innerDeclaration_CompositeDataType.1"/>
-        <semanticElements xmi:type="repository:InnerDeclaration" href="uc3.repository#//@dataTypes__Repository.0/@innerDeclaration_CompositeDataType.1"/>
+        <target xmi:type="repository:InnerDeclaration" href="uc3.repository#/0/@dataTypes__Repository.0/@innerDeclaration_CompositeDataType.1"/>
+        <semanticElements xmi:type="repository:InnerDeclaration" href="uc3.repository#/0/@dataTypes__Repository.0/@innerDeclaration_CompositeDataType.1"/>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_0YLHMNE5EeiQjaFO9jgXoA" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@additionalLayers[name='DataTypes']/@containerMappings[name='CompositeDataType']/@subNodeMappings[name='InnerDeclaration']/@conditionnalStyles.0/@style"/>
         </ownedStyle>

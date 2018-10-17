@@ -3,10 +3,12 @@
   <repository:Repository id="_phDpINE4EeiQjaFO9jgXoA" entityName="UC3">
     <components__Repository xsi:type="repository:BasicComponent" id="_CqYeANE5EeiQjaFO9jgXoA" entityName="Company">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_FDz-ENE6EeiQjaFO9jgXoA" entityName="Company.Production.Provider" providedInterface__OperationProvidedRole="_vz110NE4EeiQjaFO9jgXoA"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_pa5aENIlEeiQLKAFsSg2Tw" entityName="Company.ExchangeRawData.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_Knwc4NE8EeiQjaFO9jgXoA"/>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_FECnkNE6EeiQjaFO9jgXoA" describedService__SEFF="_oD_YwNE5EeiQjaFO9jgXoA">
         <steps_Behaviour xsi:type="seff:StartAction" id="_FECnkdE6EeiQjaFO9jgXoA" successor_AbstractAction="_7Qev4NFGEeiQjaFO9jgXoA"/>
-        <steps_Behaviour xsi:type="seff:StopAction" id="_FECnktE6EeiQjaFO9jgXoA" predecessor_AbstractAction="_7Qev4NFGEeiQjaFO9jgXoA"/>
-        <steps_Behaviour xsi:type="seff:InternalAction" id="_7Qev4NFGEeiQjaFO9jgXoA" entityName="sendingData" predecessor_AbstractAction="_FECnkdE6EeiQjaFO9jgXoA" successor_AbstractAction="_FECnktE6EeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_FECnktE6EeiQjaFO9jgXoA" predecessor_AbstractAction="_5lL3YNIlEeiQLKAFsSg2Tw"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_7Qev4NFGEeiQjaFO9jgXoA" entityName="sendingData" predecessor_AbstractAction="_FECnkdE6EeiQjaFO9jgXoA" successor_AbstractAction="_5lL3YNIlEeiQLKAFsSg2Tw"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_5lL3YNIlEeiQLKAFsSg2Tw" entityName="ExternalCallAction1" predecessor_AbstractAction="_7Qev4NFGEeiQjaFO9jgXoA" successor_AbstractAction="_FECnktE6EeiQjaFO9jgXoA" calledService_ExternalService="_WMQa8NIlEeiQLKAFsSg2Tw" role_ExternalService="_pa5aENIlEeiQLKAFsSg2Tw"/>
       </serviceEffectSpecifications__BasicComponent>
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="_XpdgANE5EeiQjaFO9jgXoA" entityName="Trust4.0Component">
@@ -20,6 +22,11 @@
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_o2_boNE8EeiQjaFO9jgXoA" describedService__SEFF="_M5iZoNE5EeiQjaFO9jgXoA">
         <steps_Behaviour xsi:type="seff:StartAction" id="_o2_bodE8EeiQjaFO9jgXoA" successor_AbstractAction="_o3ACsNE8EeiQjaFO9jgXoA"/>
         <steps_Behaviour xsi:type="seff:StopAction" id="_o3ACsNE8EeiQjaFO9jgXoA" predecessor_AbstractAction="_o2_bodE8EeiQjaFO9jgXoA"/>
+      </serviceEffectSpecifications__BasicComponent>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_tTrpgNIlEeiQLKAFsSg2Tw" describedService__SEFF="_WMQa8NIlEeiQLKAFsSg2Tw">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_udysMNIlEeiQLKAFsSg2Tw" successor_AbstractAction="_ySqE8NIlEeiQLKAFsSg2Tw"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_udysMdIlEeiQLKAFsSg2Tw" predecessor_AbstractAction="_ySqE8NIlEeiQLKAFsSg2Tw"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_ySqE8NIlEeiQLKAFsSg2Tw" entityName="InternalAction1" predecessor_AbstractAction="_udysMNIlEeiQLKAFsSg2Tw" successor_AbstractAction="_udysMdIlEeiQLKAFsSg2Tw"/>
       </serviceEffectSpecifications__BasicComponent>
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="_Q-oKQNE6EeiQjaFO9jgXoA" entityName="AnalystSystem">
@@ -72,6 +79,10 @@
     </interfaces__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_Knwc4NE8EeiQjaFO9jgXoA" entityName="ExchangeRawData">
       <signatures__OperationInterface id="_Q6XqcNE8EeiQjaFO9jgXoA" entityName="getYieldData" returnType__OperationSignature="_UpfAgNE8EeiQjaFO9jgXoA"/>
+      <signatures__OperationInterface id="_WMQa8NIlEeiQLKAFsSg2Tw" entityName="storeRawData">
+        <parameters__OperationSignature dataType__Parameter="_qzmZoNE5EeiQjaFO9jgXoA" parameterName="data"/>
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </signatures__OperationInterface>
     </interfaces__Repository>
     <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_qzmZoNE5EeiQjaFO9jgXoA" entityName="YieldData">
       <innerDeclaration_CompositeDataType entityName="countTotalProducts">

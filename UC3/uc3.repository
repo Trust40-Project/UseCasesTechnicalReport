@@ -35,6 +35,7 @@
     <components__Repository xsi:type="repository:BasicComponent" id="_RPhF8NE6EeiQjaFO9jgXoA" entityName="BoardSystem">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vcCgMNFAEeiQjaFO9jgXoA" entityName="BoardSystem.Board.Provided" providedInterface__OperationProvidedRole="_EFdC8NE7EeiQjaFO9jgXoA"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_q4ffsNFEEeiQjaFO9jgXoA" entityName="BoardSystem.ExchangeYield.getYield" requiredInterface__OperationRequiredRole="_GKIiYNE5EeiQjaFO9jgXoA"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_V6KXQNHWEeiMGIOcI6i4Hw" entityName="BoardSystem.Analyst.OperationRequiredRole2" requiredInterface__OperationRequiredRole="_P6l6YNE6EeiQjaFO9jgXoA"/>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_vcDHQNFAEeiQjaFO9jgXoA" describedService__SEFF="_k4zK8NFAEeiQjaFO9jgXoA">
         <steps_Behaviour xsi:type="seff:StartAction" id="_vcDHQdFAEeiQjaFO9jgXoA" successor_AbstractAction="_t1rpkNFEEeiQjaFO9jgXoA"/>
         <steps_Behaviour xsi:type="seff:StopAction" id="_vcDHQtFAEeiQjaFO9jgXoA" predecessor_AbstractAction="_vZHyQNFEEeiQjaFO9jgXoA"/>
@@ -42,9 +43,10 @@
         <steps_Behaviour xsi:type="seff:InternalAction" id="_vZHyQNFEEeiQjaFO9jgXoA" entityName="decisionMaking" predecessor_AbstractAction="_t1rpkNFEEeiQjaFO9jgXoA" successor_AbstractAction="_vcDHQtFAEeiQjaFO9jgXoA"/>
       </serviceEffectSpecifications__BasicComponent>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_kodaINFGEeiQjaFO9jgXoA" describedService__SEFF="_CD-EoNFBEeiQjaFO9jgXoA">
-        <steps_Behaviour xsi:type="seff:StartAction" id="_lih1sNFGEeiQjaFO9jgXoA" successor_AbstractAction="_nbFSwNFGEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:StartAction" id="_lih1sNFGEeiQjaFO9jgXoA" successor_AbstractAction="_lm9AQNHWEeiMGIOcI6i4Hw"/>
         <steps_Behaviour xsi:type="seff:StopAction" id="_lih1sdFGEeiQjaFO9jgXoA" predecessor_AbstractAction="_nbFSwNFGEeiQjaFO9jgXoA"/>
-        <steps_Behaviour xsi:type="seff:InternalAction" id="_nbFSwNFGEeiQjaFO9jgXoA" entityName="sendToUnderperformer" predecessor_AbstractAction="_lih1sNFGEeiQjaFO9jgXoA" successor_AbstractAction="_lih1sdFGEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_nbFSwNFGEeiQjaFO9jgXoA" entityName="sendToUnderperformer" predecessor_AbstractAction="_lm9AQNHWEeiMGIOcI6i4Hw" successor_AbstractAction="_lih1sdFGEeiQjaFO9jgXoA"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_lm9AQNHWEeiMGIOcI6i4Hw" entityName="ExternalCallAction1" predecessor_AbstractAction="_lih1sNFGEeiQjaFO9jgXoA" successor_AbstractAction="_nbFSwNFGEeiQjaFO9jgXoA" calledService_ExternalService="_0At0ANE6EeiQjaFO9jgXoA" role_ExternalService="_V6KXQNHWEeiMGIOcI6i4Hw"/>
       </serviceEffectSpecifications__BasicComponent>
     </components__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_vz110NE4EeiQjaFO9jgXoA" entityName="Production">

@@ -27,19 +27,23 @@
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_vK86wNFBEeiQjaFO9jgXoA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_s2GjQNFBEeiQjaFO9jgXoA" assemblyContext_ProvidedDelegationConnector="_c_eBwNFBEeiQjaFO9jgXoA">
     <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_FDz-ENE6EeiQjaFO9jgXoA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__9YOwNFEEeiQjaFO9jgXoA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_5PurANFEEeiQjaFO9jgXoA" assemblyContext_ProvidedDelegationConnector="_ZjfqINFBEeiQjaFO9jgXoA">
-    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_vcCgMNFAEeiQjaFO9jgXoA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_lqGSwNFFEeiQjaFO9jgXoA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_ILHCANFBEeiQjaFO9jgXoA" providingAssemblyContext_AssemblyConnector="_Ho-ogNFFEeiQjaFO9jgXoA">
+    <providedRole_AssemblyConnector href="uc3.repository#_jlKVoNE8EeiQjaFO9jgXoA"/>
+    <requiredRole_AssemblyConnector href="uc3.repository#_e6q8cNE8EeiQjaFO9jgXoA"/>
   </connectors__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_P6RwUNFFEeiQjaFO9jgXoA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_ZjfqINFBEeiQjaFO9jgXoA" providingAssemblyContext_AssemblyConnector="_Ho-ogNFFEeiQjaFO9jgXoA">
     <providedRole_AssemblyConnector href="uc3.repository#_o2-0kNE8EeiQjaFO9jgXoA"/>
     <requiredRole_AssemblyConnector href="uc3.repository#_q4ffsNFEEeiQjaFO9jgXoA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_kOmlINFFEeiQjaFO9jgXoA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_gBWhkNFFEeiQjaFO9jgXoA" assemblyContext_ProvidedDelegationConnector="_ILHCANFBEeiQjaFO9jgXoA">
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_kOmlINFFEeiQjaFO9jgXoA" entityName="newProvidedDelegationConnector" assemblyContext_ProvidedDelegationConnector="_ILHCANFBEeiQjaFO9jgXoA">
     <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_W8-wUNFAEeiQjaFO9jgXoA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_lqGSwNFFEeiQjaFO9jgXoA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_ILHCANFBEeiQjaFO9jgXoA" providingAssemblyContext_AssemblyConnector="_Ho-ogNFFEeiQjaFO9jgXoA">
-    <providedRole_AssemblyConnector href="uc3.repository#_jlKVoNE8EeiQjaFO9jgXoA"/>
-    <requiredRole_AssemblyConnector href="uc3.repository#_e6q8cNE8EeiQjaFO9jgXoA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_QXotYNHXEeiMGIOcI6i4Hw" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_ZjfqINFBEeiQjaFO9jgXoA" providingAssemblyContext_AssemblyConnector="_ILHCANFBEeiQjaFO9jgXoA">
+    <providedRole_AssemblyConnector href="uc3.repository#_W8-wUNFAEeiQjaFO9jgXoA"/>
+    <requiredRole_AssemblyConnector href="uc3.repository#_V6KXQNHWEeiMGIOcI6i4Hw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_V1UeENHXEeiMGIOcI6i4Hw" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_Rv3roNHXEeiMGIOcI6i4Hw" assemblyContext_ProvidedDelegationConnector="_ZjfqINFBEeiQjaFO9jgXoA">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_vcCgMNFAEeiQjaFO9jgXoA"/>
   </connectors__ComposedStructure>
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_W25hANFBEeiQjaFO9jgXoA" entityName="sendDataA">
     <providedInterface__OperationProvidedRole href="uc3.repository#_vz110NE4EeiQjaFO9jgXoA"/>
@@ -50,10 +54,7 @@
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_s2GjQNFBEeiQjaFO9jgXoA" entityName="sendDataC">
     <providedInterface__OperationProvidedRole href="uc3.repository#_vz110NE4EeiQjaFO9jgXoA"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_5PurANFEEeiQjaFO9jgXoA" entityName="bordCheck">
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Rv3roNHXEeiMGIOcI6i4Hw" entityName="Board">
     <providedInterface__OperationProvidedRole href="uc3.repository#_EFdC8NE7EeiQjaFO9jgXoA"/>
-  </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gBWhkNFFEeiQjaFO9jgXoA" entityName="analystStart">
-    <providedInterface__OperationProvidedRole href="uc3.repository#_P6l6YNE6EeiQjaFO9jgXoA"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

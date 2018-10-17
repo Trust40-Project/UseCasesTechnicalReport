@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2">
-  <repository:Repository id="_phDpINE4EeiQjaFO9jgXoA" entityName="New Repository">
+  <repository:Repository id="_phDpINE4EeiQjaFO9jgXoA" entityName="UC3">
     <components__Repository xsi:type="repository:BasicComponent" id="_CqYeANE5EeiQjaFO9jgXoA" entityName="Company">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_FDz-ENE6EeiQjaFO9jgXoA" entityName="Company.Production.Provider" providedInterface__OperationProvidedRole="_vz110NE4EeiQjaFO9jgXoA"/>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_FECnkNE6EeiQjaFO9jgXoA" describedService__SEFF="_oD_YwNE5EeiQjaFO9jgXoA">

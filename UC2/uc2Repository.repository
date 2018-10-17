@@ -47,10 +47,12 @@
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_UqamAM1JEeisTqbPtEoafA" entityName="ExchangeModule.QAAnalytics.OperationRequiredRole3" requiredInterface__OperationRequiredRole="_y-L3kM0qEeisTqbPtEoafA"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_5OERcM3_EeiBbcXKG7KJGA" entityName="ExchangeModule.QARating.external" requiredInterface__OperationRequiredRole="_qomnwMVKEeiR2rBVsJCuAw"/>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_VkHM4M3zEeiBbcXKG7KJGA" describedService__SEFF="__wumIMVMEeiR2rBVsJCuAw">
-        <steps_Behaviour xsi:type="seff:StartAction" id="_V9gkUM3zEeiBbcXKG7KJGA" successor_AbstractAction="_mrMCkM3zEeiBbcXKG7KJGA"/>
-        <steps_Behaviour xsi:type="seff:StopAction" id="_V9gkUc3zEeiBbcXKG7KJGA" predecessor_AbstractAction="_X22rkM3zEeiBbcXKG7KJGA"/>
-        <steps_Behaviour xsi:type="seff:InternalAction" id="_X22rkM3zEeiBbcXKG7KJGA" entityName="InternalAction1" predecessor_AbstractAction="_mrMCkM3zEeiBbcXKG7KJGA" successor_AbstractAction="_V9gkUc3zEeiBbcXKG7KJGA"/>
-        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_mrMCkM3zEeiBbcXKG7KJGA" entityName="ExternalCallAction1" predecessor_AbstractAction="_V9gkUM3zEeiBbcXKG7KJGA" successor_AbstractAction="_X22rkM3zEeiBbcXKG7KJGA" calledService_ExternalService="_V4z-4MYOEeiz2vvpaUChIA" role_ExternalService="_UqamAM1JEeisTqbPtEoafA"/>
+        <steps_Behaviour xsi:type="seff:StartAction" id="_V9gkUM3zEeiBbcXKG7KJGA" successor_AbstractAction="_upX0QNHcEeiMGIOcI6i4Hw"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_V9gkUc3zEeiBbcXKG7KJGA" predecessor_AbstractAction="_vz3RcNHcEeiMGIOcI6i4Hw"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_X22rkM3zEeiBbcXKG7KJGA" entityName="InternalAction1" predecessor_AbstractAction="_mrMCkM3zEeiBbcXKG7KJGA" successor_AbstractAction="_vz3RcNHcEeiMGIOcI6i4Hw"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_mrMCkM3zEeiBbcXKG7KJGA" entityName="ExternalCallAction1" predecessor_AbstractAction="_upX0QNHcEeiMGIOcI6i4Hw" successor_AbstractAction="_X22rkM3zEeiBbcXKG7KJGA" calledService_ExternalService="_V4z-4MYOEeiz2vvpaUChIA" role_ExternalService="_UqamAM1JEeisTqbPtEoafA"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_upX0QNHcEeiMGIOcI6i4Hw" entityName="ExternalCallAction2" predecessor_AbstractAction="_V9gkUM3zEeiBbcXKG7KJGA" successor_AbstractAction="_mrMCkM3zEeiBbcXKG7KJGA" calledService_ExternalService="_rr8UEMVKEeiR2rBVsJCuAw" role_ExternalService="_A9_A8M30EeiBbcXKG7KJGA"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_vz3RcNHcEeiMGIOcI6i4Hw" entityName="ExternalCallAction3" predecessor_AbstractAction="_X22rkM3zEeiBbcXKG7KJGA" successor_AbstractAction="_V9gkUc3zEeiBbcXKG7KJGA" calledService_ExternalService="_rr8UEMVKEeiR2rBVsJCuAw" role_ExternalService="_A9_A8M30EeiBbcXKG7KJGA"/>
       </serviceEffectSpecifications__BasicComponent>
     </components__Repository>
     <components__Repository xsi:type="subsystem:SubSystem" id="_Cxl5oMVOEeiR2rBVsJCuAw" entityName="CompanyA">

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynamicextension:DynamicSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/context/0.1/" xmlns:dynamicextension="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/0.1/" xmlns:subject="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/util/subject/0.1/">
+  <contextContainer>
+    <context xsi:type="context:OrganisationContext" id="_xutzYduGEei4qaaWaD0O5g" entityName="P1" organisation="_auE0MtuEEeiT9b7IUeV5JQ"/>
+    <context xsi:type="context:OrganisationContext" id="_0Q9GoduGEei4qaaWaD0O5g" entityName="P2" organisation="_cP3-ItuEEeiT9b7IUeV5JQ"/>
+    <context xsi:type="context:OrganisationContext" id="_2TIZwduGEei4qaaWaD0O5g" entityName="P3" organisation="_d0nHUtuEEeiT9b7IUeV5JQ"/>
+    <context xsi:type="context:OrganisationContext" id="__CgksduGEei4qaaWaD0O5g" entityName="Board" organisation="_uKxLgtuGEei4qaaWaD0O5g"/>
+    <context xsi:type="context:RoleContext" id="_Ap6nY9uHEei4qaaWaD0O5g"/>
+    <context xsi:type="context:InternalStateContext" id="_OGF4pNuHEei4qaaWaD0O5g" entityName="Threshold">
+      <state href="uc3.dataprocessing#_l4Ht8NuIEei4qaaWaD0O5g"/>
+    </context>
+  </contextContainer>
+  <subjectContainer>
+    <subject xsi:type="subject:Organisation" id="_auE0MtuEEeiT9b7IUeV5JQ" entityName="P1"/>
+    <subject xsi:type="subject:Organisation" id="_cP3-ItuEEeiT9b7IUeV5JQ" entityName="P2"/>
+    <subject xsi:type="subject:Organisation" id="_d0nHUtuEEeiT9b7IUeV5JQ" entityName="P3"/>
+    <subject xsi:type="subject:Organisation" id="_uKxLgtuGEei4qaaWaD0O5g" entityName="Board"/>
+    <subject xsi:type="subject:Resource" id="_KO2hUNuHEei4qaaWaD0O5g" entityName="ThresholdValue"/>
+  </subjectContainer>
+  <helperContainer>
+    <rolecontainer id="_6eRkgNuGEei4qaaWaD0O5g" entityName="Analyst" organisation="_uKxLgtuGEei4qaaWaD0O5g"/>
+  </helperContainer>
+</dynamicextension:DynamicSpecification>

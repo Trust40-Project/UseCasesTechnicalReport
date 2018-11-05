@@ -54,6 +54,15 @@
     <providedRole_AssemblyConnector href="uc3.repository#_jlKVoNE8EeiQjaFO9jgXoA"/>
     <requiredRole_AssemblyConnector href="uc3.repository#_pa5aENIlEeiQLKAFsSg2Tw"/>
   </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_URzT4ODgEeiNqNk0iypkYA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_IVaaYODgEeiNqNk0iypkYA" assemblyContext_ProvidedDelegationConnector="_L_BYgNFBEeiQjaFO9jgXoA">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_Bj0KwODgEeiNqNk0iypkYA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_VQyEoODgEeiNqNk0iypkYA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_OAV84ODgEeiNqNk0iypkYA" assemblyContext_ProvidedDelegationConnector="_bJD5wNFBEeiQjaFO9jgXoA">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_Bj0KwODgEeiNqNk0iypkYA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_V7hqwODgEeiNqNk0iypkYA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_QuUmEODgEeiNqNk0iypkYA" assemblyContext_ProvidedDelegationConnector="_c_eBwNFBEeiQjaFO9jgXoA">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc3.repository#_Bj0KwODgEeiNqNk0iypkYA"/>
+  </connectors__ComposedStructure>
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_W25hANFBEeiQjaFO9jgXoA" entityName="sendDataA">
     <providedInterface__OperationProvidedRole href="uc3.repository#_vz110NE4EeiQjaFO9jgXoA"/>
   </providedRoles_InterfaceProvidingEntity>
@@ -65,5 +74,14 @@
   </providedRoles_InterfaceProvidingEntity>
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Rv3roNHXEeiMGIOcI6i4Hw" entityName="Board">
     <providedInterface__OperationProvidedRole href="uc3.repository#_EFdC8NE7EeiQjaFO9jgXoA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IVaaYODgEeiNqNk0iypkYA" entityName="grantAccessA">
+    <providedInterface__OperationProvidedRole href="uc3.repository#_sluAMODfEeiNqNk0iypkYA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_OAV84ODgEeiNqNk0iypkYA" entityName="grantAccessB">
+    <providedInterface__OperationProvidedRole href="uc3.repository#_sluAMODfEeiNqNk0iypkYA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_QuUmEODgEeiNqNk0iypkYA" entityName="grantAccessC">
+    <providedInterface__OperationProvidedRole href="uc3.repository#_sluAMODfEeiNqNk0iypkYA"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

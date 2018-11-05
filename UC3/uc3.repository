@@ -3,12 +3,17 @@
   <repository:Repository id="_phDpINE4EeiQjaFO9jgXoA" entityName="UC3">
     <components__Repository xsi:type="repository:BasicComponent" id="_CqYeANE5EeiQjaFO9jgXoA" entityName="Company">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_FDz-ENE6EeiQjaFO9jgXoA" entityName="Company.Production.Provider" providedInterface__OperationProvidedRole="_vz110NE4EeiQjaFO9jgXoA"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Bj0KwODgEeiNqNk0iypkYA" entityName="Company.PhysicalAccessControl.OperationProvidedRole2" providedInterface__OperationProvidedRole="_sluAMODfEeiNqNk0iypkYA"/>
       <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_pa5aENIlEeiQLKAFsSg2Tw" entityName="Company.ExchangeRawData.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_Knwc4NE8EeiQjaFO9jgXoA"/>
       <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_FECnkNE6EeiQjaFO9jgXoA" describedService__SEFF="_oD_YwNE5EeiQjaFO9jgXoA">
         <steps_Behaviour xsi:type="seff:StartAction" id="_FECnkdE6EeiQjaFO9jgXoA" successor_AbstractAction="_7Qev4NFGEeiQjaFO9jgXoA"/>
         <steps_Behaviour xsi:type="seff:StopAction" id="_FECnktE6EeiQjaFO9jgXoA" predecessor_AbstractAction="_5lL3YNIlEeiQLKAFsSg2Tw"/>
         <steps_Behaviour xsi:type="seff:InternalAction" id="_7Qev4NFGEeiQjaFO9jgXoA" entityName="sendingData" predecessor_AbstractAction="_FECnkdE6EeiQjaFO9jgXoA" successor_AbstractAction="_5lL3YNIlEeiQLKAFsSg2Tw"/>
         <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_5lL3YNIlEeiQLKAFsSg2Tw" entityName="ExternalCallAction1" predecessor_AbstractAction="_7Qev4NFGEeiQjaFO9jgXoA" successor_AbstractAction="_FECnktE6EeiQjaFO9jgXoA" calledService_ExternalService="_WMQa8NIlEeiQLKAFsSg2Tw" role_ExternalService="_pa5aENIlEeiQLKAFsSg2Tw"/>
+      </serviceEffectSpecifications__BasicComponent>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_BkQPoODgEeiNqNk0iypkYA" describedService__SEFF="_033ckODfEeiNqNk0iypkYA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_BkQPoeDgEeiNqNk0iypkYA" successor_AbstractAction="_BkQ2sODgEeiNqNk0iypkYA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_BkQ2sODgEeiNqNk0iypkYA" predecessor_AbstractAction="_BkQPoeDgEeiNqNk0iypkYA"/>
       </serviceEffectSpecifications__BasicComponent>
     </components__Repository>
     <components__Repository xsi:type="repository:BasicComponent" id="_XpdgANE5EeiQjaFO9jgXoA" entityName="Trust4.0Component">
@@ -81,6 +86,14 @@
       <signatures__OperationInterface id="_Q6XqcNE8EeiQjaFO9jgXoA" entityName="getYieldData" returnType__OperationSignature="_UpfAgNE8EeiQjaFO9jgXoA"/>
       <signatures__OperationInterface id="_WMQa8NIlEeiQLKAFsSg2Tw" entityName="storeRawData">
         <parameters__OperationSignature dataType__Parameter="_qzmZoNE5EeiQjaFO9jgXoA" parameterName="data"/>
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_sluAMODfEeiNqNk0iypkYA" entityName="PhysicalAccessControl">
+      <signatures__OperationInterface id="_033ckODfEeiNqNk0iypkYA" entityName="grantAccess">
+        <parameters__OperationSignature parameterName="AnlystID">
+          <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
+        </parameters__OperationSignature>
         <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
       </signatures__OperationInterface>
     </interfaces__Repository>

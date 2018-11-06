@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dynamicextension:DynamicSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dynamicextension="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/0.1/" xmlns:subject="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/util/subject/0.1/">
   <subjectContainer>
-    <subject xsi:type="subject:Organisation" id="_TuvKcuDdEeiigpybf_izIg" entityName="A"/>
-    <subject xsi:type="subject:Organisation" id="_lIwKQuDdEeiRtrllMPmB2g" entityName="B"/>
-    <subject xsi:type="subject:Organisation" id="_muex8uDdEeiRtrllMPmB2g" entityName="C"/>
-    <subject xsi:type="subject:Organisation" id="_nwXswuDdEeiRtrllMPmB2g" entityName="Board"/>
+    <subject xsi:type="subject:Organisation" id="_oXYmYuHCEeirTeYeTcA46A" entityName="A"/>
+    <subject xsi:type="subject:Organisation" id="_aNdzcuHEEeiTULMW6esO6g" entityName="B"/>
+    <subject xsi:type="subject:Organisation" id="_a14eUuHEEeiTULMW6esO6g" entityName="C"/>
+    <subject xsi:type="subject:Organisation" id="_dqDPEuHEEeiTULMW6esO6g" entityName="Board"/>
   </subjectContainer>
   <helperContainer>
     <rolecontainer id="_6eRkgNuGEei4qaaWaD0O5g" entityName="Analyst">
-      <role id="_ykVloODdEeiNqNk0iypkYA"/>
+      <role id="_ykVloODdEeiNqNk0iypkYA" entityName="Analyst"/>
     </rolecontainer>
   </helperContainer>
 </dynamicextension:DynamicSpecification>

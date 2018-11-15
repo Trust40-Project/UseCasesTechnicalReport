@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_TeWeUOfeEei3jaZd_YAISA" entityName="New Repository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_Ze_yIOfeEei3jaZd_YAISA" entityName="BasicComponent1"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_Z57aoOfeEei3jaZd_YAISA" entityName="BasicComponent2"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_a0CScOfeEei3jaZd_YAISA" entityName="BasicComponent3"/>
+</repository:Repository>

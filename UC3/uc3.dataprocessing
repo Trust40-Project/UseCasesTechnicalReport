@@ -39,6 +39,9 @@
   <dataProcessingContainers
       id="_FBC_cNwmEeiJmdjBjE0Jgg"
       entityName="sendRawDataP1"/>
+  <dataProcessingContainers
+      id="_NwNYgOgaEeiLAotxNZ6BvA"
+      entityName="grantAccess"/>
   <characteristicTypeContainers
       id="_ZnTckduIEei4qaaWaD0O5g">
     <characteristicTypes
@@ -80,6 +83,13 @@
         <organisation
             href="uc3.dynamicextension#_dqDPEuHEEeiTULMW6esO6g"/>
       </context>
+      <context
+          xsi:type="context:RoleContext"
+          id="_pnMdcOcdEeiT4djMheTQDg"
+          entityName="Analyst">
+        <roles
+            href="uc3.dynamicextension#_ykVloODdEeiNqNk0iypkYA"/>
+      </context>
     </characteristicTypes>
     <enumerations
         id="_bVGbIduIEei4qaaWaD0O5g"
@@ -105,12 +115,40 @@
   </storeContainers>
   <characteristicContainer
       id="_gyMyM9wmEeiJmdjBjE0Jgg"
-      entityName="Container"/>
+      entityName="sendRawDataP1">
+    <ownedCharacteristics
+        xsi:type="context:ContextCharacteristic"
+        id="_PXdgoOgOEeiPr8ebKL3jvg"
+        characteristicType="_WV0GUtw7Eei6-4fR3BeQrg"
+        context="_5WL-8eHEEeiVSpVhFTwBww"/>
+  </characteristicContainer>
+  <characteristicContainer
+      id="_tExvA-gXEeiLAotxNZ6BvA"
+      entityName="Companies">
+    <ownedCharacteristics
+        xsi:type="context:ContextCharacteristic"
+        id="_ylzHkegXEeiLAotxNZ6BvA"
+        characteristicType="_WV0GUtw7Eei6-4fR3BeQrg"
+        context="_5WL-8eHEEeiVSpVhFTwBww"/>
+  </characteristicContainer>
+  <characteristicContainer
+      id="_0tBLY-gaEeiLAotxNZ6BvA"
+      entityName="grantAccess">
+    <ownedCharacteristics
+        xsi:type="context:ContextCharacteristic"
+        id="_2txiMegaEeiLAotxNZ6BvA"
+        characteristicType="_WV0GUtw7Eei6-4fR3BeQrg"
+        context="_pnMdcOcdEeiT4djMheTQDg"/>
+  </characteristicContainer>
   <relatedCharacteristics
       id="_6zmwhtwkEeiJmdjBjE0Jgg"
       entityName="sendRawDataP1"
       characteristics="_gyMyM9wmEeiJmdjBjE0Jgg"
       relatedEntity="_FBC_cNwmEeiJmdjBjE0Jgg"/>
+  <relatedCharacteristics
+      id="_UVeZJegWEeiLAotxNZ6BvA"
+      characteristics="_Br56gNwkEeiJmdjBjE0Jgg"
+      relatedEntity="_Emz7MNFJEeiQjaFO9jgXoA"/>
   <storeCharacteristicContainers
       id="_A-L459wkEeiJmdjBjE0Jgg">
     <characteristics

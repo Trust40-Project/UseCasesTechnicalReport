@@ -5,6 +5,7 @@
     <subject xsi:type="subject:Organisation" id="_aNdzcuHEEeiTULMW6esO6g" entityName="B"/>
     <subject xsi:type="subject:Organisation" id="_a14eUuHEEeiTULMW6esO6g" entityName="C"/>
     <subject xsi:type="subject:Organisation" id="_dqDPEuHEEeiTULMW6esO6g" entityName="Board"/>
+    <subject xsi:type="subject:User" id="_ks2I4OdVEeiecMXQ9Ad1dQ" entityName="Maxi"/>
   </subjectContainer>
   <helperContainer>
     <rolecontainer id="_6eRkgNuGEei4qaaWaD0O5g" entityName="Analyst">

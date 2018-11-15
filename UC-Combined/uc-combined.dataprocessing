@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataprocessing:DataSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:characteristics="http://www.palladiosimulator.org/pcm/dataprocessing/characteristics/0.1/" xmlns:context="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/context/0.1/" xmlns:dataprocessing="http://www.palladiosimulator.org/pcm/dataprocessing/0.1/" xmlns:subject="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/util/subject/0.1/">
+  <dataProcessingContainers id="_fX_M0OjxEeiODdW6tB_ptA" entityName="sendData"/>
+  <dataProcessingContainers id="_iudZYOjxEeiODdW6tB_ptA" entityName="sendIncidentToB"/>
+  <dataProcessingContainers id="_kkXyIOjxEeiODdW6tB_ptA" entityName="sendIncidentReportToA"/>
+  <dataProcessingContainers id="_nY-AsOjxEeiODdW6tB_ptA" entityName="checkAccess"/>
+  <characteristicTypeContainers id="_rbrBIejxEeiODdW6tB_ptA">
+    <characteristicTypes xsi:type="context:ContextCharacteristicType" id="_sqqj0ujxEeiODdW6tB_ptA" entityName="allContexts">
+      <context xsi:type="context:OrganisationContext" id="_0Jz18ejxEeiODdW6tB_ptA" entityName="Organisation A">
+        <organisation href="uc-combined.dynamicextension#_BRt80ujxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:OrganisationContext" id="_5dYBUejxEeiODdW6tB_ptA" entityName="Organisation B">
+        <organisation href="uc-combined.dynamicextension#_DI4SwujxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:RoleContext" id="_7w14w-jxEeiODdW6tB_ptA" entityName="QA Inspector A">
+        <roles href="uc-combined.dynamicextension#_RTn6MOjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:RoleContext" id="_As7YQ-jyEeiODdW6tB_ptA" entityName="Worker">
+        <roles href="uc-combined.dynamicextension#_Paz-cOjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:PrivacyLevelContext" id="_WG04lujzEeiODdW6tB_ptA" level="_yAJlUOjyEeiODdW6tB_ptA"/>
+      <context xsi:type="context:LocationContext" id="_HvBlMOj2EeiODdW6tB_ptA" entityName="Production Hall Context">
+        <currentLocation href="uc-combined.dynamicextension#_cmZ2AOjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:RoleContext" id="_ga_Io-j2EeiODdW6tB_ptA" entityName="QA A">
+        <roles href="uc-combined.dynamicextension#_VOgbYOjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:RoleContext" id="_1HzV8-j2EeiODdW6tB_ptA" entityName="QA B">
+        <roles href="uc-combined.dynamicextension#_S45O4OjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:InternalStateContext" id="_NRHfVOj3EeiODdW6tB_ptA" entityName="InternalState" state="_IjWh8OjyEeiODdW6tB_ptA">
+        <subject xsi:type="subject:Organisation" href="uc-combined.dynamicextension#_DI4SwujxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:LocationContext" id="_UqrG0Oj3EeiODdW6tB_ptA" entityName="Production B">
+        <currentLocation href="uc-combined.dynamicextension#_XxQE8OjxEeiODdW6tB_ptA"/>
+      </context>
+    </characteristicTypes>
+    <characteristicTypes xsi:type="characteristics:EnumCharacteristicType" id="_T-a3F-jyEeiODdW6tB_ptA" entityName="PrivacyLevel" enum="_H9uFUejyEeiODdW6tB_ptA"/>
+    <characteristicTypes xsi:type="characteristics:EnumCharacteristicType" id="_GY-8IOjyEeiODdW6tB_ptA" entityName="StatusComanyB" enum="_H9uFUejyEeiODdW6tB_ptA"/>
+    <enumerations id="_H9uFUejyEeiODdW6tB_ptA" entityName="StatusCompany">
+      <literals id="_IjWh8OjyEeiODdW6tB_ptA" entityName="INCIDENT_HAPPENED"/>
+      <literals id="_Jv2xUOjyEeiODdW6tB_ptA" entityName="OK"/>
+    </enumerations>
+    <enumerations id="_ZL2lQejyEeiODdW6tB_ptA" entityName="PrivacyLevel">
+      <literals id="_u3t0wOjyEeiODdW6tB_ptA" entityName="SECRET"/>
+      <literals id="_wl7qEOjyEeiODdW6tB_ptA" entityName="RESTRICTED"/>
+      <literals id="_yAJlUOjyEeiODdW6tB_ptA" entityName="PUBLIC"/>
+      <literals id="_zVaIEOjyEeiODdW6tB_ptA" entityName="UNDEFINED"/>
+    </enumerations>
+  </characteristicTypeContainers>
+  <characteristicContainer id="_pFBS0-jxEeiODdW6tB_ptA" entityName="sendDataContexts"/>
+  <characteristicContainer id="_uKgpI-j1EeiODdW6tB_ptA" entityName="sendDataP1">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_9cciIej1EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_0Jz18ejxEeiODdW6tB_ptA _As7YQ-jyEeiODdW6tB_ptA _HvBlMOj2EeiODdW6tB_ptA"/>
+  </characteristicContainer>
+  <characteristicContainer id="_Snyehej2EeiODdW6tB_ptA" entityName="sendIncidentToBPermission">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_XsegYej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_5dYBUejxEeiODdW6tB_ptA _WG04lujzEeiODdW6tB_ptA _ga_Io-j2EeiODdW6tB_ptA"/>
+  </characteristicContainer>
+  <characteristicContainer id="_kjOJVej2EeiODdW6tB_ptA" entityName="sendIncidentReportToA">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_rghSoej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_As7YQ-jyEeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _WG04lujzEeiODdW6tB_ptA"/>
+  </characteristicContainer>
+  <characteristicContainer id="_94sj1ej2EeiODdW6tB_ptA" entityName="checkAccess">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="__AsGoej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_7w14w-jxEeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA"/>
+  </characteristicContainer>
+</dataprocessing:DataSpecification>

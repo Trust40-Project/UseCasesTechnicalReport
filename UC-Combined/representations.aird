@@ -9,6 +9,8 @@
     <semanticResources>uc-combined.usagemodel</semanticResources>
     <semanticResources>uc-combined.resourceenvironment</semanticResources>
     <semanticResources>uc-combined.allocation</semanticResources>
+    <semanticResources>uc-combined.dynamicextension</semanticResources>
+    <semanticResources>uc-combined.dataprocessing</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_VAC6kOfeEei3jaZd_YAISA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_VCvCMOfeEei3jaZd_YAISA" name="new Repository Diagram" repPath="#_VAbVEOfeEei3jaZd_YAISA">

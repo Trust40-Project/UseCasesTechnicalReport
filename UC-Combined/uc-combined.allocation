@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_an2UEOjwEeiODdW6tB_ptA" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="uc-combined.resourceenvironment#/"/>
+  <system_Allocation href="uc-combined.system#_5kU6sOjtEeiTZthEH-cIMw"/>
+  <allocationContexts_Allocation id="_li_zAOjwEeiODdW6tB_ptA" entityName="Allocation_Assembly_QACompnent">
+    <resourceContainer_AllocationContext href="uc-combined.resourceenvironment#_QqlZsOjwEeiODdW6tB_ptA"/>
+    <assemblyContext_AllocationContext href="uc-combined.system#__ImbkOjtEeiTZthEH-cIMw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_l1cN4OjwEeiODdW6tB_ptA" entityName="Allocation_Assembly_QAComponentB">
+    <resourceContainer_AllocationContext href="uc-combined.resourceenvironment#_RdwjEOjwEeiODdW6tB_ptA"/>
+    <assemblyContext_AllocationContext href="uc-combined.system#_Aj4GwOjuEeiTZthEH-cIMw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_mLOQoOjwEeiODdW6tB_ptA" entityName="Allocation_Assembly_WorkerSystem">
+    <resourceContainer_AllocationContext href="uc-combined.resourceenvironment#_QqlZsOjwEeiODdW6tB_ptA"/>
+    <assemblyContext_AllocationContext href="uc-combined.system#_8YhgoOjtEeiTZthEH-cIMw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_nBkp0OjwEeiODdW6tB_ptA" entityName="Allocation_Assembly_PhysicialAccess">
+    <resourceContainer_AllocationContext href="uc-combined.resourceenvironment#_RdwjEOjwEeiODdW6tB_ptA"/>
+    <assemblyContext_AllocationContext href="uc-combined.system#_Fai6wOjuEeiTZthEH-cIMw"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

@@ -7,17 +7,17 @@
   <helperContainer>
     <rolecontainer id="_ETlLUejxEeiODdW6tB_ptA" entityName="Organisation A" organisation="_BRt80ujxEeiODdW6tB_ptA">
       <role id="_Paz-cOjxEeiODdW6tB_ptA" entityName="Worker"/>
-      <role id="_RTn6MOjxEeiODdW6tB_ptA" entityName="QA-Inspector"/>
+      <role id="_RTn6MOjxEeiODdW6tB_ptA" entityName="QAInspector"/>
       <role id="_VOgbYOjxEeiODdW6tB_ptA" entityName="QA"/>
     </rolecontainer>
     <rolecontainer id="_IUifUejxEeiODdW6tB_ptA" entityName="Organisation B" organisation="_BRt80ujxEeiODdW6tB_ptA">
-      <role id="_S45O4OjxEeiODdW6tB_ptA" entityName="QA-Worker"/>
+      <role id="_S45O4OjxEeiODdW6tB_ptA" entityName="QAWorker"/>
     </rolecontainer>
     <locationcontainer id="_KyfIcujxEeiODdW6tB_ptA" organisation="_DI4SwujxEeiODdW6tB_ptA">
       <location id="_XxQE8OjxEeiODdW6tB_ptA" entityName="Production B"/>
     </locationcontainer>
     <locationcontainer id="_bePUEujxEeiODdW6tB_ptA" organisation="_BRt80ujxEeiODdW6tB_ptA">
-      <location id="_cmZ2AOjxEeiODdW6tB_ptA" entityName="Production Hall"/>
+      <location id="_cmZ2AOjxEeiODdW6tB_ptA" entityName="Production_Hall"/>
     </locationcontainer>
   </helperContainer>
 </dynamicextension:DynamicSpecification>

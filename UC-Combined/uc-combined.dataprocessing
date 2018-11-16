@@ -13,20 +13,20 @@
         <organisation href="uc-combined.dynamicextension#_DI4SwujxEeiODdW6tB_ptA"/>
       </context>
       <context xsi:type="context:RoleContext" id="_7w14w-jxEeiODdW6tB_ptA" entityName="QA Inspector A">
-        <roles href="uc-combined.dynamicextension#_RTn6MOjxEeiODdW6tB_ptA"/>
+        <role href="uc-combined.dynamicextension#_RTn6MOjxEeiODdW6tB_ptA"/>
       </context>
       <context xsi:type="context:RoleContext" id="_As7YQ-jyEeiODdW6tB_ptA" entityName="Worker">
-        <roles href="uc-combined.dynamicextension#_Paz-cOjxEeiODdW6tB_ptA"/>
+        <role href="uc-combined.dynamicextension#_Paz-cOjxEeiODdW6tB_ptA"/>
       </context>
       <context xsi:type="context:PrivacyLevelContext" id="_WG04lujzEeiODdW6tB_ptA" level="_yAJlUOjyEeiODdW6tB_ptA"/>
       <context xsi:type="context:LocationContext" id="_HvBlMOj2EeiODdW6tB_ptA" entityName="Production Hall Context">
         <currentLocation href="uc-combined.dynamicextension#_cmZ2AOjxEeiODdW6tB_ptA"/>
       </context>
       <context xsi:type="context:RoleContext" id="_ga_Io-j2EeiODdW6tB_ptA" entityName="QA A">
-        <roles href="uc-combined.dynamicextension#_VOgbYOjxEeiODdW6tB_ptA"/>
+        <role href="uc-combined.dynamicextension#_VOgbYOjxEeiODdW6tB_ptA"/>
       </context>
       <context xsi:type="context:RoleContext" id="_1HzV8-j2EeiODdW6tB_ptA" entityName="QA B">
-        <roles href="uc-combined.dynamicextension#_S45O4OjxEeiODdW6tB_ptA"/>
+        <role href="uc-combined.dynamicextension#_Paz-cOjxEeiODdW6tB_ptA"/>
       </context>
       <context xsi:type="context:InternalStateContext" id="_NRHfVOj3EeiODdW6tB_ptA" entityName="InternalState" state="_IjWh8OjyEeiODdW6tB_ptA">
         <subject xsi:type="subject:Organisation" href="uc-combined.dynamicextension#_DI4SwujxEeiODdW6tB_ptA"/>
@@ -48,8 +48,7 @@
       <literals id="_zVaIEOjyEeiODdW6tB_ptA" entityName="UNDEFINED"/>
     </enumerations>
   </characteristicTypeContainers>
-  <characteristicContainer id="_pFBS0-jxEeiODdW6tB_ptA" entityName="sendDataContexts"/>
-  <characteristicContainer id="_uKgpI-j1EeiODdW6tB_ptA" entityName="sendDataP1">
+  <characteristicContainer id="_uKgpI-j1EeiODdW6tB_ptA" entityName="sendDataWorker">
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_9cciIej1EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_0Jz18ejxEeiODdW6tB_ptA _As7YQ-jyEeiODdW6tB_ptA _HvBlMOj2EeiODdW6tB_ptA"/>
   </characteristicContainer>
   <characteristicContainer id="_Snyehej2EeiODdW6tB_ptA" entityName="sendIncidentToBPermission">
@@ -61,4 +60,8 @@
   <characteristicContainer id="_94sj1ej2EeiODdW6tB_ptA" entityName="checkAccess">
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="__AsGoej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_7w14w-jxEeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA"/>
   </characteristicContainer>
+  <relatedCharacteristics id="_Scwn5elyEei2LanlFCIZDw" entityName="sendData" characteristics="_uKgpI-j1EeiODdW6tB_ptA" relatedEntity="_fX_M0OjxEeiODdW6tB_ptA"/>
+  <relatedCharacteristics id="_oM23JelyEei2LanlFCIZDw" entityName="sendIncidentToB" characteristics="_Snyehej2EeiODdW6tB_ptA" relatedEntity="_iudZYOjxEeiODdW6tB_ptA"/>
+  <relatedCharacteristics id="_uHMupelyEei2LanlFCIZDw" entityName="checkPhysicalAccess" characteristics="_94sj1ej2EeiODdW6tB_ptA" relatedEntity="_nY-AsOjxEeiODdW6tB_ptA"/>
+  <relatedCharacteristics id="_b60dxelyEei2LanlFCIZDw" entityName="sendIncidentToA" characteristics="_kjOJVej2EeiODdW6tB_ptA" relatedEntity="_kkXyIOjxEeiODdW6tB_ptA"/>
 </dataprocessing:DataSpecification>

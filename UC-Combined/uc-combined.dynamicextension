@@ -10,7 +10,7 @@
       <role id="_RTn6MOjxEeiODdW6tB_ptA" entityName="QAInspector"/>
       <role id="_VOgbYOjxEeiODdW6tB_ptA" entityName="QA"/>
     </rolecontainer>
-    <rolecontainer id="_IUifUejxEeiODdW6tB_ptA" entityName="Organisation B" organisation="_BRt80ujxEeiODdW6tB_ptA">
+    <rolecontainer id="_IUifUejxEeiODdW6tB_ptA" entityName="Organisation B" organisation="_DI4SwujxEeiODdW6tB_ptA">
       <role id="_S45O4OjxEeiODdW6tB_ptA" entityName="QAWorker"/>
     </rolecontainer>
     <locationcontainer id="_KyfIcujxEeiODdW6tB_ptA" organisation="_DI4SwujxEeiODdW6tB_ptA">

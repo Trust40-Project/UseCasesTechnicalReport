@@ -4,6 +4,8 @@
   <dataProcessingContainers id="_iudZYOjxEeiODdW6tB_ptA" entityName="sendIncidentToB"/>
   <dataProcessingContainers id="_kkXyIOjxEeiODdW6tB_ptA" entityName="sendIncidentReportToA"/>
   <dataProcessingContainers id="_nY-AsOjxEeiODdW6tB_ptA" entityName="checkAccess"/>
+  <dataProcessingContainers id="_R9r3sOwOEeiseflNa0RuMw" entityName="receiveIncidentReportB"/>
+  <dataProcessingContainers id="_Rj-8AOzDEeiZHol4kTqd6w" entityName="receiveIncidentReportA"/>
   <characteristicTypeContainers id="_rbrBIejxEeiODdW6tB_ptA">
     <characteristicTypes xsi:type="context:ContextCharacteristicType" id="_sqqj0ujxEeiODdW6tB_ptA" entityName="allContexts">
       <context xsi:type="context:OrganisationContext" id="_0Jz18ejxEeiODdW6tB_ptA" entityName="Organisation A">
@@ -52,16 +54,25 @@
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_9cciIej1EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_0Jz18ejxEeiODdW6tB_ptA _As7YQ-jyEeiODdW6tB_ptA _HvBlMOj2EeiODdW6tB_ptA"/>
   </characteristicContainer>
   <characteristicContainer id="_Snyehej2EeiODdW6tB_ptA" entityName="sendIncidentToBPermission">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_XsegYej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_5dYBUejxEeiODdW6tB_ptA _WG04lujzEeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA _1HzV8-j2EeiODdW6tB_ptA"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_XsegYej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_WG04lujzEeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _ga_Io-j2EeiODdW6tB_ptA"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_XsegYej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_WG04lujzEeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _ga_Io-j2EeiODdW6tB_ptA"/>
   </characteristicContainer>
   <characteristicContainer id="_kjOJVej2EeiODdW6tB_ptA" entityName="sendIncidentReportToA">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_rghSoej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_WG04lujzEeiODdW6tB_ptA _1HzV8-j2EeiODdW6tB_ptA _5dYBUejxEeiODdW6tB_ptA"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_rghSoej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_WG04lujzEeiODdW6tB_ptA _1HzV8-j2EeiODdW6tB_ptA _5dYBUejxEeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA"/>
   </characteristicContainer>
   <characteristicContainer id="_94sj1ej2EeiODdW6tB_ptA" entityName="checkAccess">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="__AsGoej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_7w14w-jxEeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="__AsGoej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_7w14w-jxEeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _UqrG0Oj3EeiODdW6tB_ptA"/>
+  </characteristicContainer>
+  <characteristicContainer id="_6Uc8lewNEeiseflNa0RuMw" entityName="receiveReportB">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_63YqgewNEeiseflNa0RuMw" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_1HzV8-j2EeiODdW6tB_ptA _5dYBUejxEeiODdW6tB_ptA"/>
+  </characteristicContainer>
+  <characteristicContainer id="_cOIKg-zDEeiZHol4kTqd6w" entityName="receiveReportA">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_khkAUezDEeiZHol4kTqd6w" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_ga_Io-j2EeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA"/>
   </characteristicContainer>
   <relatedCharacteristics id="_Scwn5elyEei2LanlFCIZDw" entityName="sendData" characteristics="_uKgpI-j1EeiODdW6tB_ptA" relatedEntity="_fX_M0OjxEeiODdW6tB_ptA"/>
   <relatedCharacteristics id="_oM23JelyEei2LanlFCIZDw" entityName="sendIncidentToB" characteristics="_Snyehej2EeiODdW6tB_ptA" relatedEntity="_iudZYOjxEeiODdW6tB_ptA"/>
   <relatedCharacteristics id="_uHMupelyEei2LanlFCIZDw" entityName="checkPhysicalAccess" characteristics="_94sj1ej2EeiODdW6tB_ptA" relatedEntity="_nY-AsOjxEeiODdW6tB_ptA"/>
   <relatedCharacteristics id="_b60dxelyEei2LanlFCIZDw" entityName="sendIncidentToA" characteristics="_kjOJVej2EeiODdW6tB_ptA" relatedEntity="_kkXyIOjxEeiODdW6tB_ptA"/>
+  <relatedCharacteristics id="_DOFPtewOEeiseflNa0RuMw" entityName="receiveB" characteristics="_6Uc8lewNEeiseflNa0RuMw" relatedEntity="_R9r3sOwOEeiseflNa0RuMw"/>
+  <relatedCharacteristics id="_VKw1dezDEeiZHol4kTqd6w" entityName="receiveA" characteristics="_cOIKg-zDEeiZHol4kTqd6w" relatedEntity="_Rj-8AOzDEeiZHol4kTqd6w"/>
 </dataprocessing:DataSpecification>

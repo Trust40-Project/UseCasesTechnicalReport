@@ -3,12 +3,12 @@
     xmi:version="2.0"
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:characteristics="http://www.palladiosimulator.org/pcm/dataprocessing/characteristics/0.1/"
     xmlns:context="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/context/0.1/"
     xmlns:data="http://www.palladiosimulator.org/pcm/dataprocessing/data/0.1/"
     xmlns:dataprocessing="http://www.palladiosimulator.org/pcm/dataprocessing/0.1/"
     xmlns:processing="http://www.palladiosimulator.org/pcm/dataprocessing/processing/0.1/"
-    xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
+    xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2"
+    xmlns:subject="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/util/subject/0.1/">
   <dataProcessingContainers
       id="_Emz7MNFJEeiQjaFO9jgXoA"
       entityName="Companies">
@@ -42,64 +42,65 @@
   <dataProcessingContainers
       id="_NwNYgOgaEeiLAotxNZ6BvA"
       entityName="grantAccess"/>
+  <dataProcessingContainers
+      id="_BLIncO72EeiBs6y0J5FGhQ"
+      entityName="AnalystYield"/>
   <characteristicTypeContainers
-      id="_ZnTckduIEei4qaaWaD0O5g">
-    <characteristicTypes
-        xsi:type="characteristics:EnumCharacteristicType"
-        id="_aZIiINuIEei4qaaWaD0O5g"
-        entityName="TypGlobal"
-        enum="_bVGbIduIEei4qaaWaD0O5g"/>
+      id="_EgCRUe4zEeikJtGmwSKkPg">
     <characteristicTypes
         xsi:type="context:ContextCharacteristicType"
-        id="_WV0GUtw7Eei6-4fR3BeQrg">
+        id="_FLtrku4zEeikJtGmwSKkPg"
+        entityName="GlobalList">
       <context
           xsi:type="context:LocationContext"
-          id="_W9tz0Nw7Eei6-4fR3BeQrg"/>
+          id="_IlENAO4zEeikJtGmwSKkPg"
+          entityName="Location">
+        <currentLocation
+            href="uc3.dynamicextension#_WcG1UO4zEeikJtGmwSKkPg"/>
+      </context>
       <context
           xsi:type="context:OrganisationContext"
-          id="_0GbXgeGuEeirTeYeTcA46A"
-          entityName="Organisation A">
+          id="_Zdqh0e4zEeikJtGmwSKkPg"
+          entityName="Board">
+        <organisation
+            href="uc3.dynamicextension#_dqDPEuHEEeiTULMW6esO6g"/>
+      </context>
+      <context
+          xsi:type="context:OrganisationContext"
+          id="_boO78e4zEeikJtGmwSKkPg"
+          entityName="A">
         <organisation
             href="uc3.dynamicextension#_oXYmYuHCEeirTeYeTcA46A"/>
       </context>
       <context
           xsi:type="context:OrganisationContext"
-          id="_0t-dseHEEeiVSpVhFTwBww"
-          entityName="Organisation B">
-        <organisation
-            href="uc3.dynamicextension#_aNdzcuHEEeiTULMW6esO6g"/>
-      </context>
-      <context
-          xsi:type="context:OrganisationContext"
-          id="_2-u_YeHEEeiVSpVhFTwBww"
-          entityName="Organisation C">
+          id="_dNOj0e4zEeikJtGmwSKkPg"
+          entityName="B">
         <organisation
             href="uc3.dynamicextension#_a14eUuHEEeiTULMW6esO6g"/>
       </context>
       <context
-          xsi:type="context:OrganisationContext"
-          id="_5WL-8eHEEeiVSpVhFTwBww"
-          entityName="Organisation Board">
-        <organisation
+          xsi:type="context:InternalStateContext"
+          id="_g38iFO4zEeikJtGmwSKkPg"
+          entityName="Underperformance"
+          state="_u0ANQO4zEeikJtGmwSKkPg">
+        <subject
+            xsi:type="subject:Organisation"
             href="uc3.dynamicextension#_dqDPEuHEEeiTULMW6esO6g"/>
       </context>
       <context
           xsi:type="context:RoleContext"
-          id="_pnMdcOcdEeiT4djMheTQDg"
+          id="_1gaa4-4zEeikJtGmwSKkPg"
           entityName="Analyst">
-        <roles
+        <role
             href="uc3.dynamicextension#_ykVloODdEeiNqNk0iypkYA"/>
       </context>
     </characteristicTypes>
     <enumerations
-        id="_bVGbIduIEei4qaaWaD0O5g"
-        entityName="GlobalThreshold">
+        id="_uT1fce4zEeikJtGmwSKkPg">
       <literals
-          id="_l4Ht8NuIEei4qaaWaD0O5g"
-          entityName="Good"/>
-      <literals
-          id="_oIlUsNuIEei4qaaWaD0O5g"
-          entityName="Bad"/>
+          id="_u0ANQO4zEeikJtGmwSKkPg"
+          entityName="UNDERPERFORMANCE"/>
     </enumerations>
   </characteristicTypeContainers>
   <storeContainers
@@ -118,18 +119,23 @@
       entityName="sendRawDataP1">
     <ownedCharacteristics
         xsi:type="context:ContextCharacteristic"
-        id="_PXdgoOgOEeiPr8ebKL3jvg"
-        characteristicType="_WV0GUtw7Eei6-4fR3BeQrg"
-        context="_5WL-8eHEEeiVSpVhFTwBww"/>
+        id="_PXdgoOgOEeiPr8ebKL3jvg"/>
   </characteristicContainer>
   <characteristicContainer
       id="_tExvA-gXEeiLAotxNZ6BvA"
       entityName="Companies">
     <ownedCharacteristics
         xsi:type="context:ContextCharacteristic"
-        id="_ylzHkegXEeiLAotxNZ6BvA"
-        characteristicType="_WV0GUtw7Eei6-4fR3BeQrg"
-        context="_5WL-8eHEEeiVSpVhFTwBww"/>
+        id="_ylzHkegXEeiLAotxNZ6BvA"/>
+  </characteristicContainer>
+  <characteristicContainer
+      id="_HQmw5e72EeiBs6y0J5FGhQ"
+      entityName="YieldAnalyst">
+    <ownedCharacteristics
+        xsi:type="context:ContextCharacteristic"
+        id="_Jo2aoe72EeiBs6y0J5FGhQ"
+        characteristicType="_FLtrku4zEeikJtGmwSKkPg"
+        context="_1gaa4-4zEeikJtGmwSKkPg _Zdqh0e4zEeikJtGmwSKkPg _g38iFO4zEeikJtGmwSKkPg"/>
   </characteristicContainer>
   <characteristicContainer
       id="_0tBLY-gaEeiLAotxNZ6BvA"
@@ -137,8 +143,8 @@
     <ownedCharacteristics
         xsi:type="context:ContextCharacteristic"
         id="_2txiMegaEeiLAotxNZ6BvA"
-        characteristicType="_WV0GUtw7Eei6-4fR3BeQrg"
-        context="_pnMdcOcdEeiT4djMheTQDg"/>
+        characteristicType="_FLtrku4zEeikJtGmwSKkPg"
+        context="_IlENAO4zEeikJtGmwSKkPg"/>
   </characteristicContainer>
   <relatedCharacteristics
       id="_6zmwhtwkEeiJmdjBjE0Jgg"
@@ -147,8 +153,8 @@
       relatedEntity="_FBC_cNwmEeiJmdjBjE0Jgg"/>
   <relatedCharacteristics
       id="_UVeZJegWEeiLAotxNZ6BvA"
-      characteristics="_Br56gNwkEeiJmdjBjE0Jgg"
-      relatedEntity="_Emz7MNFJEeiQjaFO9jgXoA"/>
+      characteristics="_HQmw5e72EeiBs6y0J5FGhQ"
+      relatedEntity="_BLIncO72EeiBs6y0J5FGhQ"/>
   <storeCharacteristicContainers
       id="_A-L459wkEeiJmdjBjE0Jgg">
     <characteristics

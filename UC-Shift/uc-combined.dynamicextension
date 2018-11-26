@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynamicextension:DynamicSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dynamicextension="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/0.1/" xmlns:subject="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/util/subject/0.1/">
+  <subjectContainer>
+    <subject xsi:type="subject:Organisation" id="_BRt80ujxEeiODdW6tB_ptA" entityName="A"/>
+  </subjectContainer>
+  <helperContainer>
+    <shiftcontainer id="_ep2msPFQEeisxJ0mFJit-Q" entityName="ShiftContainer" organisation="_BRt80ujxEeiODdW6tB_ptA">
+      <shift id="_lxUYoPFQEeisxJ0mFJit-Q" entityName="Early-Production"/>
+    </shiftcontainer>
+    <rolecontainer id="_ETlLUejxEeiODdW6tB_ptA" entityName="Organisation A" organisation="_BRt80ujxEeiODdW6tB_ptA">
+      <role id="_Paz-cOjxEeiODdW6tB_ptA" entityName="Worker"/>
+      <role id="_RTn6MOjxEeiODdW6tB_ptA" entityName="Foreman"/>
+    </rolecontainer>
+    <locationcontainer id="_bePUEujxEeiODdW6tB_ptA" organisation="_BRt80ujxEeiODdW6tB_ptA">
+      <location id="_cmZ2AOjxEeiODdW6tB_ptA" entityName="Production_Hall"/>
+    </locationcontainer>
+  </helperContainer>
+</dynamicextension:DynamicSpecification>

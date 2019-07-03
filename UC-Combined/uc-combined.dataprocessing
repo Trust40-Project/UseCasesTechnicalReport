@@ -55,7 +55,6 @@
   </characteristicContainer>
   <characteristicContainer id="_Snyehej2EeiODdW6tB_ptA" entityName="sendIncidentToBPermission">
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_XsegYej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_WG04lujzEeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _ga_Io-j2EeiODdW6tB_ptA"/>
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_XsegYej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_WG04lujzEeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _ga_Io-j2EeiODdW6tB_ptA"/>
   </characteristicContainer>
   <characteristicContainer id="_kjOJVej2EeiODdW6tB_ptA" entityName="sendIncidentReportToA">
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_rghSoej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_WG04lujzEeiODdW6tB_ptA _1HzV8-j2EeiODdW6tB_ptA _5dYBUejxEeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA"/>

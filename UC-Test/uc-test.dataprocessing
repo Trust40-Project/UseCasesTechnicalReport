@@ -37,19 +37,11 @@
       <context xsi:type="context:ShiftContext" id="_LlJWcp2FEems5LseVIDnXg" entityName="Shift_2">
         <shift href="uc-test.dynamicextension#_7kNCYJ2EEems5LseVIDnXg"/>
       </context>
-      <context xsi:type="context:ComparisonContext" id="_-ddqVp2LEemcA9ybBTYPDQ" entityName="greaterInt5">
-        <threshold href="uc-test.dynamicextension#_tPErsJ2LEemcA9ybBTYPDQ"/>
-      </context>
-      <context xsi:type="context:ComparisonContext" id="_GJfh5p2MEemcA9ybBTYPDQ" entityName="smallerInt5" comparison="SMALLER">
-        <threshold href="uc-test.dynamicextension#_tPErsJ2LEemcA9ybBTYPDQ"/>
-      </context>
-      <context xsi:type="context:ComparisonContext" id="_RDDFZp2MEemcA9ybBTYPDQ" entityName="greaterFloat5">
-        <threshold href="uc-test.dynamicextension#_z6EkFJ2LEemcA9ybBTYPDQ"/>
-      </context>
-      <context xsi:type="context:ComparisonContext" id="_WpHWBp2MEemcA9ybBTYPDQ" entityName="smallerFloat5" comparison="SMALLER">
-        <threshold href="uc-test.dynamicextension#_z6EkFJ2LEemcA9ybBTYPDQ"/>
-      </context>
       <context xsi:type="context:ExtensionContext" id="_jku36J2MEemcA9ybBTYPDQ" entityName="testExtension" extensionCode="// Placeholder-Code"/>
+      <context xsi:type="context:IntegralComparisonContext" id="_ZQsdUJ8uEem6RvbWm03ufg" entityName="greater5Int" threshold="5"/>
+      <context xsi:type="context:IntegralComparisonContext" id="_cFSr6J8uEem6RvbWm03ufg" entityName="smaller5Int" comparison="SMALLER" threshold="5"/>
+      <context xsi:type="context:FloatingComparisonContext" id="_f7Re-Z8uEem6RvbWm03ufg" entityName="greater5Float" threshold="5.0"/>
+      <context xsi:type="context:FloatingComparisonContext" id="_jRP8SZ8uEem6RvbWm03ufg" entityName="smaller5Float" comparison="SMALLER" threshold="5.0"/>
     </characteristicTypes>
     <characteristicTypes xsi:type="characteristics:EnumCharacteristicType" id="_T-a3F-jyEeiODdW6tB_ptA" entityName="PrivacyLevel" enum="_H9uFUejyEeiODdW6tB_ptA"/>
     <characteristicTypes xsi:type="characteristics:EnumCharacteristicType" id="_GY-8IOjyEeiODdW6tB_ptA" entityName="StatusComanyB" enum="_H9uFUejyEeiODdW6tB_ptA"/>
@@ -65,7 +57,8 @@
     </enumerations>
   </characteristicTypeContainers>
   <characteristicContainer id="_uKgpI-j1EeiODdW6tB_ptA" entityName="testActionContainer">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_9cciIej1EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_0Jz18ejxEeiODdW6tB_ptA _As7YQ-jyEeiODdW6tB_ptA _HvBlMOj2EeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA _WG04lujzEeiODdW6tB_ptA"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_9cciIej1EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_0Jz18ejxEeiODdW6tB_ptA _As7YQ-jyEeiODdW6tB_ptA _HvBlMOj2EeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA _WG04lujzEeiODdW6tB_ptA _jku36J2MEemcA9ybBTYPDQ _f7Re-Z8uEem6RvbWm03ufg _EHEbUp2FEems5LseVIDnXg"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_3yjdIZ8uEem6RvbWm03ufg" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_ga_Io-j2EeiODdW6tB_ptA"/>
   </characteristicContainer>
   <relatedCharacteristics id="_Scwn5elyEei2LanlFCIZDw" entityName="testAction" characteristics="_uKgpI-j1EeiODdW6tB_ptA" relatedEntity="_fX_M0OjxEeiODdW6tB_ptA"/>
 </dataprocessing:DataSpecification>

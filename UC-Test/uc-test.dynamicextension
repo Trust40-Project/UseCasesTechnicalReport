@@ -28,9 +28,9 @@
       <location id="_ANYqcJ15Eems5LseVIDnXg" entityName="Production_Hall_Section_1"/>
     </locationcontainer>
     <prerequisitecontainer id="_uyJ9I52NEemcA9ybBTYPDQ">
-      <prerequisite id="_xfbmQJ2OEem0zYc6gG_JOg"/>
+      <prerequisite id="_xfbmQJ2OEem0zYc6gG_JOg" entityName="checkAccessPrerequisite">
+        <prerequisite href="uc-test.repository#_PYpYEOjtEeiTZthEH-cIMw"/>
+      </prerequisite>
     </prerequisitecontainer>
-    <comparisonvalues id="_tPErsJ2LEemcA9ybBTYPDQ" entityName="integralTestThreshold" integralValue="5"/>
-    <comparisonvalues id="_z6EkFJ2LEemcA9ybBTYPDQ" entityName="floatingTestThreshold" floatingValue="5.0" isFloating="true"/>
   </helperContainer>
 </dynamicextension:DynamicSpecification>

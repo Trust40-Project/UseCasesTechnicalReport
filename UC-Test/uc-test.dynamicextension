@@ -8,8 +8,8 @@
   </subjectContainer>
   <helperContainer>
     <shiftcontainer id="_qaE4sJ2EEems5LseVIDnXg">
-      <shift id="_qviLUJ2EEems5LseVIDnXg" entityName="Shift 1" startTime="06:00:00" endTime="14:00:00"/>
-      <shift id="_7kNCYJ2EEems5LseVIDnXg" entityName="Shift 2" startTime="14:00:00" endTime="22:00:00"/>
+      <shift id="_qviLUJ2EEems5LseVIDnXg" entityName="Shift 1" startTime="06:00:00Z" endTime="14:00:00Z"/>
+      <shift id="_7kNCYJ2EEems5LseVIDnXg" entityName="Shift 2" startTime="14:00:00Z" endTime="22:00:00Z"/>
     </shiftcontainer>
     <rolecontainer id="_ETlLUejxEeiODdW6tB_ptA" entityName="Organisation A" organisation="_BRt80ujxEeiODdW6tB_ptA">
       <role id="_Paz-cOjxEeiODdW6tB_ptA" entityName="Worker" subordinateroles="_1v5X4J14Eems5LseVIDnXg"/>

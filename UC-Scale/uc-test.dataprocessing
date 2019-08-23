@@ -60,7 +60,7 @@
     </enumerations>
   </characteristicTypeContainers>
   <characteristicContainer id="_uKgpI-j1EeiODdW6tB_ptA" entityName="testActionContainer">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_9cciIej1EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_0Jz18ejxEeiODdW6tB_ptA"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_9cciIej1EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_EHEbUp2FEems5LseVIDnXg"/>
   </characteristicContainer>
   <relatedCharacteristics id="_Scwn5elyEei2LanlFCIZDw" entityName="testAction" characteristics="_uKgpI-j1EeiODdW6tB_ptA" relatedEntity="_fX_M0OjxEeiODdW6tB_ptA"/>
 </dataprocessing:DataSpecification>

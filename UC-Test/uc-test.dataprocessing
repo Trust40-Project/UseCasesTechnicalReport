@@ -2,6 +2,7 @@
 <dataprocessing:DataSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:characteristics="http://www.palladiosimulator.org/pcm/dataprocessing/characteristics/0.1/" xmlns:context="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/context/0.1/" xmlns:dataprocessing="http://www.palladiosimulator.org/pcm/dataprocessing/0.1/" xmlns:subject="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/util/subject/0.1/">
   <dataProcessingContainers id="_fX_M0OjxEeiODdW6tB_ptA" entityName="testAction"/>
   <dataProcessingContainers id="_QsFEMMGZEemgfsuTtM_1Jg" entityName="actionWithoutContexts"/>
+  <dataProcessingContainers id="_vPkgwMWAEemIhKXUIxjtPw" entityName="multipleShiftsAction"/>
   <characteristicTypeContainers id="_rbrBIejxEeiODdW6tB_ptA">
     <characteristicTypes xsi:type="context:ContextCharacteristicType" id="_sqqj0ujxEeiODdW6tB_ptA" entityName="allContexts">
       <context xsi:type="context:OrganisationContext" id="_0Jz18ejxEeiODdW6tB_ptA" entityName="Organisation A">
@@ -63,6 +64,11 @@
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_9cciIej1EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_0Jz18ejxEeiODdW6tB_ptA _As7YQ-jyEeiODdW6tB_ptA _HvBlMOj2EeiODdW6tB_ptA _NRHfVOj3EeiODdW6tB_ptA _WG04lujzEeiODdW6tB_ptA _EHEbUp2FEems5LseVIDnXg _t5PeeKDKEemFSbZA5JRm2w _peFPcKfVEemEB-RoJbR8ew _XqV58KxoEem2P_NiIPn27Q _oOEW572_EemqQMZdG3CNXw"/>
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_3yjdIZ8uEem6RvbWm03ufg" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_ga_Io-j2EeiODdW6tB_ptA _edByqaDLEemFSbZA5JRm2w _oOEW572_EemqQMZdG3CNXw"/>
   </characteristicContainer>
+  <characteristicContainer id="_0w3mI8WAEemIhKXUIxjtPw" entityName="multipleShiftsContainer">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_35MpAcWAEemIhKXUIxjtPw" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_EHEbUp2FEems5LseVIDnXg"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_55EPAcWAEemIhKXUIxjtPw" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_LlJWcp2FEems5LseVIDnXg"/>
+  </characteristicContainer>
   <relatedCharacteristics id="_Scwn5elyEei2LanlFCIZDw" entityName="testAction" characteristics="_uKgpI-j1EeiODdW6tB_ptA" relatedEntity="_fX_M0OjxEeiODdW6tB_ptA"/>
   <relatedCharacteristics id="_U-nQZcGZEemgfsuTtM_1Jg" entityName="actionWithoutContexts" relatedEntity="_QsFEMMGZEemgfsuTtM_1Jg"/>
+  <relatedCharacteristics id="_xYkNlcWAEemIhKXUIxjtPw" entityName="multipleShiftsAction" characteristics="_0w3mI8WAEemIhKXUIxjtPw" relatedEntity="_vPkgwMWAEemIhKXUIxjtPw"/>
 </dataprocessing:DataSpecification>

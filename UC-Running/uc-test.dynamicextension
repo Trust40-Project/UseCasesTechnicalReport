@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynamicextension:DynamicSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dynamicextension="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/0.1/" xmlns:subject="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/util/subject/0.1/">
+  <subjectContainer>
+    <subject xsi:type="subject:Organisation" id="_BRt80ujxEeiODdW6tB_ptA" entityName="A" ownedSubjects="_a7CjYZ16Eems5LseVIDnXg"/>
+    <subject xsi:type="subject:User" id="_a7CjYZ16Eems5LseVIDnXg" entityName="W"/>
+    <subject xsi:type="subject:Organisation" id="_DI4SwujxEeiODdW6tB_ptA" entityName="B" ownedSubjects="_N167wciyEemxevgimI9b9Q"/>
+    <subject xsi:type="subject:User" id="_N167wciyEemxevgimI9b9Q" entityName="R"/>
+  </subjectContainer>
+  <helperContainer>
+    <rolecontainer id="_ETlLUejxEeiODdW6tB_ptA" entityName="Organisation A" organisation="_BRt80ujxEeiODdW6tB_ptA">
+      <role id="_Paz-cOjxEeiODdW6tB_ptA" entityName="Worker"/>
+      <role id="_SIXBUMiyEemxevgimI9b9Q" entityName="Repairperson"/>
+    </rolecontainer>
+    <prerequisitecontainer id="_uyJ9I52NEemcA9ybBTYPDQ">
+      <prerequisite id="_chzhYMiyEemxevgimI9b9Q" entityName="sendReport">
+        <prerequisite href="uc-test.repository#_jvtH8MixEemxevgimI9b9Q"/>
+      </prerequisite>
+    </prerequisitecontainer>
+  </helperContainer>
+</dynamicextension:DynamicSpecification>

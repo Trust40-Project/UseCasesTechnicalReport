@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_TeWeUOfeEei3jaZd_YAISA" entityName="New Repository">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_gjx-h8ixEemxevgimI9b9Q" entityName="sendReport">
+    <signatures__OperationInterface id="_jvtH8MixEemxevgimI9b9Q" entityName="sendReport"/>
+  </interfaces__Repository>
+</repository:Repository>

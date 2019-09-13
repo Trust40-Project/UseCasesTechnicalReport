@@ -20,7 +20,7 @@
       <context xsi:type="context:RoleContext" id="_As7YQ-jyEeiODdW6tB_ptA" entityName="Worker">
         <role href="uc-combined.dynamicextension#_Paz-cOjxEeiODdW6tB_ptA"/>
       </context>
-      <context xsi:type="context:PrivacyLevelContext" id="_WG04lujzEeiODdW6tB_ptA" level="_yAJlUOjyEeiODdW6tB_ptA"/>
+      <context xsi:type="context:PrivacyLevelContext" id="_WG04lujzEeiODdW6tB_ptA" level="_wl7qEOjyEeiODdW6tB_ptA"/>
       <context xsi:type="context:LocationContext" id="_HvBlMOj2EeiODdW6tB_ptA" entityName="Production Hall Context">
         <currentLocation href="uc-combined.dynamicextension#_cmZ2AOjxEeiODdW6tB_ptA"/>
       </context>

@@ -2,7 +2,8 @@
 <dynamicextension:DynamicSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dynamicextension="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/0.1/" xmlns:subject="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/util/subject/0.1/">
   <subjectContainer>
     <subject xsi:type="subject:Organisation" id="_BRt80ujxEeiODdW6tB_ptA" entityName="A"/>
-    <subject xsi:type="subject:Organisation" id="_DI4SwujxEeiODdW6tB_ptA" entityName="B"/>
+    <subject xsi:type="subject:Organisation" id="_DI4SwujxEeiODdW6tB_ptA" entityName="B" ownedSubjects="_Fkyq0NhPEem-scjYdsa-pw"/>
+    <subject xsi:type="subject:Resource" id="_Fkyq0NhPEem-scjYdsa-pw" entityName="Item"/>
   </subjectContainer>
   <helperContainer>
     <rolecontainer id="_ETlLUejxEeiODdW6tB_ptA" entityName="Organisation B" organisation="_BRt80ujxEeiODdW6tB_ptA">

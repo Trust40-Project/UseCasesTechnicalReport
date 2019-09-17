@@ -12,7 +12,7 @@
       <role id="_RTn6MOjxEeiODdW6tB_ptA" entityName="Foreman"/>
     </rolecontainer>
     <locationcontainer id="_bePUEujxEeiODdW6tB_ptA" organisation="_BRt80ujxEeiODdW6tB_ptA">
-      <location id="_cmZ2AOjxEeiODdW6tB_ptA" entityName="Production_Hall"/>
+      <location id="_cmZ2AOjxEeiODdW6tB_ptA" entityName="Factory"/>
     </locationcontainer>
   </helperContainer>
 </dynamicextension:DynamicSpecification>

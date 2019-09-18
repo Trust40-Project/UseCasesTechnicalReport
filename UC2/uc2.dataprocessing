@@ -46,5 +46,5 @@
   <relatedCharacteristics id="_QsgvFdPOEemv7vicsnQDdg" entityName="informForeman" characteristics="_X3uYk9POEemv7vicsnQDdg" relatedEntity="_H5vR4NPOEemv7vicsnQDdg"/>
   <relatedCharacteristics id="_d2DYNdPOEemv7vicsnQDdg" entityName="informSupplier" characteristics="_aU93E9POEemv7vicsnQDdg" relatedEntity="_aU93E9POEemv7vicsnQDdg"/>
   <relatedCharacteristics id="_dJ795dhUEem-scjYdsa-pw" entityName="receiveInformationForeman" characteristics="_9Kcic9hTEem-scjYdsa-pw" relatedEntity="_9Kcic9hTEem-scjYdsa-pw"/>
-  <relatedCharacteristics id="_dJ795dhUEem-scjYdsa-pw" entityName="receiveInformationSupplier" characteristics="_aU93E9POEemv7vicsnQDdg" relatedEntity="_Wy-b09hUEem-scjYdsa-pw"/>
+  <relatedCharacteristics id="_dJ795dhUEem-scjYdsa-pw" entityName="receiveInformationSupplier" characteristics="_Wy-b09hUEem-scjYdsa-pw" relatedEntity="_Wy-b09hUEem-scjYdsa-pw"/>
 </dataprocessing:DataSpecification>

@@ -35,7 +35,7 @@
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_gwr9UdPOEemv7vicsnQDdg" characteristicType="_OhdCMNPNEemv7vicsnQDdg" context="_u7coUdPNEemv7vicsnQDdg _3Z-T09PNEemv7vicsnQDdg _zhUnQNPNEemv7vicsnQDdg _AN5epNhPEem-scjYdsa-pw"/>
   </characteristicContainer>
   <characteristicContainer id="_aU93E9POEemv7vicsnQDdg" entityName="informSupplier">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_pB_sMdPOEemv7vicsnQDdg" characteristicType="_OhdCMNPNEemv7vicsnQDdg" context="_u7coUdPNEemv7vicsnQDdg _7gv789PNEemv7vicsnQDdg _zhUnQNPNEemv7vicsnQDdg"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_pB_sMdPOEemv7vicsnQDdg" characteristicType="_OhdCMNPNEemv7vicsnQDdg" context="_u7coUdPNEemv7vicsnQDdg _7gv789PNEemv7vicsnQDdg _zhUnQNPNEemv7vicsnQDdg _AN5epNhPEem-scjYdsa-pw"/>
   </characteristicContainer>
   <characteristicContainer id="_9Kcic9hTEem-scjYdsa-pw" entityName="receiveInformationForeman">
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="__xBjIdhTEem-scjYdsa-pw" characteristicType="_OhdCMNPNEemv7vicsnQDdg" context="_u7coUdPNEemv7vicsnQDdg _7gv789PNEemv7vicsnQDdg"/>

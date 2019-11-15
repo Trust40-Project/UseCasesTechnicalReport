@@ -20,7 +20,7 @@
       <context xsi:type="context:RoleContext" id="_As7YQ-jyEeiODdW6tB_ptA" entityName="Worker">
         <role href="uc-combined.dynamicextension#_Paz-cOjxEeiODdW6tB_ptA"/>
       </context>
-      <context xsi:type="context:PrivacyLevelContext" id="_WG04lujzEeiODdW6tB_ptA" level="_yAJlUOjyEeiODdW6tB_ptA"/>
+      <context xsi:type="context:PrivacyLevelContext" id="_WG04lujzEeiODdW6tB_ptA" level="_wl7qEOjyEeiODdW6tB_ptA"/>
       <context xsi:type="context:LocationContext" id="_HvBlMOj2EeiODdW6tB_ptA" entityName="Production Hall Context">
         <currentLocation href="uc-combined.dynamicextension#_cmZ2AOjxEeiODdW6tB_ptA"/>
       </context>
@@ -54,7 +54,6 @@
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_9cciIej1EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_0Jz18ejxEeiODdW6tB_ptA _As7YQ-jyEeiODdW6tB_ptA _HvBlMOj2EeiODdW6tB_ptA"/>
   </characteristicContainer>
   <characteristicContainer id="_Snyehej2EeiODdW6tB_ptA" entityName="sendIncidentToBPermission">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_XsegYej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_WG04lujzEeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _ga_Io-j2EeiODdW6tB_ptA"/>
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_XsegYej2EeiODdW6tB_ptA" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_WG04lujzEeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _ga_Io-j2EeiODdW6tB_ptA"/>
   </characteristicContainer>
   <characteristicContainer id="_kjOJVej2EeiODdW6tB_ptA" entityName="sendIncidentReportToA">

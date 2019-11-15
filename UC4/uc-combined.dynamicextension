@@ -5,14 +5,14 @@
   </subjectContainer>
   <helperContainer>
     <shiftcontainer id="_ep2msPFQEeisxJ0mFJit-Q" entityName="ShiftContainer" organisation="_BRt80ujxEeiODdW6tB_ptA">
-      <shift id="_lxUYoPFQEeisxJ0mFJit-Q" entityName="Early-Production" startTime="06:00:00Z" endTime="14:00:00Z"/>
+      <shift id="_lxUYoPFQEeisxJ0mFJit-Q" entityName="Early-Production" startTime="05:30:00Z" endTime="14:00:00Z"/>
     </shiftcontainer>
     <rolecontainer id="_ETlLUejxEeiODdW6tB_ptA" entityName="Organisation A" organisation="_BRt80ujxEeiODdW6tB_ptA">
       <role id="_Paz-cOjxEeiODdW6tB_ptA" entityName="Worker"/>
       <role id="_RTn6MOjxEeiODdW6tB_ptA" entityName="Foreman"/>
     </rolecontainer>
     <locationcontainer id="_bePUEujxEeiODdW6tB_ptA" organisation="_BRt80ujxEeiODdW6tB_ptA">
-      <location id="_cmZ2AOjxEeiODdW6tB_ptA" entityName="Production_Hall"/>
+      <location id="_cmZ2AOjxEeiODdW6tB_ptA" entityName="Factory"/>
     </locationcontainer>
   </helperContainer>
 </dynamicextension:DynamicSpecification>

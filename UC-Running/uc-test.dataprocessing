@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataprocessing:DataSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/context/0.1/" xmlns:dataprocessing="http://www.palladiosimulator.org/pcm/dataprocessing/0.1/">
+  <dataProcessingContainers id="_fX_M0OjxEeiODdW6tB_ptA" entityName="readLog"/>
+  <characteristicTypeContainers id="_rbrBIejxEeiODdW6tB_ptA">
+    <characteristicTypes xsi:type="context:ContextCharacteristicType" id="_lX1t8siyEemxevgimI9b9Q" entityName="contexts">
+      <context xsi:type="context:OrganisationContext" id="_yes2gciyEemxevgimI9b9Q" entityName="A">
+        <organisation href="uc-test.dynamicextension#_BRt80ujxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:OrganisationContext" id="_69scEciyEemxevgimI9b9Q" entityName="B">
+        <organisation href="uc-test.dynamicextension#_DI4SwujxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:RoleContext" id="_JjRlYMizEemWcrzKN0_IxQ" entityName="Worker">
+        <role href="uc-test.dynamicextension#_Paz-cOjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:RoleContext" id="_PaPYw8izEemWcrzKN0_IxQ" entityName="Repairperson">
+        <role href="uc-test.dynamicextension#_SIXBUMiyEemxevgimI9b9Q"/>
+      </context>
+      <context xsi:type="context:PrerequisiteContext" id="_Sq0_xsizEemWcrzKN0_IxQ" entityName="sendReport">
+        <prerequisite href="uc-test.dynamicextension#_chzhYMiyEemxevgimI9b9Q"/>
+      </context>
+      <context xsi:type="context:InternalStateContext" id="_dmzIpMi0EemjuajTbypYNQ" entityName="OKState" state="_Jv2xUOjyEeiODdW6tB_ptA"/>
+      <context xsi:type="context:InternalStateContext" id="_kvebhMi0EemjuajTbypYNQ" entityName="DEFECTIVEState" state="_IjWh8OjyEeiODdW6tB_ptA"/>
+    </characteristicTypes>
+    <enumerations id="_H9uFUejyEeiODdW6tB_ptA" entityName="StatusMachine">
+      <literals id="_IjWh8OjyEeiODdW6tB_ptA" entityName="DEFECTIVE"/>
+      <literals id="_Jv2xUOjyEeiODdW6tB_ptA" entityName="OK"/>
+    </enumerations>
+  </characteristicTypeContainers>
+  <characteristicContainer id="_uKgpI-j1EeiODdW6tB_ptA" entityName="readLogContainer">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_xEGrUcizEemjuajTbypYNQ" characteristicType="_lX1t8siyEemxevgimI9b9Q" context="_dmzIpMi0EemjuajTbypYNQ _yes2gciyEemxevgimI9b9Q _JjRlYMizEemWcrzKN0_IxQ _Sq0_xsizEemWcrzKN0_IxQ"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_uCgtIci0EemjuajTbypYNQ" characteristicType="_lX1t8siyEemxevgimI9b9Q" context="_kvebhMi0EemjuajTbypYNQ _69scEciyEemxevgimI9b9Q _PaPYw8izEemWcrzKN0_IxQ"/>
+  </characteristicContainer>
+  <relatedCharacteristics id="_Scwn5elyEei2LanlFCIZDw" entityName="readLog" characteristics="_uKgpI-j1EeiODdW6tB_ptA" relatedEntity="_fX_M0OjxEeiODdW6tB_ptA"/>
+</dataprocessing:DataSpecification>

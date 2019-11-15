@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataprocessing:DataSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:characteristics="http://www.palladiosimulator.org/pcm/dataprocessing/characteristics/0.1/" xmlns:context="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/context/0.1/" xmlns:dataprocessing="http://www.palladiosimulator.org/pcm/dataprocessing/0.1/">
-  <dataProcessingContainers id="_fX_M0OjxEeiODdW6tB_ptA" entityName="showPlan"/>
+  <dataProcessingContainers id="_fX_M0OjxEeiODdW6tB_ptA" entityName="showSchedule"/>
   <dataProcessingContainers id="_iudZYOjxEeiODdW6tB_ptA" entityName="sendData"/>
   <dataProcessingContainers id="_kkXyIOjxEeiODdW6tB_ptA" entityName="receiveData"/>
   <characteristicTypeContainers id="_rbrBIejxEeiODdW6tB_ptA">
@@ -34,8 +34,8 @@
       <literals id="_zVaIEOjyEeiODdW6tB_ptA" entityName="UNDEFINED"/>
     </enumerations>
   </characteristicTypeContainers>
-  <characteristicContainer id="_YLWSNvFQEeisxJ0mFJit-Q" entityName="showPlan">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_xGb2wfFQEeisxJ0mFJit-Q" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_As7YQ-jyEeiODdW6tB_ptA _HvBlMOj2EeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _tVFFAPFQEeisxJ0mFJit-Q"/>
+  <characteristicContainer id="_YLWSNvFQEeisxJ0mFJit-Q" entityName="showSchedule">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_xGb2wfFQEeisxJ0mFJit-Q" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_7w14w-jxEeiODdW6tB_ptA _HvBlMOj2EeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _tVFFAPFQEeisxJ0mFJit-Q"/>
   </characteristicContainer>
   <characteristicContainer id="_CzCbZfFREeisxJ0mFJit-Q" entityName="sendReport">
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_FykuofFREeisxJ0mFJit-Q" characteristicType="_sqqj0ujxEeiODdW6tB_ptA" context="_HvBlMOj2EeiODdW6tB_ptA _0Jz18ejxEeiODdW6tB_ptA _As7YQ-jyEeiODdW6tB_ptA"/>
@@ -45,5 +45,5 @@
   </characteristicContainer>
   <relatedCharacteristics id="_l7fL0PFREei0i8ljctF91w" entityName="receiveData" characteristics="_Ic61BfFREeisxJ0mFJit-Q" relatedEntity="_Ic61BfFREeisxJ0mFJit-Q"/>
   <relatedCharacteristics id="_qNyuhfFREei0i8ljctF91w" entityName="sendReport" characteristics="_CzCbZfFREeisxJ0mFJit-Q" relatedEntity="_iudZYOjxEeiODdW6tB_ptA"/>
-  <relatedCharacteristics id="_uMFJBPFREei0i8ljctF91w" entityName="showPlan" characteristics="_YLWSNvFQEeisxJ0mFJit-Q" relatedEntity="_fX_M0OjxEeiODdW6tB_ptA"/>
+  <relatedCharacteristics id="_uMFJBPFREei0i8ljctF91w" entityName="showSchedule" characteristics="_YLWSNvFQEeisxJ0mFJit-Q" relatedEntity="_fX_M0OjxEeiODdW6tB_ptA"/>
 </dataprocessing:DataSpecification>

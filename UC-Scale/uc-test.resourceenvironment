@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="New ResourceEnvironment">
+  <linkingResources__ResourceEnvironment id="_UgX_gOjwEeiODdW6tB_ptA" entityName="LinkingResource1" connectedResourceContainers_LinkingResource="_RdwjEOjwEeiODdW6tB_ptA _QqlZsOjwEeiODdW6tB_ptA">
+    <communicationLinkResourceSpecifications_LinkingResource id="_UgZNoOjwEeiODdW6tB_ptA">
+      <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+      <latency_CommunicationLinkResourceSpecification specification="1"/>
+      <throughput_CommunicationLinkResourceSpecification specification="1000"/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_QqlZsOjwEeiODdW6tB_ptA" entityName="A"/>
+  <resourceContainer_ResourceEnvironment id="_RdwjEOjwEeiODdW6tB_ptA" entityName="B"/>
+</resourceenvironment:ResourceEnvironment>

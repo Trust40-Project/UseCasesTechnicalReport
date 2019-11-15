@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_TeWeUOfeEei3jaZd_YAISA" entityName="New Repository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_Ze_yIOfeEei3jaZd_YAISA" entityName="WorkerSystem">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_1aetQOjpEeiTZthEH-cIMw" entityName="WorkerSystem.Worker.WorkerReport" providedInterface__OperationProvidedRole="_Wozv0OjpEeiTZthEH-cIMw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_m9pwQPFNEeisxJ0mFJit-Q" entityName="WorkerSystem.WorkerPlan.Plan" providedInterface__OperationProvidedRole="_eJZMYOjpEeiTZthEH-cIMw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_jEY_sPFNEeisxJ0mFJit-Q" entityName="WorkerSystem.ReportReceiver.OperationRequiredRole2" requiredInterface__OperationRequiredRole="_Y4WCcPFNEeisxJ0mFJit-Q"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_1bKCsOjpEeiTZthEH-cIMw" describedService__SEFF="_YzRcQOjpEeiTZthEH-cIMw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_1bKCsejpEeiTZthEH-cIMw" successor_AbstractAction="__Q0jwPFOEeisxJ0mFJit-Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_1bKCsujpEeiTZthEH-cIMw" predecessor_AbstractAction="_AHbboPFPEeisxJ0mFJit-Q"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="__Q0jwPFOEeisxJ0mFJit-Q" entityName="InternalAction1" predecessor_AbstractAction="_1bKCsejpEeiTZthEH-cIMw" successor_AbstractAction="_AHbboPFPEeisxJ0mFJit-Q"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_AHbboPFPEeisxJ0mFJit-Q" entityName="ExternalCallAction1" predecessor_AbstractAction="__Q0jwPFOEeisxJ0mFJit-Q" successor_AbstractAction="_1bKCsujpEeiTZthEH-cIMw" calledService_ExternalService="_bokuYPFNEeisxJ0mFJit-Q" role_ExternalService="_jEY_sPFNEeisxJ0mFJit-Q"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_m9uowPFNEeisxJ0mFJit-Q" describedService__SEFF="_et0vIOjpEeiTZthEH-cIMw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_m9vP0PFNEeisxJ0mFJit-Q" successor_AbstractAction="_1rH00PFOEeisxJ0mFJit-Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_m9vP0fFNEeisxJ0mFJit-Q" predecessor_AbstractAction="_1rH00PFOEeisxJ0mFJit-Q"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_1rH00PFOEeisxJ0mFJit-Q" entityName="InternalAction1" predecessor_AbstractAction="_m9vP0PFNEeisxJ0mFJit-Q" successor_AbstractAction="_m9vP0fFNEeisxJ0mFJit-Q"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_W-I_kPFNEeisxJ0mFJit-Q" entityName="ForemanSystem">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_iA8lsPFNEeisxJ0mFJit-Q" entityName="ForemanSystem.ReportReceiver.OperationProvidedRole1" providedInterface__OperationProvidedRole="_Y4WCcPFNEeisxJ0mFJit-Q"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_iBmtAPFNEeisxJ0mFJit-Q" describedService__SEFF="_bokuYPFNEeisxJ0mFJit-Q">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_iBnUEPFNEeisxJ0mFJit-Q" successor_AbstractAction="_MRjPIPFPEeisxJ0mFJit-Q"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_iBnUEfFNEeisxJ0mFJit-Q" predecessor_AbstractAction="_MRjPIPFPEeisxJ0mFJit-Q"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_MRjPIPFPEeisxJ0mFJit-Q" entityName="InternalAction1" predecessor_AbstractAction="_iBnUEPFNEeisxJ0mFJit-Q" successor_AbstractAction="_iBnUEfFNEeisxJ0mFJit-Q"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Wozv0OjpEeiTZthEH-cIMw" entityName="WorkerReport">
+    <signatures__OperationInterface id="_YzRcQOjpEeiTZthEH-cIMw" entityName="sendData"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_eJZMYOjpEeiTZthEH-cIMw" entityName="WorkerSchedule">
+    <signatures__OperationInterface id="_et0vIOjpEeiTZthEH-cIMw" entityName="showSchedule"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Y4WCcPFNEeisxJ0mFJit-Q" entityName="ReportReceiver">
+    <signatures__OperationInterface id="_bokuYPFNEeisxJ0mFJit-Q" entityName="receive"/>
+  </interfaces__Repository>
+</repository:Repository>

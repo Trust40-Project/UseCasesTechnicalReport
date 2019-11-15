@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_5kU6sOjtEeiTZthEH-cIMw" entityName="New System">
+  <assemblyContexts__ComposedStructure id="_Uv4tYPFPEeisxJ0mFJit-Q" entityName="Assembly_WorkerSystem">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="uc-combined.repository#_Ze_yIOfeEei3jaZd_YAISA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_VfygUPFPEeisxJ0mFJit-Q" entityName="Assembly_ForemanSystem">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="uc-combined.repository#_W-I_kPFNEeisxJ0mFJit-Q"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ZWqrQPFPEeisxJ0mFJit-Q" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_Uv4tYPFPEeisxJ0mFJit-Q" providingAssemblyContext_AssemblyConnector="_VfygUPFPEeisxJ0mFJit-Q">
+    <providedRole_AssemblyConnector href="uc-combined.repository#_iA8lsPFNEeisxJ0mFJit-Q"/>
+    <requiredRole_AssemblyConnector href="uc-combined.repository#_jEY_sPFNEeisxJ0mFJit-Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_jUIZ8PFPEeisxJ0mFJit-Q" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_dToQEPFPEeisxJ0mFJit-Q" assemblyContext_ProvidedDelegationConnector="_Uv4tYPFPEeisxJ0mFJit-Q">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc-combined.repository#_1aetQOjpEeiTZthEH-cIMw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_n3RN8PFPEeisxJ0mFJit-Q" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_nBO90PFPEeisxJ0mFJit-Q" assemblyContext_ProvidedDelegationConnector="_Uv4tYPFPEeisxJ0mFJit-Q">
+    <innerProvidedRole_ProvidedDelegationConnector href="uc-combined.repository#_m9pwQPFNEeisxJ0mFJit-Q"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_dToQEPFPEeisxJ0mFJit-Q" entityName="Worker Report">
+    <providedInterface__OperationProvidedRole href="uc-combined.repository#_Wozv0OjpEeiTZthEH-cIMw"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_nBO90PFPEeisxJ0mFJit-Q" entityName="WorkerPlan">
+    <providedInterface__OperationProvidedRole href="uc-combined.repository#_eJZMYOjpEeiTZthEH-cIMw"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

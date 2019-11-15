@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynamicextension:DynamicSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dynamicextension="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/0.1/" xmlns:subject="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/util/subject/0.1/">
+  <subjectContainer>
+    <subject xsi:type="subject:Organisation" id="_BRt80ujxEeiODdW6tB_ptA" entityName="A" ownedSubjects="_a7CjYZ16Eems5LseVIDnXg _gnYbIp16Eems5LseVIDnXg"/>
+    <subject xsi:type="subject:User" id="_a7CjYZ16Eems5LseVIDnXg" entityName="Hans A."/>
+    <subject xsi:type="subject:Organisation" id="_DI4SwujxEeiODdW6tB_ptA" entityName="B"/>
+    <subject xsi:type="subject:Organisation" id="_gnYbIp16Eems5LseVIDnXg" entityName="ASub"/>
+  </subjectContainer>
+  <helperContainer>
+    <shiftcontainer id="_qaE4sJ2EEems5LseVIDnXg">
+      <shift id="_qviLUJ2EEems5LseVIDnXg" entityName="Shift 1" startTime="06:00:00Z" endTime="14:00:00Z"/>
+      <shift id="_7kNCYJ2EEems5LseVIDnXg" entityName="Shift 2" startTime="14:00:00Z" endTime="22:00:00Z"/>
+    </shiftcontainer>
+    <rolecontainer id="_ETlLUejxEeiODdW6tB_ptA" entityName="Organisation A" organisation="_BRt80ujxEeiODdW6tB_ptA">
+      <role id="_Paz-cOjxEeiODdW6tB_ptA" entityName="Worker" subordinateroles="_1v5X4J14Eems5LseVIDnXg"/>
+      <role id="_RTn6MOjxEeiODdW6tB_ptA" entityName="QAInspector"/>
+      <role id="_VOgbYOjxEeiODdW6tB_ptA" entityName="QA"/>
+      <role id="_1v5X4J14Eems5LseVIDnXg" entityName="WInspector"/>
+    </rolecontainer>
+    <rolecontainer id="_IUifUejxEeiODdW6tB_ptA" entityName="Organisation B" organisation="_DI4SwujxEeiODdW6tB_ptA">
+      <role id="_S45O4OjxEeiODdW6tB_ptA" entityName="QAWorker"/>
+    </rolecontainer>
+    <locationcontainer id="_KyfIcujxEeiODdW6tB_ptA" organisation="_DI4SwujxEeiODdW6tB_ptA">
+      <location id="_XxQE8OjxEeiODdW6tB_ptA" entityName="Production B"/>
+    </locationcontainer>
+    <locationcontainer id="_bePUEujxEeiODdW6tB_ptA" organisation="_BRt80ujxEeiODdW6tB_ptA">
+      <location id="_cmZ2AOjxEeiODdW6tB_ptA" entityName="Production_Hall" includes="_ANYqcJ15Eems5LseVIDnXg"/>
+      <location id="_ANYqcJ15Eems5LseVIDnXg" entityName="Production_Hall_Section_1"/>
+    </locationcontainer>
+    <prerequisitecontainer id="_uyJ9I52NEemcA9ybBTYPDQ">
+      <prerequisite id="_xfbmQJ2OEem0zYc6gG_JOg" entityName="checkAccessPrerequisite">
+        <prerequisite href="uc-test.repository#_PYpYEOjtEeiTZthEH-cIMw"/>
+      </prerequisite>
+    </prerequisitecontainer>
+  </helperContainer>
+</dynamicextension:DynamicSpecification>

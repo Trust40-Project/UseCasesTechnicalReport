@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:subsystem="http://palladiosimulator.org/PalladioComponentModel/SubSystem/5.2">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:subsystem="http://palladiosimulator.org/PalladioComponentModel/SubSystem/5.2">
   <repository:Repository id="_mblNsMVKEeiR2rBVsJCuAw" entityName="New Repository">
     <components__Repository xsi:type="repository:BasicComponent" id="_pWqewMVKEeiR2rBVsJCuAw" entityName="QA-ServiceComponent-A">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_moqVgMVMEeiR2rBVsJCuAw" entityName="QA-ServiceComponent.QA-Services.ProvideRating" providedInterface__OperationProvidedRole="_qomnwMVKEeiR2rBVsJCuAw"/>
@@ -131,22 +131,6 @@
     <dataTypes__Repository xsi:type="repository:CollectionDataType" id="_0s3sjMYPEeiz2vvpaUChIA" entityName="ListDefects" innerType_CollectionDataType="_uQDRwMVZEeiR2rBVsJCuAw"/>
   </repository:Repository>
   <emfprofileapplication:ProfileApplication>
-    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_J3Qb0M4BEeiBbcXKG7KJGA">
-      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_YGiQIFqhEeiGTpqaWj7bwA"/>
-      <dataProcessingContainer href="uc2.dataprocessing#__CzawM4AEeiBbcXKG7KJGA"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_HDAWEM4CEeiBbcXKG7KJGA">
-      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_YGiQIFqhEeiGTpqaWj7bwA"/>
-      <dataProcessingContainer href="uc2.dataprocessing#_lBNEoM4BEeiBbcXKG7KJGA"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="dataProcessingProfile:StoreHaving" appliedTo="_pWqewMVKEeiR2rBVsJCuAw">
-      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_pFHmQFqjEeiW1d-qz7Oqsw"/>
-      <storeContainer href="uc2.dataprocessing#_Vz7zws4CEeiBbcXKG7KJGA"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="dataProcessingProfile:StoreHaving" appliedTo="_rG3WAM0qEeisTqbPtEoafA">
-      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_pFHmQFqjEeiW1d-qz7Oqsw"/>
-      <storeContainer href="uc2.dataprocessing#_-qSWos4MEeiBbcXKG7KJGA"/>
-    </stereotypeApplications>
     <importedProfiles nsURI="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" location="platform:/resource/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>
 </xmi:XMI>

@@ -1,21 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataprocessing:DataSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:data="http://www.palladiosimulator.org/pcm/dataprocessing/data/0.1/" xmlns:dataprocessing="http://www.palladiosimulator.org/pcm/dataprocessing/0.1/" xmlns:processing="http://www.palladiosimulator.org/pcm/dataprocessing/processing/0.1/" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2">
-  <dataProcessingContainers id="__CzawM4AEeiBbcXKG7KJGA" entityName="CreateErrorReport">
-    <operations xsi:type="processing:CreateDataOperation" id="_A0Cu4M4BEeiBbcXKG7KJGA" entityName="CreateErrorReport">
-      <resultingData xsi:type="data:OriginalData" id="_X4YNMM4BEeiBbcXKG7KJGA"/>
-    </operations>
-  </dataProcessingContainers>
-  <dataProcessingContainers id="_lBNEoM4BEeiBbcXKG7KJGA" entityName="GetAverage">
-    <operations xsi:type="processing:LoadAllDataOperation" id="_TC7Ess4CEeiBbcXKG7KJGA"/>
-  </dataProcessingContainers>
-  <storeContainers id="_Vz7zws4CEeiBbcXKG7KJGA" entityName="CompanyA">
-    <stores id="_azhTMM4CEeiBbcXKG7KJGA" entityName="QA-Database">
-      <dataType xsi:type="repository:CollectionDataType" href="uc2Repository.repository#_0s3sjMYPEeiz2vvpaUChIA"/>
-    </stores>
-  </storeContainers>
-  <storeContainers id="_-qSWos4MEeiBbcXKG7KJGA" entityName="CompanyB">
-    <stores id="_AKdv8M4NEeiBbcXKG7KJGA" entityName="QA-Database-B">
-      <dataType xsi:type="repository:CompositeDataType" href="uc2Repository.repository#_uQDRwMVZEeiR2rBVsJCuAw"/>
-    </stores>
-  </storeContainers>
+<dataprocessing:DataSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.palladiosimulator.org/pcm/dataprocessing/dynamic/context/0.1/" xmlns:dataprocessing="http://www.palladiosimulator.org/pcm/dataprocessing/0.1/">
+  <dataProcessingContainers id="_H5vR4NPOEemv7vicsnQDdg" entityName="informForeman"/>
+  <dataProcessingContainers id="_OboRkNPOEemv7vicsnQDdg" entityName="informSupplier"/>
+  <dataProcessingContainers id="_2Cx8MNhTEem-scjYdsa-pw" entityName="receiveInformationForeman"/>
+  <dataProcessingContainers id="_5SZ54NhTEem-scjYdsa-pw" entityName="receiveInformationSupplier"/>
+  <characteristicTypeContainers id="_N0tQ-tPNEemv7vicsnQDdg">
+    <characteristicTypes xsi:type="context:ContextCharacteristicType" id="_OhdCMNPNEemv7vicsnQDdg" entityName="allContexts">
+      <context xsi:type="context:OrganisationContext" id="_UKUvMdPNEemv7vicsnQDdg" entityName="A">
+        <organisation href="uc2.dynamicextension#_BRt80ujxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:OrganisationContext" id="_u7coUdPNEemv7vicsnQDdg" entityName="B">
+        <organisation href="uc2.dynamicextension#_DI4SwujxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:LocationContext" id="_zhUnQNPNEemv7vicsnQDdg" entityName="Production Factory">
+        <currentLocation href="uc2.dynamicextension#_XxQE8OjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:RoleContext" id="_3Z-T09PNEemv7vicsnQDdg" entityName="WorkerRole">
+        <role href="uc2.dynamicextension#_Paz-cOjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:RoleContext" id="_7gv789PNEemv7vicsnQDdg" entityName="ForemanRole">
+        <role href="uc2.dynamicextension#_RTn6MOjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:RoleContext" id="_-4bpc9PNEemv7vicsnQDdg" entityName="SupplierRole">
+        <role href="uc2.dynamicextension#_S45O4OjxEeiODdW6tB_ptA"/>
+      </context>
+      <context xsi:type="context:InternalStateContext" id="_AN5epNhPEem-scjYdsa-pw" entityName="FaultyQuality" state="_wXAecNhOEem-scjYdsa-pw"/>
+    </characteristicTypes>
+    <enumerations id="_qEn6YNhOEem-scjYdsa-pw" entityName="ItemQuality">
+      <literals id="_ufFTgNhOEem-scjYdsa-pw" entityName="OK"/>
+      <literals id="_wXAecNhOEem-scjYdsa-pw" entityName="FAULTY"/>
+    </enumerations>
+  </characteristicTypeContainers>
+  <characteristicContainer id="_X3uYk9POEemv7vicsnQDdg" entityName="informForeman">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_gwr9UdPOEemv7vicsnQDdg" characteristicType="_OhdCMNPNEemv7vicsnQDdg" context="_u7coUdPNEemv7vicsnQDdg _3Z-T09PNEemv7vicsnQDdg _zhUnQNPNEemv7vicsnQDdg _AN5epNhPEem-scjYdsa-pw"/>
+  </characteristicContainer>
+  <characteristicContainer id="_aU93E9POEemv7vicsnQDdg" entityName="informSupplier">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_pB_sMdPOEemv7vicsnQDdg" characteristicType="_OhdCMNPNEemv7vicsnQDdg" context="_u7coUdPNEemv7vicsnQDdg _7gv789PNEemv7vicsnQDdg _zhUnQNPNEemv7vicsnQDdg _AN5epNhPEem-scjYdsa-pw"/>
+  </characteristicContainer>
+  <characteristicContainer id="_9Kcic9hTEem-scjYdsa-pw" entityName="receiveInformationForeman">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="__xBjIdhTEem-scjYdsa-pw" characteristicType="_OhdCMNPNEemv7vicsnQDdg" context="_u7coUdPNEemv7vicsnQDdg _7gv789PNEemv7vicsnQDdg"/>
+  </characteristicContainer>
+  <characteristicContainer id="_Wy-b09hUEem-scjYdsa-pw" entityName="receiveInformationSupplier">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_aAmOYdhUEem-scjYdsa-pw" characteristicType="_OhdCMNPNEemv7vicsnQDdg" context="_UKUvMdPNEemv7vicsnQDdg _-4bpc9PNEemv7vicsnQDdg"/>
+  </characteristicContainer>
+  <relatedCharacteristics id="_QsgvFdPOEemv7vicsnQDdg" entityName="informForeman" characteristics="_X3uYk9POEemv7vicsnQDdg" relatedEntity="_H5vR4NPOEemv7vicsnQDdg"/>
+  <relatedCharacteristics id="_d2DYNdPOEemv7vicsnQDdg" entityName="informSupplier" characteristics="_aU93E9POEemv7vicsnQDdg" relatedEntity="_aU93E9POEemv7vicsnQDdg"/>
+  <relatedCharacteristics id="_dJ795dhUEem-scjYdsa-pw" entityName="receiveInformationForeman" characteristics="_9Kcic9hTEem-scjYdsa-pw" relatedEntity="_9Kcic9hTEem-scjYdsa-pw"/>
+  <relatedCharacteristics id="_dJ795dhUEem-scjYdsa-pw" entityName="receiveInformationSupplier" characteristics="_Wy-b09hUEem-scjYdsa-pw" relatedEntity="_Wy-b09hUEem-scjYdsa-pw"/>
 </dataprocessing:DataSpecification>

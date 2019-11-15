@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2">
   <repository:Repository id="_phDpINE4EeiQjaFO9jgXoA" entityName="UC3">
     <components__Repository xsi:type="repository:BasicComponent" id="_CqYeANE5EeiQjaFO9jgXoA" entityName="Company">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_FDz-ENE6EeiQjaFO9jgXoA" entityName="Company.Production.Provider" providedInterface__OperationProvidedRole="_vz110NE4EeiQjaFO9jgXoA"/>
@@ -111,18 +111,6 @@
     </dataTypes__Repository>
   </repository:Repository>
   <emfprofileapplication:ProfileApplication>
-    <stereotypeApplications xsi:type="dataProcessingProfile:StoreHaving" appliedTo="_XpdgANE5EeiQjaFO9jgXoA">
-      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_pFHmQFqjEeiW1d-qz7Oqsw"/>
-      <storeContainer href="uc3.dataprocessing#_ohSa8dFIEeiQjaFO9jgXoA"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_7Qev4NFGEeiQjaFO9jgXoA">
-      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_YGiQIFqhEeiGTpqaWj7bwA"/>
-      <dataProcessingContainer href="uc3.dataprocessing#_Emz7MNFJEeiQjaFO9jgXoA"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_zcxjANFGEeiQjaFO9jgXoA">
-      <extension href="../org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_YGiQIFqhEeiGTpqaWj7bwA"/>
-      <dataProcessingContainer href="uc3.dataprocessing#_8JJU4NFUEeiQjaFO9jgXoA"/>
-    </stereotypeApplications>
     <importedProfiles nsURI="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" location="platform:/resource/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>
 </xmi:XMI>

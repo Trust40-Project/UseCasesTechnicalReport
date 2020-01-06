@@ -3,10 +3,19 @@
   <assemblyContexts__ComposedStructure id="_jzuCQAq9Eeq_iMNQnpRAUA" entityName="Assembly_BasicComponent1">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="newRepository.repository#_U2Vc8Aq9Eeq_iMNQnpRAUA"/>
   </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_wD620DCUEeqkMI7OTVqXtQ" entityName="Assembly_BasicComponent2">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="newRepository.repository#_vyzHEDCTEeqkMI7OTVqXtQ"/>
+  </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_tZHPMAq9Eeq_iMNQnpRAUA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_qNoKoAq9Eeq_iMNQnpRAUA" assemblyContext_ProvidedDelegationConnector="_jzuCQAq9Eeq_iMNQnpRAUA">
     <innerProvidedRole_ProvidedDelegationConnector href="newRepository.repository#_XNh90Aq9Eeq_iMNQnpRAUA"/>
   </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_4oW9EDCUEeqkMI7OTVqXtQ" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_yQ2BYDCUEeqkMI7OTVqXtQ" assemblyContext_ProvidedDelegationConnector="_wD620DCUEeqkMI7OTVqXtQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="newRepository.repository#_ACjTMDCUEeqkMI7OTVqXtQ"/>
+  </connectors__ComposedStructure>
   <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qNoKoAq9Eeq_iMNQnpRAUA" entityName="OperationProvidedRole1">
     <providedInterface__OperationProvidedRole href="newRepository.repository#_VOZXoAq9Eeq_iMNQnpRAUA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_yQ2BYDCUEeqkMI7OTVqXtQ" entityName="OperationProvidedRole2">
+    <providedInterface__OperationProvidedRole href="newRepository.repository#_w37jIDCTEeqkMI7OTVqXtQ"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

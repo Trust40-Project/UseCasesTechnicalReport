@@ -10,8 +10,8 @@
           <operationSignature__EntryLevelSystemCall href="newRepository.repository#_dCtBcAq9Eeq_iMNQnpRAUA"/>
         </actions_ScenarioBehaviour>
         <actions_ScenarioBehaviour xsi:type="usagemodel:EntryLevelSystemCall" id="_IozvMCJuEeqoeeX4ekP0iQ" entityName="EntryLevelSystemCall2" successor="_5eqEsgq9Eeq_iMNQnpRAUA" predecessor="_HTNZsAq-Eeq_iMNQnpRAUA">
-          <providedRole_EntryLevelSystemCall href="newAssembly.system#_qNoKoAq9Eeq_iMNQnpRAUA"/>
-          <operationSignature__EntryLevelSystemCall href="newRepository.repository#_dCtBcAq9Eeq_iMNQnpRAUA"/>
+          <providedRole_EntryLevelSystemCall href="newAssembly.system#_yQ2BYDCUEeqkMI7OTVqXtQ"/>
+          <operationSignature__EntryLevelSystemCall href="newRepository.repository#_MCsEQDCUEeqkMI7OTVqXtQ"/>
         </actions_ScenarioBehaviour>
       </scenarioBehaviour_UsageScenario>
     </usageScenario_UsageModel>

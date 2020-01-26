@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_yavygAq8Eeq_iMNQnpRAUA" entityName="New System">
+  <assemblyContexts__ComposedStructure id="_jzuCQAq9Eeq_iMNQnpRAUA" entityName="Assembly_BasicComponent1">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="newRepository.repository#_U2Vc8Aq9Eeq_iMNQnpRAUA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_yR-8QEBrEeqbxaYOY9o4Tg" entityName="Assembly_BasicComponent3">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="newRepository.repository#_Oz1BkEBrEeqbxaYOY9o4Tg"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_z27g0EBrEeqbxaYOY9o4Tg" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_jzuCQAq9Eeq_iMNQnpRAUA" providingAssemblyContext_AssemblyConnector="_yR-8QEBrEeqbxaYOY9o4Tg">
+    <providedRole_AssemblyConnector href="newRepository.repository#_UL6gkEBrEeqbxaYOY9o4Tg"/>
+    <requiredRole_AssemblyConnector href="newRepository.repository#_JPeYsDE3Eeq8c7lhGp-Rqg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-BnhQEBtEeqbxaYOY9o4Tg" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_qNoKoAq9Eeq_iMNQnpRAUA" assemblyContext_ProvidedDelegationConnector="_jzuCQAq9Eeq_iMNQnpRAUA">
+    <innerProvidedRole_ProvidedDelegationConnector href="newRepository.repository#_XNh90Aq9Eeq_iMNQnpRAUA"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qNoKoAq9Eeq_iMNQnpRAUA" entityName="OperationProvidedRole1">
+    <providedInterface__OperationProvidedRole href="newRepository.repository#_VOZXoAq9Eeq_iMNQnpRAUA"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

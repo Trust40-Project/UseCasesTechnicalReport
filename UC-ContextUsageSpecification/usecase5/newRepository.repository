@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2">
+  <repository:Repository id="_rl2-UAq8Eeq_iMNQnpRAUA" entityName="New Repository">
+    <components__Repository xsi:type="repository:BasicComponent" id="_U2Vc8Aq9Eeq_iMNQnpRAUA" entityName="BasicComponent1">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XNh90Aq9Eeq_iMNQnpRAUA" entityName="BasicComponent1.Interface1.OperationProvidedRole1" providedInterface__OperationProvidedRole="_VOZXoAq9Eeq_iMNQnpRAUA"/>
+      <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_JPeYsDE3Eeq8c7lhGp-Rqg" entityName="BasicComponent1.Interface2.OperationRequiredRole1" requiredInterface__OperationRequiredRole="_w37jIDCTEeqkMI7OTVqXtQ"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_UNlEwArGEeqFwvn90rAbVA" describedService__SEFF="_dCtBcAq9Eeq_iMNQnpRAUA">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_UqoNIArGEeqFwvn90rAbVA" successor_AbstractAction="_Wd0CAArGEeqFwvn90rAbVA"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_UqoNIQrGEeqFwvn90rAbVA" predecessor_AbstractAction="_LnDUEDE3Eeq8c7lhGp-Rqg"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_Wd0CAArGEeqFwvn90rAbVA" entityName="InternalAction1" predecessor_AbstractAction="_UqoNIArGEeqFwvn90rAbVA" successor_AbstractAction="_LnDUEDE3Eeq8c7lhGp-Rqg"/>
+        <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_LnDUEDE3Eeq8c7lhGp-Rqg" entityName="ExternalCallAction1" predecessor_AbstractAction="_Wd0CAArGEeqFwvn90rAbVA" successor_AbstractAction="_UqoNIQrGEeqFwvn90rAbVA" calledService_ExternalService="_MCsEQDCUEeqkMI7OTVqXtQ" role_ExternalService="_JPeYsDE3Eeq8c7lhGp-Rqg"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_vyzHEDCTEeqkMI7OTVqXtQ" entityName="BasicComponent2">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ACjTMDCUEeqkMI7OTVqXtQ" entityName="BasicComponent2.Interface2.OperationProvidedRole1" providedInterface__OperationProvidedRole="_w37jIDCTEeqkMI7OTVqXtQ"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_a5r4QDCVEeqkMI7OTVqXtQ" describedService__SEFF="_MCsEQDCUEeqkMI7OTVqXtQ">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_bfPcYDCVEeqkMI7OTVqXtQ" successor_AbstractAction="_bfPcYTCVEeqkMI7OTVqXtQ"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_bfPcYTCVEeqkMI7OTVqXtQ" predecessor_AbstractAction="_bfPcYDCVEeqkMI7OTVqXtQ"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_f5goQDCVEeqkMI7OTVqXtQ" entityName="InternalAction2"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <components__Repository xsi:type="repository:BasicComponent" id="_Oz1BkEBrEeqbxaYOY9o4Tg" entityName="BasicComponent3">
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UL6gkEBrEeqbxaYOY9o4Tg" entityName="BasicComponent3.Interface2.OperationProvidedRole1" providedInterface__OperationProvidedRole="_w37jIDCTEeqkMI7OTVqXtQ"/>
+      <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_UMJxIEBrEeqbxaYOY9o4Tg" describedService__SEFF="_MCsEQDCUEeqkMI7OTVqXtQ">
+        <steps_Behaviour xsi:type="seff:StartAction" id="_UMKYMEBrEeqbxaYOY9o4Tg" successor_AbstractAction="_UMKYMUBrEeqbxaYOY9o4Tg"/>
+        <steps_Behaviour xsi:type="seff:StopAction" id="_UMKYMUBrEeqbxaYOY9o4Tg" predecessor_AbstractAction="_UMKYMEBrEeqbxaYOY9o4Tg"/>
+        <steps_Behaviour xsi:type="seff:InternalAction" id="_f3A1wEBrEeqbxaYOY9o4Tg" entityName="InternalAction1"/>
+      </serviceEffectSpecifications__BasicComponent>
+    </components__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_VOZXoAq9Eeq_iMNQnpRAUA" entityName="Interface1">
+      <signatures__OperationInterface id="_dCtBcAq9Eeq_iMNQnpRAUA" entityName="method1">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+    <interfaces__Repository xsi:type="repository:OperationInterface" id="_w37jIDCTEeqkMI7OTVqXtQ" entityName="Interface2">
+      <signatures__OperationInterface id="_MCsEQDCUEeqkMI7OTVqXtQ" entityName="method2">
+        <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.2"/>
+      </signatures__OperationInterface>
+    </interfaces__Repository>
+  </repository:Repository>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_f3A1wEBrEeqbxaYOY9o4Tg">
+      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_YGiQIFqhEeiGTpqaWj7bwA"/>
+      <dataProcessingContainer href="My.dataprocessing#_BM6qgEBsEeqbxaYOY9o4Tg"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" location="platform:/plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

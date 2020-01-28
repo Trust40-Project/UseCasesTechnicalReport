@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
   <usagemodel:UsageModel>
     <usageScenario_UsageModel id="_1HGOkAq9Eeq_iMNQnpRAUA" entityName="UsageScenario">
       <scenarioBehaviour_UsageScenario id="_5eqEsAq9Eeq_iMNQnpRAUA" entityName="ScenarioBehaviour">
@@ -13,10 +13,6 @@
     </usageScenario_UsageModel>
   </usagemodel:UsageModel>
   <emfprofileapplication:ProfileApplication>
-    <stereotypeApplications xsi:type="dataProcessingProfile:Characterizable" appliedTo="_5eqEsAq9Eeq_iMNQnpRAUA">
-      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_17pjsL6DEeise_51G7D_6w"/>
-      <characteristicContainer href="My.dataprocessing#_NwKcwSC8EeqgWYmR_CNMqg"/>
-    </stereotypeApplications>
     <importedProfiles nsURI="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" location="platform:/plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>
 </xmi:XMI>

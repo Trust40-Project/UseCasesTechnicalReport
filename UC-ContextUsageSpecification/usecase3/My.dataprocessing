@@ -14,8 +14,8 @@
       <context xsi:type="context:RoleContext" id="_HYD6sxAzEeqlarC9UjEszg" entityName="low">
         <role href="My.dynamicextension#_YzhhcBAyEeqlarC9UjEszg"/>
       </context>
-      <context xsi:type="context:PrivacyLevelContext" id="_LpxyFRA0EeqxVehm50TVtw" level="_w8ILEBAwEeqlarC9UjEszg"/>
-      <context xsi:type="context:PrivacyLevelContext" id="_PBfUxRA0EeqxVehm50TVtw" level="_wQBTABAwEeqlarC9UjEszg"/>
+      <context xsi:type="context:PrivacyLevelContext" id="_LpxyFRA0EeqxVehm50TVtw" entityName="PUBLIC" level="_w8ILEBAwEeqlarC9UjEszg"/>
+      <context xsi:type="context:PrivacyLevelContext" id="_PBfUxRA0EeqxVehm50TVtw" entityName="SECRET" level="_wQBTABAwEeqlarC9UjEszg"/>
     </characteristicTypes>
     <enumerations id="_p2Ac_RAwEeqlarC9UjEszg" entityName="PrivacyLevel">
       <literals id="_wQBTABAwEeqlarC9UjEszg" entityName="SECRET"/>
@@ -23,13 +23,13 @@
     </enumerations>
   </characteristicTypeContainers>
   <characteristicContainer id="_QbDskxAwEeqlarC9UjEszg" entityName="method1">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_NK68HBAxEeqlarC9UjEszg" characteristicType="_69x2MBAwEeqlarC9UjEszg" context="_LpxyFRA0EeqxVehm50TVtw"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_NK68HBAxEeqlarC9UjEszg" characteristicType="_69x2MBAwEeqlarC9UjEszg"/>
   </characteristicContainer>
   <characteristicContainer id="_NwKcwSC8EeqgWYmR_CNMqg" entityName="SystemCall1">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_OQjNACC8EeqgWYmR_CNMqg" characteristicType="_kvAcAhAyEeqlarC9UjEszg" context="_FMv5sxAzEeqlarC9UjEszg"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_OQjNACC8EeqgWYmR_CNMqg" characteristicType="_69x2MBAwEeqlarC9UjEszg" context="_LpxyFRA0EeqxVehm50TVtw"/>
   </characteristicContainer>
   <characteristicContainer id="_i8YG4zCWEeqrP7EGDZFR5Q" entityName="method2">
-    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_tw9DwTCWEeqfkKZ5k49p1Q" characteristicType="_kvAcAhAyEeqlarC9UjEszg" context="_Dy5x7hAzEeqlarC9UjEszg"/>
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_tw9DwTCWEeqfkKZ5k49p1Q" characteristicType="_69x2MBAwEeqlarC9UjEszg"/>
   </characteristicContainer>
   <relatedCharacteristics id="_xsE1FArEEeqFwvn90rAbVA" entityName="method1" characteristics="_QbDskxAwEeqlarC9UjEszg" relatedEntity="_xAdFKQrEEeqFwvn90rAbVA"/>
   <relatedCharacteristics id="_M-yOMzCWEeqBo7h3Zq6G5g" entityName="method2" characteristics="_i8YG4zCWEeqrP7EGDZFR5Q" relatedEntity="_8A7l8DCVEeqVEdBgmh-Vtg"/>

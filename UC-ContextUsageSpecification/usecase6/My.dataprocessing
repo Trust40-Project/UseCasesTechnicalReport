@@ -32,8 +32,10 @@
   <characteristicContainer id="_i8YG4zCWEeqrP7EGDZFR5Q" entityName="method2">
     <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_tw9DwTCWEeqfkKZ5k49p1Q" characteristicType="_69x2MBAwEeqlarC9UjEszg"/>
   </characteristicContainer>
-  <characteristicContainer id="_33SLA0HjEeqA66HnFKkVOQ" entityName="SystemCall1"/>
+  <characteristicContainer id="_33SLA0HjEeqA66HnFKkVOQ" entityName="SystemCall1">
+    <ownedCharacteristics xsi:type="context:ContextCharacteristic" id="_RVAkwUHzEeqisc-WUPdmTA" characteristicType="_69x2MBAwEeqlarC9UjEszg" context="_PBfUxRA0EeqxVehm50TVtw"/>
+  </characteristicContainer>
   <relatedCharacteristics id="_xsE1FArEEeqFwvn90rAbVA" entityName="method1" characteristics="_QbDskxAwEeqlarC9UjEszg" relatedEntity="_xAdFKQrEEeqFwvn90rAbVA"/>
   <relatedCharacteristics id="_M-yOMzCWEeqBo7h3Zq6G5g" entityName="method2" characteristics="_i8YG4zCWEeqrP7EGDZFR5Q" relatedEntity="_8A7l8DCVEeqVEdBgmh-Vtg"/>
-  <relatedCharacteristics id="_xX3QhUHjEeqA66HnFKkVOQ" entityName="SystemCall1" relatedEntity="_33SLA0HjEeqA66HnFKkVOQ"/>
+  <relatedCharacteristics id="_xX3QhUHjEeqA66HnFKkVOQ" entityName="SystemCall1" characteristics="_33SLA0HjEeqA66HnFKkVOQ" relatedEntity="_u8UbIEHjEeqA66HnFKkVOQ"/>
 </dataprocessing:DataSpecification>

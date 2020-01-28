@@ -17,12 +17,13 @@
     </usageScenario_UsageModel>
   </usagemodel:UsageModel>
   <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_HTNZsAq-Eeq_iMNQnpRAUA">
+      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_5sn5IFqlEeiW1d-qz7Oqsw"/>
+      <dataProcessingContainer href="My.dataprocessing#_u8UbIEHjEeqA66HnFKkVOQ"/>
+    </stereotypeApplications>
     <stereotypeApplications xsi:type="dataProcessingProfile:Characterizable" appliedTo="_5eqEsAq9Eeq_iMNQnpRAUA">
       <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_17pjsL6DEeise_51G7D_6w"/>
       <characteristicContainer href="My.dataprocessing#_NwKcwSC8EeqgWYmR_CNMqg"/>
-    </stereotypeApplications>
-    <stereotypeApplications xsi:type="dataProcessingProfile:DataProcessingSpecification" appliedTo="_IozvMCJuEeqoeeX4ekP0iQ">
-      <extension href="../../plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram#_5sn5IFqlEeiW1d-qz7Oqsw"/>
     </stereotypeApplications>
     <importedProfiles nsURI="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" location="platform:/plugin/org.palladiosimulator.pcm.dataprocessing.profile/profile.emfprofile_diagram"/>
   </emfprofileapplication:ProfileApplication>

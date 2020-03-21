@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:dataProcessingProfile="http://www.palladiosimulator.org/pcm/dataprocessing/profile/0.1/" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:subsystem="http://palladiosimulator.org/PalladioComponentModel/SubSystem/5.2">
   <repository:Repository id="_rl2-UAq8Eeq_iMNQnpRAUA" entityName="New Repository">
     <components__Repository xsi:type="repository:BasicComponent" id="_U2Vc8Aq9Eeq_iMNQnpRAUA" entityName="BasicComponent1">
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XNh90Aq9Eeq_iMNQnpRAUA" entityName="BasicComponent1.Interface1.OperationProvidedRole1" providedInterface__OperationProvidedRole="_VOZXoAq9Eeq_iMNQnpRAUA"/>
@@ -13,6 +13,11 @@
       <assemblyContexts__ComposedStructure id="_Afd10GnFEeqfH6MBkA90bA" entityName="Assembly_BasicComponent1" encapsulatedComponent__AssemblyContext="_U2Vc8Aq9Eeq_iMNQnpRAUA"/>
       <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_CasMYGnFEeqfH6MBkA90bA" entityName="newProvidedDelegationConnector" innerProvidedRole_ProvidedDelegationConnector="_XNh90Aq9Eeq_iMNQnpRAUA" outerProvidedRole_ProvidedDelegationConnector="_qEMioGnEEeqfH6MBkA90bA" assemblyContext_ProvidedDelegationConnector="_Afd10GnFEeqfH6MBkA90bA"/>
       <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qEMioGnEEeqfH6MBkA90bA" entityName="OperationProvidedRole1" providedInterface__OperationProvidedRole="_VOZXoAq9Eeq_iMNQnpRAUA"/>
+    </components__Repository>
+    <components__Repository xsi:type="subsystem:SubSystem" id="_sGQEwG4IEeq6jYWs8toLhw" entityName="SubSystem1">
+      <assemblyContexts__ComposedStructure id="_1s8SMG4IEeq6jYWs8toLhw" entityName="Assembly_CompositeComponent1" encapsulatedComponent__AssemblyContext="_ldoAIGnEEeqfH6MBkA90bA"/>
+      <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_4ECFYG4IEeq6jYWs8toLhw" entityName="newProvidedDelegationConnector" innerProvidedRole_ProvidedDelegationConnector="_qEMioGnEEeqfH6MBkA90bA" outerProvidedRole_ProvidedDelegationConnector="_u6ZAUG4IEeq6jYWs8toLhw" assemblyContext_ProvidedDelegationConnector="_1s8SMG4IEeq6jYWs8toLhw"/>
+      <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_u6ZAUG4IEeq6jYWs8toLhw" entityName="SubSystem1.Interface1.OperationProvidedRole1" providedInterface__OperationProvidedRole="_VOZXoAq9Eeq_iMNQnpRAUA"/>
     </components__Repository>
     <interfaces__Repository xsi:type="repository:OperationInterface" id="_VOZXoAq9Eeq_iMNQnpRAUA" entityName="Interface1">
       <signatures__OperationInterface id="_dCtBcAq9Eeq_iMNQnpRAUA" entityName="method1">
